@@ -50,5 +50,43 @@ return [
         '800vw' => [ 'width' => 800, 'height' => 800, 'crop' => 'center' ],
       ],
     ]
-  ],
+	],
+	
+	// RSS
+	'routes' => [
+		[
+			'pattern' => 'feed',
+			'method' => 'GET',
+			'language' => '*',
+			'action'  => function ($language) {
+					$options = [
+							'en' => [
+									'title'       => 'Latest articles',
+									'feedurl' 		=> site()->url() . '/en/feed/',
+									'description' => 'Latest radical publications',
+									'link'        => '/en/feed',
+									'datefield'   => 'date',
+									'textfield'   => 'introduction',
+									'snippet'     => 'feed/rss'
+							],
+							'fr' => [
+									'title'       => 'Derniers articles',
+									'feedurl' 		=> site()->url() . '/fr/feed/',
+									'description' => 'Dernieres publications radicales',
+									'link'        => '/fr/feed',
+									'datefield'   => 'date',
+									'textfield'   => 'introduction',
+									'snippet'     => 'feed/rss'
+							]
+					];
+					// site()->visit(page(), $language->code());
+					$feed = site()->index()->filter(function ($page) use($language) {
+						return in_array( $page->intendedTemplate(), ["note", "link"]);
+					})->sortBy(function ($page) {
+						return $page->date()->toDate();
+					}, 'desc')->feed($options[$language->code()]);
+					return $feed;
+			}
+		]
+	]
 ];

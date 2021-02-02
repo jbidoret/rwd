@@ -5,3 +5,6 @@
 [submodule "site/plugins/markdown-field"]
 	path = site/plugins/markdown-field
 	url = git@github.com:sylvainjule/kirby-markdown-field.git
+[submodule "site/plugins/kirby3-feed"]
+	path = site/plugins/kirby3-feed
+	url = https://github.com/bnomei/kirby3-feed.git
