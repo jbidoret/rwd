@@ -9,7 +9,7 @@
     <?php endif ?>
 
     <?php 
-    $children = $page->children()->listed();
+    $children = $page->children()->listed()->sortBy('date', 'desc');
     $page_type = $page->intendedTemplate();
     if($children->count()) :?>
       <input class="action-checkbox" type="checkbox" name="no-details" id="no-details">

@@ -45,12 +45,16 @@ article a {
 }
 
 .button{
-  border: 1px solid #000;
+  border: 1px solid #999;
   border-radius: 1em;
   background: none;
   padding: .15em .75em .0em;
-  font-size: .85em;
+  font-size: var(--tinysize);
   cursor: pointer;
+  transition: border-color 250ms;
+  &:hover {
+    border-color: #000;
+  }
 }
 
 $background-color: #fff !default;

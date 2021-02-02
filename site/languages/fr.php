@@ -6,19 +6,20 @@ return [
   'locale' => 'fr_FR',
   'name' => 'Français',
   'translations' => [
-    'RWD might be' => 'Le <em>RWD</em> peut être',
+    'RWD might be' => 'Le webdesign peut être',
     'RWD is' => 'Le <em>RWD</em> est',
     'Links' => 'Liens',
     'Notes' => 'Notes',
     'All notes' => 'Toutes les notes',
     'All links' => 'Tous les liens',
     'All interviews' => 'Tous les entretiens',
-    'Read more' => 'En savoir plus',
+    'Read more' => 'Lire la suite',
     'About' => 'À propos',
     'Last update:' => 'Mise à jour :',
     'Hide details: hide' => 'Masquer',
     'Hide details: show' => 'Afficher',
     'Hide details: details' => 'les détails',
-    'Interview with' => 'Entretien avec'
+    'Interview with' => 'Entretien avec',
+    'Interviews' => 'Entretiens'
   ]
 ];

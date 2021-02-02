@@ -6,6 +6,10 @@ columns:
       introduction:
         label: Introduction
         type: markdown
+      tags:
+        type: tags
+        label: Tags
+        query: site.index.pluck("tags", ",", true)
       text:
         label: Text
         type: blocks

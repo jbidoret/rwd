@@ -34,6 +34,8 @@
         <?= $page->text()->kirbytext() ?>
       </div>
     <?php endif ?>
+    
+    <?php snippet('tags') ?>
   </main>
   
   <?php snippet('nav') ?>  

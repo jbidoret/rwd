@@ -13,7 +13,10 @@ Kirby::plugin('rwd/hashtags', [
       ],
       'html' => function($tag) {      
         $hashtag  = $tag->value();
-        return '<a class="taglink" href="/tags/' . $hashtag  . '">#' . $hashtag  . '</a>';
+        $site = site();
+        $lang = $site->language()->code();
+        $url = url($site->url(), ['params' => ['tag' => urlencode($hashtag)]]);
+        return '<a class="taglink" href="' . $url  . '">#' . $hashtag  . '</a>';
       }
     ]
   ]    

@@ -338,31 +338,35 @@ blockquote {
     font-style: normal; }
 
 .button, .action {
-  border: 1px solid #000;
+  border: 1px solid #999;
   border-radius: 1em;
   background: none;
   padding: .15em .75em .0em;
-  font-size: .85em;
-  cursor: pointer; }
+  font-size: var(--tinysize);
+  cursor: pointer;
+  -webkit-transition: border-color 250ms;
+  transition: border-color 250ms; }
+  .button:hover, .action:hover {
+    border-color: #000; }
 
-.underlinks a, .underlink, article a, .marquee a, nav .all a, nav .languages a, .article-meta a, .article-text a, footer a {
+.underlinks a, .underlink, article a, .marquee a, nav .all a, nav .languages a, .article-meta a, .tags a, .article-text a, footer a {
   text-decoration: none;
   position: relative;
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
   background-image: -webkit-linear-gradient(bottom, transparent, transparent 1px, #bebebe 1px, #bebebe 2px, transparent 2px);
   background-image: linear-gradient(to top, transparent, transparent 1px, #bebebe 1px, #bebebe 2px, transparent 2px); }
-  .underlinks a:focus, .underlink:focus, article a:focus, .marquee a:focus, nav .all a:focus, nav .languages a:focus, .article-meta a:focus, .article-text a:focus, footer a:focus {
+  .underlinks a:focus, .underlink:focus, article a:focus, .marquee a:focus, nav .all a:focus, nav .languages a:focus, .article-meta a:focus, .tags a:focus, .article-text a:focus, footer a:focus {
     outline: none;
     box-shadow: none; }
   @media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5) and (min-resolution: 144dpi) {
-    .underlinks a, .underlink, article a, .marquee a, nav .all a, nav .languages a, .article-meta a, .article-text a, footer a {
+    .underlinks a, .underlink, article a, .marquee a, nav .all a, nav .languages a, .article-meta a, .tags a, .article-text a, footer a {
       background-image: -webkit-linear-gradient(bottom, transparent, transparent 1px, #bebebe 1px, #bebebe 2px, transparent 2px);
       background-image: linear-gradient(to top, transparent, transparent 1px, #bebebe 1px, #bebebe 2px, transparent 2px); } }
-  .underlinks a:hover, .underlinks a:focus, .underlink:hover, article a:hover, .marquee a:hover, nav .all a:hover, nav .languages a:hover, .article-meta a:hover, .article-text a:hover, footer a:hover, .underlink:focus, article a:focus, .marquee a:focus, nav .all a:focus, nav .languages a:focus, .article-meta a:focus, .article-text a:focus, footer a:focus {
+  .underlinks a:hover, .underlinks a:focus, .underlink:hover, article a:hover, .marquee a:hover, nav .all a:hover, nav .languages a:hover, .article-meta a:hover, .tags a:hover, .article-text a:hover, footer a:hover, .underlink:focus, article a:focus, .marquee a:focus, nav .all a:focus, nav .languages a:focus, .article-meta a:focus, .tags a:focus, .article-text a:focus, footer a:focus {
     background-image: -webkit-linear-gradient(bottom, transparent, transparent 1px, #000000 1px, #000000 2px, transparent 2px);
     background-image: linear-gradient(to top, transparent, transparent 1px, #000000 1px, #000000 2px, transparent 2px); }
     @media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5) and (min-resolution: 144dpi) {
-      .underlinks a:hover, .underlinks a:focus, .underlink:hover, article a:hover, .marquee a:hover, nav .all a:hover, nav .languages a:hover, .article-meta a:hover, .article-text a:hover, footer a:hover, .underlink:focus, article a:focus, .marquee a:focus, nav .all a:focus, nav .languages a:focus, .article-meta a:focus, .article-text a:focus, footer a:focus {
+      .underlinks a:hover, .underlinks a:focus, .underlink:hover, article a:hover, .marquee a:hover, nav .all a:hover, nav .languages a:hover, .article-meta a:hover, .tags a:hover, .article-text a:hover, footer a:hover, .underlink:focus, article a:focus, .marquee a:focus, nav .all a:focus, nav .languages a:focus, .article-meta a:focus, .tags a:focus, .article-text a:focus, footer a:focus {
         background-image: -webkit-linear-gradient(bottom, transparent, transparent 1px, #000000 1px, #000000 2px, transparent 2px);
         background-image: linear-gradient(to top, transparent, transparent 1px, #000000 1px, #000000 2px, transparent 2px); } }
 
@@ -370,10 +374,11 @@ blockquote {
   --basesize: 1.25rem;
   --bigsize: calc(4vw + 2vh + .5vmin);
   --mediumsize: calc(var(--bigsize) / 2);
-  --introsize:1.5em;
+  --introsize: 1.5em;
+  --tinysize: .813rem;
   --delay: 10ms;
   --indent: 6rem;
-  --basefamily:  "Times", "Times New Roman", serif;
+  --basefamily: "Ecole", "Times", "Times New Roman", serif;
   --margin:  calc(var(--bigsize) * 2 + var(--mediumsize)); }
 
 @media (max-width: 1400px) {
@@ -441,7 +446,7 @@ html {
   transform: rotate(-180deg);
   bottom: var(--bigsize);
   left: var(--bigsize);
-  margin-left: -.75em; }
+  margin: 0 0 -.35em -.75em; }
 
 .w {
   top: var(--bigsize);
@@ -515,7 +520,8 @@ nav {
 
 .action {
   display: inline-block;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  margin-bottom: 2em; }
   .action span:first-child {
     display: inline; }
   .action span:last-child {
@@ -533,7 +539,7 @@ nav {
 .article-header {
   margin-bottom: 2em; }
 
-.article-meta {
+.article-meta, .tags {
   color: #444;
   font-size: .85em;
   display: -webkit-box;
@@ -543,8 +549,11 @@ nav {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
-  .article-meta *:not(:last-child) {
+  .article-meta *:not(:last-child), .tags *:not(:last-child) {
     margin-right: .75em; }
+
+.tags {
+  margin-top: 2em; }
 
 .article-introduction {
   font-size: var(--introsize);

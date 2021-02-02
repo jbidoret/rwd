@@ -40,6 +40,7 @@
   display: inline-block;
   @extend .button;
   margin-bottom: 1em;
+  margin-bottom: 2em;
   span:first-child{ display: inline;}
   span:last-child{ display: none;}
 }

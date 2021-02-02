@@ -5,7 +5,7 @@ return [
   'locale' => 'en_GB',
   'name' => 'English',
   'translations' => [
-    'RWD might be' => '<em>RWD</em> can be',
+    'RWD might be' => 'Web design can be',
     'RWD is' => '<em>RWD</em> is',
     'Links' => 'Links',
     'Notes' => 'Notes',
@@ -18,6 +18,7 @@ return [
     'Hide details: hide' => 'Hide',
     'Hide details: show' => 'Show',
     'Hide details: details' => 'details',
-    'Interview with' => 'Interview with'
+    'Interview with' => 'Interview with',
+    'Interviews' => 'Interviews'
   ]
 ];

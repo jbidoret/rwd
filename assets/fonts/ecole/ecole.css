@@ -1,0 +1,23 @@
+
+@font-face{
+  font-family: "Ecole";
+  src: url("Ecole-Italic.woff") format("woff"),
+      url("Ecole-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face{
+  font-family: "Ecole";
+  src:url("Ecole-Bold.woff") format("woff"),
+      url("Ecole-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face{
+  font-family: "Ecole";
+  src:url("Ecole-Regular.woff") format("woff"),
+      url("Ecole-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}

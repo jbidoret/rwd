@@ -2,7 +2,7 @@
   margin-bottom: 2em;
 }
 
-.article-meta{
+.article-meta, .tags{
   color: #444;
   font-size: .85em;
   display: flex;
@@ -13,6 +13,9 @@
   a { @extend .underlink;}
 }
 
+.tags{
+  margin-top: 2em;
+}
 .article-introduction {
   font-size: var(--introsize);
   max-width: calc(65ch / 1.5);
@@ -20,8 +23,7 @@
     max-width:calc(65ch / 1.25);
   }
   margin-bottom: 1em;
-  line-height: 1.25;
-  
+  line-height: 1.25;  
 }
 
 .article-text {

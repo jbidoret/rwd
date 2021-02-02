@@ -10,13 +10,19 @@ columns:
         label: Text
         type: markdown
       author:
-        label: Author
+        label: Auteur
         type: text
         translate: false
+        width: 1/2
       author_url:
-        label: Author
+        label: URL auteur
         type: url
         translate: false
+        width: 1/2
+      tags:
+        type: tags
+        label: Tags
+        query: site.index.pluck("tags", ",", true)
   - width: 1/3
     sections:
       fields:

@@ -6,7 +6,7 @@ Link-url: https://www.youtube.com/watch?v=aHUtMbJw8iA&feature=emb_title
 
 ----
 
-Introduction: Qu’on l'aime ou qu’on le détese, le langage CSS est étrange. Il ne fonctionne pas comme la plupart des langages de programmation, et ne fonctionne pas non plus comme les outils de design traditionnels. Mais CSS est la solution a un problème très singulier : que signifie « designer » sur un média aussi fluide que le web.
+Introduction: Qu’on l'aime ou qu’on le déteste, le langage CSS est étrange. Il ne fonctionne pas comme la plupart des langages de programmation, et ne fonctionne pas non plus comme les outils de design traditionnels. Mais CSS est la solution a un problème très singulier : que signifie « designer » sur un média aussi fluide que le web.
 
 ----
 
@@ -29,6 +29,14 @@ Author: Miriam Suzanne
 
 ----
 
+Tags: CSS
+
+----
+
+Date: 2021-02-01
+
+----
+
 Themes:
 
 - themes/weird
@@ -39,7 +47,3 @@ Themes:
 ----
 
 Lang: en / fr
-
-----
-
-Date: 2021-02-01

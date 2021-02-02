@@ -12,6 +12,7 @@ Kirby::plugin('rwd/helpers', [
     'templates' => [
       'notes'   => kirby()->root('templates') . '/list.php',
       'links'   => kirby()->root('templates') . '/list.php',
-      'interviews'   => kirby()->root('templates') . '/list.php'
+      'interviews'   => kirby()->root('templates') . '/list.php',
+      'tags'   => kirby()->root('templates') . '/list.php',
     ],
 ]);

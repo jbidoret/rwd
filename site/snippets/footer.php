@@ -5,7 +5,7 @@
       Ce site est publié par <a href="https://accentgrave.net/">Julien Bidoret</a>, enseignant à l’<a href="https://esad-pyrenees.fr">École supérieure d’art et de design des Pyrénées</a> et développé grâce à <a href="https://getkirby.com">Kirby</a>.
     </p>
     <p>
-      <a href="<?= site()->url() ?>/feed">Abonnez-vous au flux RSS</a>
+    <a href="https://github.com/jbidoret/rwd/commits/master">Changelog</a> – <a href="<?= site()->url() ?>/feed">Abonnez-vous au flux RSS</a>
     </p>
   </footer>
 
@@ -19,6 +19,8 @@
       echo js('assets/production/all.min.js');
     endif
   ?>
+  <script async defer data-domain="radicalweb.design" src="https://plausible.io/js/plausible.js"></script>
+
 
 </body>
 </html>

@@ -9,19 +9,16 @@
       </div>
     <?php endif ?>
 
-    <?php if($notes->count()) :?>
-      <section class="notes list">
-        <h2><?= t('Notes') ?></h2>
-        <?php snippet("list.notes", ['items'=>$notes]) ?>
-      </section>
-    <?php endif ?>
+    <?php $types = [ "notes" => $notes, "links" => $links, "interviews" => $interviews ]; ?>
 
-    <?php if($links->count()) :?>
-      <section class="links list">
-        <h2><?= t('Links') ?></h2>
-        <?php snippet("list.links", ['items'=>$links]) ?>
-      </section>
-    <?php endif ?>
+    <?php foreach($types as $key => $type):?>
+      <?php if($type->count()) :?>
+        <section class="<?= $key ?> list">
+          <h2><?= t( ucfirst($key) ) ?></h2>
+          <?php snippet("list." . $key , ['items'=>$type]) ?>
+        </section>
+      <?php endif ?>
+    <?php endforeach ?>
 
     <section class="contribute">
       <a href="#contribute" class="button">+</a>

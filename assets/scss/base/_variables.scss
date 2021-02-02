@@ -2,10 +2,11 @@
   --basesize: 1.25rem;
   --bigsize : calc(4vw + 2vh + .5vmin); 
   --mediumsize: calc(var(--bigsize) / 2);
-  --introsize:1.5em;
+  --introsize: 1.5em;
+  --tinysize: .813rem;
   --delay: 10ms;
   --indent : 6rem;
-  --basefamily :  "Times", "Times New Roman", serif; 
+  --basefamily : "Ecole", "Times", "Times New Roman", serif; 
   --margin:  calc(var(--bigsize) * 2 + var(--mediumsize));
 }
 

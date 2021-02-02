@@ -30,6 +30,7 @@
         <?= $page->text()->toBlocks() ?>
       </div>
     <?php endif ?>
+    <?php snippet('tags') ?>
   </main>
   
   <?php snippet('nav') ?>  

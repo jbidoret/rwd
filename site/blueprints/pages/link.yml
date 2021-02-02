@@ -18,6 +18,10 @@ columns:
         label: Author
         type: text
         translate: false
+      tags:
+        type: tags
+        label: Tags
+        query: site.index.pluck("tags", ",", true)
   - width: 1/3
     sections:
       fields:
