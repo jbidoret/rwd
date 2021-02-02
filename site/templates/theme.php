@@ -12,14 +12,14 @@
     <?php if($notes->count()) :?>
       <section class="notes list">
         <h2><?= t('Notes') ?></h2>
-        <?php snippet("list.notes") ?>
+        <?php snippet("list.notes", ['items'=>$notes]) ?>
       </section>
     <?php endif ?>
 
     <?php if($links->count()) :?>
       <section class="links list">
         <h2><?= t('Links') ?></h2>
-        <?php snippet("list.links") ?>
+        <?php snippet("list.links", ['items'=>$links]) ?>
       </section>
     <?php endif ?>
 

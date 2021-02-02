@@ -1,0 +1,32 @@
+Title: Portable thoughs
+
+----
+
+Introduction: Gregory Cadars est designer et développeur web.
+
+----
+
+Text: [{"content":{"text":"Bonjour Gregory Cadars. Tu as la joie (immense, j\u2019imagine) d\u2019inaugurer cette s\u00e9rie d\u2019entretiens dans le contexte du projet RWD.","author":"Julien Bidoret","author_initials":"JB"},"id":"465a14a6-c276-4d51-ac24-91a766e12c9c","isHidden":false,"type":"question"},{"content":{"text":"Hello. C\u2019est super."},"id":"c00fa296-7c04-4efb-af5d-13ee716ad293","isHidden":false,"type":"answer"},{"content":{"text":"J\u2019aimerais qu\u2019on puisse \u00e9voquer ton r\u00e9cent projet (link: https:\/\/portable.fyi\/ text:  Portable thoughts) et que tu puisses r\u00e9agir \u00e0 quelques unes des entr\u00e9es th\u00e9matiques du site qui font le plus sens pour toi.","author":"Julien Bidoret","author_initials":"JB"},"id":"b89014bd-f3f4-4679-aaa3-5f2247ae30ca","isHidden":false,"type":"question"},{"content":{"text":"Ok."},"id":"1210342d-9e42-4b9d-a063-c63ca2cd5872","isHidden":false,"type":"answer"},{"content":{"text":"Mais commen\u00e7ons par revenir rapidement sur le parcours ~~cahotique~~ surprenant que tu as eu au sortir de l\u2019\u00e9cole.","author":"","author_initials":"JB"},"id":"acd2b818-2cc9-4239-a8a1-28e66184f452","isHidden":false,"type":"question"}]
+
+----
+
+Interviewee: Gregory Cadars
+
+----
+
+Interviewee-urls:
+
+- 
+  platform: portable.fyi
+  platform_url: https://portable.fyi
+- 
+  platform: gregorycadars.com
+  platform_url: http://gregorycadars.com/
+
+----
+
+Date: 2021-02-02
+
+----
+
+Themes: 

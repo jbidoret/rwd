@@ -43,4 +43,13 @@
     list-style-type: disc;
     list-style-position: inside;
   }
+  .initials {
+    font-variant: all-small-caps;
+  }
+  .question {
+    padding-left: var(--indent);
+  }
+  .answer + .question {
+    margin-top: 1em;
+  }
 }

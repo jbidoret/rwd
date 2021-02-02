@@ -11,11 +11,13 @@ return [
     'Notes' => 'Notes',
     'All notes' => 'All notes',
     'All links' => 'All links',
+    'All interviews' => 'All interviews',
     'Read more' => 'Read more',
     'About' => 'About',
     'Last update:' => 'Last update:',
     'Hide details: hide' => 'Hide',
     'Hide details: show' => 'Show',
     'Hide details: details' => 'details',
+    'Interview with' => 'Interview with'
   ]
 ];

@@ -1,0 +1,18 @@
+title: Interviews
+
+options:
+  changeSlug: false
+  changeTitle: false
+  duplicate: false
+  delete: false
+  status: false
+
+sections:
+  authors:
+    headline: Interviews
+    type: pages
+    templates: 
+      - interview
+    status: all
+    sortBy: date desc
+  

@@ -12,11 +12,13 @@ return [
     'Notes' => 'Notes',
     'All notes' => 'Toutes les notes',
     'All links' => 'Tous les liens',
+    'All interviews' => 'Tous les entretiens',
     'Read more' => 'En savoir plus',
     'About' => 'À propos',
     'Last update:' => 'Mise à jour :',
     'Hide details: hide' => 'Masquer',
     'Hide details: show' => 'Afficher',
     'Hide details: details' => 'les détails',
+    'Interview with' => 'Entretien avec'
   ]
 ];

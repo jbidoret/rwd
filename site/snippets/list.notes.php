@@ -1,4 +1,4 @@
-<?php foreach($notes as $note): ?>
+<?php foreach($items as $note): ?>
   <article>
     <h3><a href="<?= $note->url() ?>"><?= $note->title() ?></a></h3>
     <div class="details">

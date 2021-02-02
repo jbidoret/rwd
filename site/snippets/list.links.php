@@ -1,4 +1,4 @@
-<?php foreach($links as $link): ?>
+<?php foreach($items as $link): ?>
   <article>
     <a href="<?= $link->link_url() ?>">
     <?= $link->title() ?><?php e($link->author()->isNotEmpty(), " – " . $link->author()->html()) ?>

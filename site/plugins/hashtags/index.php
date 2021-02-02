@@ -1,6 +1,6 @@
 <?php
 
-Kirby::plugin('rwd/tags', [
+Kirby::plugin('rwd/hashtags', [
   'tags' => [
     'hashtag' => [
       'attr' => [
