@@ -23,6 +23,10 @@
       </section>
     <?php endif ?>
 
+    <section class="contribute">
+      <a href="#contribute" class="button">+</a>
+    </section>
+
   </main>
 
   <?php snippet('nav') ?>  
