@@ -4,11 +4,6 @@
 
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <meta name="description" content="<?php echo $site->description()->html() ?>">
-  <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
-  <meta name="author" content="<?php echo $site->author()->html() ?>">
-
-  <title><?php echo $site->title()->html() ?> | <?php echo $page->title()->html() ?></title>
 
   <?php snippet("header.metas") ?>
 
@@ -21,6 +16,9 @@
       echo css('assets/production/all.min.css');
     endif
   ?>
+
+  <link rel="alternate" type="application/rss+xml" title="Latest articles" href="<?= site()->url() ?>/feed"/>
+  
 </head>
 <body
    data-login="<?php e($kirby->user(),'true', 'false') ?>"

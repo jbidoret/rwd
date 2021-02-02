@@ -5,13 +5,18 @@
     }
     if ($cover) {
         $og_cover = $cover->thumb(['width' => 1200, 'height' => 630, 'crop' => true]);
-    } else{
-        $og_cover = NULL;
-    }
+    } 
+
+    // title
+    $title = r($page !== $site->homePage(), $page->title()->html() );
+    $title .= r($page->subtitle()->isNotEmpty(), " &ndash; " . $page->subtitle()->toString(), "");
+    $title .= r($page !== $site->homePage(), " &ndash; ") . $site->title()->html();
+
+
     $description = "";
     $description .= r($page->metadescription()->isNotEmpty(), $page->metadescription()->toString(), "");
     $description .= r($page->subtitle()->isNotEmpty(), $page->subtitle()->toString() . " | ", "");
-    $description .= Html::encode($page->text()->excerpt(150)->toString());
+    $description .= Html::encode($page->introduction()->excerpt(150)->toString());
     $description = trim(preg_replace('/[\t\n\r\s]+/', ' ', $description));
 
     if($description == ""){
@@ -19,6 +24,8 @@
     }
  ?>
 
+
+    <title><?php echo $title ?></title>
 
     <link rel="canonical" href="<?= $page->url() ?>">
     <meta name="description" content="<?= $description ?>">
@@ -47,9 +54,9 @@
     <link rel="icon" type="image/png" sizes="32x32" href="<?= url('assets/favicons/favicon-32x32.png') ?>">
     <link rel="icon" type="image/png" sizes="16x16" href="<?= url('assets/favicons/favicon-16x16.png') ?>">
     <link rel="manifest" href="<?= url('assets/favicons/site.webmanifest') ?>">
-    <link rel="mask-icon" color="#ff160d" href="<?= url('assets/favicons/safari-pinned-tab.svg') ?>">
+    <link rel="mask-icon" color="#000000" href="<?= url('assets/favicons/safari-pinned-tab.svg') ?>">
     <link rel="shortcut icon" href="<?= url('assets/favicons/favicon.ico') ?>">
-    <meta name="msapplication-TileColor" content="#ff160d">
+    <meta name="msapplication-TileColor" content="#000000">
     <meta name="msapplication-config" content="<?= url('assets/favicons/browserconfig.xml') ?>">
-    <meta name="theme-color" content="#ff160d">
+    <meta name="theme-color" content="#000000">
 
