@@ -3,7 +3,8 @@ title: Link
 columns:
   - width: 2/3      
     fields:
-      url:
+      link_url:
+        required: true
         label: URL
         type: url
         translate: false
@@ -22,6 +23,10 @@ columns:
       fields:
         type: fields
         fields:
+          date:
+            label: Date
+            translate: false
+            default: today
           themes:
             type: pages
             template: theme

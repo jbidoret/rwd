@@ -2,7 +2,7 @@ Title: Le web design comme architecture
 
 ----
 
-Url: http://www--arc.com/
+Link-url: http://www--arc.com/
 
 ----
 
@@ -15,6 +15,10 @@ Text:
 ----
 
 Author: 
+
+----
+
+Date: 2021-02-01
 
 ----
 

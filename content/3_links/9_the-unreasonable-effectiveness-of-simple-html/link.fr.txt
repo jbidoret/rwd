@@ -1,0 +1,35 @@
+Title: L’incroyable efficacité du HTML
+
+----
+
+Link-url: https://shkspr.mobi/blog/2021/01/the-unreasonable-effectiveness-of-simple-html/
+
+----
+
+Introduction: Se basant sur l’exemple de (link: https://gov.uk text: gov.uk), Terence Eden signale combien la robustesse est des plus grandes qualités du HTML, en ce qu’il favorise l’accessibilité, la performance et la résilience d’une page web.
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Date: 2021-02-02
+
+----
+
+Themes:
+
+- themes/accessible
+- themes/resilient
+- themes/fast
+- themes/performant
+- themes/semantic
+
+----
+
+Lang: en

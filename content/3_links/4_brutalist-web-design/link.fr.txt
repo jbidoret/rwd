@@ -2,11 +2,11 @@ Title: Brutalist web design
 
 ----
 
-Url: https://brutalist-web.design/
+Link-url: https://brutalist-web.design/
 
 ----
 
-Introduction: 
+Introduction: Le terme brutalisme est souvent associé à l'architecture brutaliste, mais il peut s'appliquer à d'autres formes de construction, comme le design de sites web. Ce site web explique comment.
 
 ----
 
@@ -15,6 +15,10 @@ Text:
 ----
 
 Author: 
+
+----
+
+Date: 2021-02-01
 
 ----
 

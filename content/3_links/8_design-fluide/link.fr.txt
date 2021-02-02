@@ -2,21 +2,15 @@ Title: Design fluide
 
 ----
 
-Url: https://louisedrulhe.fr/designfluide/
+Link-url: https://louisedrulhe.fr/designfluide/
 
 ----
 
 Introduction:
 
-> Le design fluide crée des formes aux propriétés liquides capables de s’adapter à tous les supports
-Le design fluide donne accès aux sources de sa création en vue de participer à l’élaboration d’un écosystème créatif
-Le design fluide utilise des licences libres pour encourager la libre circulation des connaissances et des créations
-Le design fluide milite pour le maintien d’Internet en tant qu’espace de libertés notamment par l’utilisation d’outils libres ou par une production graphique engagée
-Le design fluide subdivise sa création graphique sous forme de données en vue de s’infiltrer dans l’océan informationnel d’Internet
-Le design fluide utilise la propagation comme système de communication
-Le design fluide utilise des outils sémantiques pour connecter les idées entre elles et encourager le potentiel cognitif du web des données
-Le design fluide crée des architectures fluides : des structures malléables, liquides, capables de supporter toutes sortes de contenus
-Le design fluide utilise les métadonnées pour produire une création aux formes potentiellement infinies et ainsi adopter les propriétés des fluides
+> Le design fluide crée des formes aux propriétés liquides capables de s’adapter à tous les supports.
+
+Un essai de Louise Drulhe qui étend la notion de fluidité à différentes dimensions du web et des internets : écosystème de création, licences libres, espace de liberté, connectivité des données, malléabilité des structures…
 
 ----
 
@@ -25,6 +19,10 @@ Text:
 ----
 
 Author: Louise Drulhe
+
+----
+
+Date: 2021-02-01
 
 ----
 

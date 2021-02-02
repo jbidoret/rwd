@@ -2,7 +2,7 @@ Title: Pourquoi CSS est si bizarre ?
 
 ----
 
-Url: https://www.youtube.com/watch?v=aHUtMbJw8iA&feature=emb_title
+Link-url: https://www.youtube.com/watch?v=aHUtMbJw8iA&feature=emb_title
 
 ----
 
@@ -39,3 +39,7 @@ Themes:
 ----
 
 Lang: en / fr
+
+----
+
+Date: 2021-02-01

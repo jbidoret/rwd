@@ -2,7 +2,7 @@ Title: CSS is Rad
 
 ----
 
-Url: https://www.miriamsuzanne.com/speaking/css-rad/
+Link-url: https://www.miriamsuzanne.com/speaking/css-rad/
 
 ----
 
@@ -25,3 +25,7 @@ Themes:
 ----
 
 Lang: en
+
+----
+
+Date: 2021-02-01

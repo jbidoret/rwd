@@ -9,7 +9,7 @@ return function ($site, $page, $kirby) {
   });
   $links = page('links')->children()->listed()->filter(function($child) use($theme){
     return $child->themes()->toPages()->has($theme);
-  });
+  })->sortBy('date', 'desc');
   
   return [
     'themes' => $themes,

@@ -10,7 +10,7 @@
     <?php endif ?>
 
     <?php 
-    $links = page('links')->children()->listed();
+    $links = page('links')->children()->listed()->sortBy('date', 'desc');
     if($links->count()) :?>
       <input class="action-checkbox" type="checkbox" name="no-details" id="no-details">
       

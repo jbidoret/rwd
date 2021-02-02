@@ -2,7 +2,7 @@ Title: Resilient web design
 
 ----
 
-Url: https://resilientwebdesign.com/
+Link-url: https://resilientwebdesign.com/
 
 ----
 
@@ -30,3 +30,7 @@ Themes:
 ----
 
 Lang: en
+
+----
+
+Date: 2021-02-01

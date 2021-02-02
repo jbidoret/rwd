@@ -2,7 +2,7 @@ Title: Make it boring
 
 ----
 
-Url: https://jeremy.codes/blog/make-it-boring/
+Link-url: https://jeremy.codes/blog/make-it-boring/
 
 ----
 
@@ -25,3 +25,7 @@ Themes:
 ----
 
 Lang: en
+
+----
+
+Date: 2021-02-01
