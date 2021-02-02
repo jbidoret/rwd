@@ -224,10 +224,14 @@ var gp_bump = require('gulp-bump');
 var gp_git  = require('gulp-git');
 var gp_filter = require('gulp-filter');
 var argv = require('yargs')
-    .option('type', {
-        alias: 't',
-        choices: ['patch', 'minor', 'major']
-    }).argv;
+  .option('type', {
+    alias: 't',
+    choices: ['patch', 'minor', 'major']
+  }).option('message', {
+    alias: 'm',
+    type: 'string',
+    default: 'bump version'
+  }).argv;
 var gp_tag = require('gulp-tag-version');
 var gp_push = require('gulp-git-push');
 
@@ -240,7 +244,7 @@ function bump() {
     // save the bumped files into filesystem
     .pipe(dest('./'))
     // commit the changed files
-    .pipe(gp_git.commit('bump version'))
+    .pipe(gp_git.commit(argv.message))
     // filter one file
     .pipe(gp_filter('package.json'))
     // create tag based on the filtered file

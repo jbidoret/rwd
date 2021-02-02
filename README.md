@@ -2,6 +2,7 @@
 
 Project initiated by [Julien Bidoret](https://www.accentgrave.net/) as part of the [web design and digital cultures](https://ateliers.esad-pyrenees.fr/web/) courses in [ÉSAD Pyrénées](https://esad-pyrenees.fr). Find out more on [radicalweb.design/about](https://radicalweb.design/about/).
 
+The project is live on [radicalweb.design](https://radicalweb.design).
 
 ## Run
 
