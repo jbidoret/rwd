@@ -1,0 +1,18 @@
+title: Notes
+
+options:
+  changeSlug: false
+  changeTitle: false
+  duplicate: false
+  delete: false
+  status: false
+
+sections:
+  authors:
+    headline: Notes
+    type: pages
+    templates: 
+      - note
+    status: all
+    sortBy: date desc
+  

@@ -1,0 +1,12 @@
+// Define whats elements look like by default.
+// It doesn’t include any class or ID selectors.
+// @example:
+//   "normalize"
+//   "base"
+//   etc.
+
+@import "normalize";
+@import "type";
+@import "variables";
+@import "globals";
+

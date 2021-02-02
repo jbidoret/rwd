@@ -1,0 +1,86 @@
+//* fonts
+// @import "../fonts/FontFamily/FontName.css";
+
+
+body{
+  font-family: var(--basefamily); 
+  font-size: var(--basesize);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.4;  
+}
+
+h1, h2, h3 { 
+  font-weight: 400;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: var(--mediumsize); 
+}
+
+p, ul, ol, blockquote {
+  margin: 0;
+  max-width: 65ch;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+blockquote {
+  font-style: italic;
+  em, i { font-style: normal;}
+}
+
+article a {
+  @extend .underlink;
+}
+
+.button{
+  border: 1px solid #000;
+  border-radius: 1em;
+  background: none;
+  padding: .15em .75em .0em;
+  font-size: .85em;
+  cursor: pointer;
+}
+
+$background-color: #fff !default;
+$link-color: rgb(190, 190, 190) !default;
+$link-color-active: #000000 !default;
+$link-underline-color: $link-color !default;
+$link-underline-color-active: $link-color-active !default;
+$link-underline-width: 1px !default;
+$link-underline-offset: 1px !default;
+$breaking-underlines: true !default;
+
+@mixin underline($color: $link-underline-color, $weight: $link-underline-width, $offset: $link-underline-offset){
+  background-image: linear-gradient(bottom, transparent, transparent $offset, $color $offset, $color ($offset + $weight), transparent ($offset + $weight))
+}
+
+.underlinks a, .underlink {
+  text-decoration: none;
+  position: relative;
+  &:focus{
+    outline: none;
+    box-shadow: none;
+  }
+  text-shadow: 
+    -1px -1px 0 $background-color, 
+    1px -1px 0 $background-color, 
+    -1px 1px 0 $background-color, 
+    1px 1px 0 $background-color;
+  @include underline($link-color);
+  @media (-webkit-min-device-pixel-ratio: 1.5) and (min-resolution: 144dpi){
+    @include underline($link-color, 1)
+  }
+  &:hover, &:focus{
+    @include underline($link-color-active);
+    @media (-webkit-min-device-pixel-ratio: 1.5) and (min-resolution: 144dpi) {
+      @include underline($link-color-active, 1)
+    }
+  }
+}

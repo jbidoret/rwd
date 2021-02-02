@@ -1,0 +1,36 @@
+title: Link
+
+columns:
+  - width: 2/3      
+    fields:
+      url:
+        label: URL
+        type: url
+        translate: false
+      introduction:
+        label: Introduction
+        type: markdown
+      text:
+        label: Text
+        type: markdown
+      author:
+        label: Author
+        type: text
+        translate: false
+  - width: 1/3
+    sections:
+      fields:
+        type: fields
+        fields:
+          themes:
+            type: pages
+            template: theme
+            query: site.find("themes")
+            translate: false
+          lang:
+            type: text
+            label: Langue
+            translate: false
+      files: 
+        type: files
+        headline: Fichiers

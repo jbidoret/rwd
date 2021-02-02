@@ -1,0 +1,6 @@
+Title: Theme
+
+fields:
+  introduction:
+    type: markdown
+    label: Introduction

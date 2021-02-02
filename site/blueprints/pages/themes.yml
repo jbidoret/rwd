@@ -1,0 +1,17 @@
+title: Themes
+
+options:
+  changeSlug: false
+  changeTitle: false
+  duplicate: false
+  delete: false
+  status: false
+
+sections:
+  authors:
+    headline: Themes
+    type: pages
+    templates: 
+      - theme
+    status: all
+  

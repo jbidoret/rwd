@@ -1,0 +1,39 @@
+// @Utilities Rules:
+// @example:
+//   "mixins"
+//   "animations"
+//   etc.
+
+html {
+  scroll-behavior: smooth;
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+
+.marquee{
+  display:block;
+  position:relative;
+  overflow: hidden;
+  min-height: 1.4em;
+  margin-bottom: 1em;
+  font-style: italic;
+  a {
+    @extend .underlink;
+  }
+}
+
+.marquee span{
+  display: inline-block;
+  animation:marquee 12s linear infinite;
+  position: absolute;
+  white-space: nowrap;
+}
+
+@keyframes marquee{
+  // 0% { transform: translateX(100%); left:100%}
+  // 100% {transform: translateX(-100%); left:0}
+}

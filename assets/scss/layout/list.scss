@@ -1,0 +1,54 @@
+
+.list {
+  padding-left: 8vw;
+  position: relative;
+  h2 {
+    font-size: 1em;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+  }
+  article {
+    margin-bottom: 1em;
+  }
+  h3 {
+    margin: 0; 
+    font-size: 1em;
+  }
+  p, blockquote {
+    text-indent: 8ch;
+  }
+  .readmore{
+    
+  }
+  .lang {
+    font-size: .75em;
+    vertical-align: top;
+  }
+}
+
+.theme-introduction {
+  font-size: 1.5em;
+  max-width: calc(43ch + 8vw);
+  margin-bottom: 1em;
+  line-height: 1.25;
+}
+
+.action {
+  display: inline-block;
+  @extend .button;
+  margin-bottom: 1em;
+  span:first-child{ display: inline;}
+  span:last-child{ display: none;}
+}
+.action-checkbox {
+  display: none;
+  &:checked + label {
+    span:first-child{ display: none;}
+    span:last-child{ display: inline;}
+  }
+  &:checked ~ .list{
+    .details { display: none;}
+  }
+}

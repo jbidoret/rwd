@@ -1,0 +1,41 @@
+.article-header{
+  margin-bottom: 2em;
+}
+
+.article-meta{
+  color: #444;
+  font-size: .85em;
+  display: flex;
+  *:not(:last-child){
+    margin-right: .75em;
+  }
+  a { @extend .underlink;}
+}
+
+.article-introduction {
+  font-size: 1.5em;
+  max-width: 43ch;
+  margin-bottom: 1em;
+  line-height: 1.25;
+}
+
+.article-text {
+  p + p,
+  blockquote + p {
+    text-indent: var(--indent);
+  }
+  blockquote {
+    margin: 1em 0;
+    font-size: 1.5em;
+    padding-left: var(--indent);
+    font-style: italic;
+    em, i { font-style: normal;}
+  }
+  a {
+    @extend .underlink;
+  }
+  ul {
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+}

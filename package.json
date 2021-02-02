@@ -1,0 +1,53 @@
+{
+  "name": "rwd",
+  "version": "0.0.1",
+  "description": "Radical web design – resources and notes",
+  "authors": [
+    "Julien Bidoret"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:jbidoret/rwd.git"
+  },
+  "browserslist": [
+    "> 1%",
+    "ie >= 8",
+    "edge >= 15",
+    "ie_mob >= 10",
+    "ff >= 45",
+    "chrome >= 45",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4",
+    "bb >= 10"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-bump": "^3.2.0",
+    "gulp-concat": "*",
+    "gulp-concat-css": "*",
+    "gulp-cssnano": "*",
+    "gulp-filter": "^6.0.0",
+    "gulp-git": "^2.10.1",
+    "gulp-git-push": "^2.0.0",
+    "gulp-jshint": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-tag-version": "^1.3.1",
+    "gulp-uglify": "*",
+    "jshint": "^2.12.0"
+  },
+  "author": "Julien Bidoret – accentgrave",
+  "private": true,
+  "homepage": "https://github.com/jbidoret/rwd#readme",
+  "bugs": {
+    "url": "https://github.com/jbidoret/rwd/issues"
+  },
+  "dependencies": {}
+}

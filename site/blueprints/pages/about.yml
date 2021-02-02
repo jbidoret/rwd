@@ -1,0 +1,16 @@
+title: About Page
+preset: page
+
+options:
+  changeSlug: false
+  changeTitle: false
+  duplicate: false
+  delete: false
+  status: false
+
+fields:
+  text:
+    label: Text
+    type: textarea
+    size: large
+

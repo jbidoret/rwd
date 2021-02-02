@@ -1,0 +1,10 @@
+:root{
+  --basesize: 1.25rem;
+  --bigsize : calc(4vw + 2vh + .5vmin); 
+  --mediumsize: calc(var(--bigsize) / 2);
+  --delay: 10ms;
+  --indent : 6rem;
+  --basefamily :  "Times", "Times New Roman", serif; 
+
+  --margin:  calc(var(--bigsize) * 2 + var(--mediumsize));
+}

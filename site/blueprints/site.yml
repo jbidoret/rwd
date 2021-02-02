@@ -1,0 +1,36 @@
+title: Site
+
+
+columns: 
+  - width: 2/3
+    sections:
+      notes:
+        headline: Notes
+        type: pages
+        parent: site.find("notes")
+        template: note
+        status: all
+        empty: No note yet
+        limit: 3
+      links:
+        headline: Links
+        type: pages
+        parent: site.find("links")
+        template: link
+        status: all
+        empty: No link yet
+        limit: 3
+
+  - width: 1/3
+    sections:
+      pages:
+        headline: Pages
+        type: pages
+        sortable: false
+        templates:
+          - home
+          - notes
+          - links
+          - themes
+          - about
+        

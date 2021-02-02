@@ -1,0 +1,7 @@
+[submodule "kirby"]
+	path = kirby
+	url = https://github.com/getkirby/kirby.git
+
+[submodule "site/plugins/markdown-field"]
+	path = site/plugins/markdown-field
+	url = git@github.com:sylvainjule/kirby-markdown-field.git

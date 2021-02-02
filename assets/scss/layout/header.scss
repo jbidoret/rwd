@@ -1,0 +1,24 @@
+#header span { 
+  position: fixed; 
+  font-size: var(--bigsize); 
+}
+
+
+.r { 
+  writing-mode: vertical-rl; 
+  transform: rotate(-180deg); 
+  bottom:var(--bigsize); 
+  left:var(--bigsize); 
+  margin-left:-.75em; 
+}
+.w { 
+  top: var(--bigsize); 
+  left: var(--bigsize); 
+  margin-top:-.75em; 
+  margin-left:-.35em; 
+}
+.d { 
+  right: var(--bigsize); 
+  top: var(--bigsize); 
+  margin-top:-.75em; 
+}

@@ -1,0 +1,42 @@
+
+nav { 
+  
+  margin: var(--margin) var(--margin) 0 var(--margin); 
+  ul {
+    margin-bottom: 1rem;
+  }
+  .themes {
+    max-width: 22em;
+    font-size: var(--mediumsize); 
+    padding: 0;
+    list-style-type: none;
+    line-height: 1.2em;
+    a { 
+      color:currentColor; 
+      height: 1.1em;
+      text-shadow: 
+        -2px -2px 0 $background-color, 
+        2px -2px 0 $background-color, 
+        -2px 2px 0 $background-color, 
+        2px 2px 0 $background-color;
+        display: inline-block;
+      @include underline(black, 2);
+      // border-bottom: 2px solid #000;
+    }
+    .active a{
+      // background: url("../images/wavy.svg") repeat-x 0 .775em;
+      font-style: italic;
+    }
+  }
+
+  li { display: inline-block;}
+
+  .all, .languages{
+    a { @extend .underlink; }
+  }
+
+  .languages {
+    text-transform: uppercase;
+  }
+  
+}

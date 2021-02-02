@@ -1,0 +1,63 @@
+
+# System files
+# ------------
+
+Icon
+.DS_Store
+.directory
+
+# Deploy script
+# ------------
+deploy.php
+
+# Temporary files
+# ---------------
+
+/media/*
+!/media/index.html
+
+# Lock files
+# ---------------
+
+.lock
+package-lock.json
+
+# Content
+# ------------
+
+/content/*
+!/content/site.txt
+!/content/home/home.txt
+!/content/error/error.txt
+
+
+# Dev
+# ------------
+/node_modules
+
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Cache Files
+# ---------------
+
+/site/cache/*
+!/site/cache/index.html
+
+# Accounts
+# ---------------
+
+/site/accounts/*
+!/site/accounts/index.html
+
+# Sessions
+# ---------------
+
+/site/sessions/*
+!/site/sessions/index.html
+
+# License
+# ---------------
+/site/config/.license
