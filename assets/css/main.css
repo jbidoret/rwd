@@ -345,21 +345,21 @@ blockquote {
   position: relative;
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
   background-image: -webkit-linear-gradient(bottom, transparent, transparent 1px, #bebebe 1px, #bebebe 2px, transparent 2px);
-  background-image: linear-gradient(bottom, transparent, transparent 1px, #bebebe 1px, #bebebe 2px, transparent 2px); }
+  background-image: linear-gradient(to top, transparent, transparent 1px, #bebebe 1px, #bebebe 2px, transparent 2px); }
   .underlinks a:focus, .underlink:focus, article a:focus, .marquee a:focus, nav .all a:focus, nav .languages a:focus, .article-meta a:focus, .article-text a:focus, footer a:focus {
     outline: none;
     box-shadow: none; }
   @media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5) and (min-resolution: 144dpi) {
     .underlinks a, .underlink, article a, .marquee a, nav .all a, nav .languages a, .article-meta a, .article-text a, footer a {
       background-image: -webkit-linear-gradient(bottom, transparent, transparent 1px, #bebebe 1px, #bebebe 2px, transparent 2px);
-      background-image: linear-gradient(bottom, transparent, transparent 1px, #bebebe 1px, #bebebe 2px, transparent 2px); } }
+      background-image: linear-gradient(to top, transparent, transparent 1px, #bebebe 1px, #bebebe 2px, transparent 2px); } }
   .underlinks a:hover, .underlinks a:focus, .underlink:hover, article a:hover, .marquee a:hover, nav .all a:hover, nav .languages a:hover, .article-meta a:hover, .article-text a:hover, footer a:hover, .underlink:focus, article a:focus, .marquee a:focus, nav .all a:focus, nav .languages a:focus, .article-meta a:focus, .article-text a:focus, footer a:focus {
     background-image: -webkit-linear-gradient(bottom, transparent, transparent 1px, #000000 1px, #000000 2px, transparent 2px);
-    background-image: linear-gradient(bottom, transparent, transparent 1px, #000000 1px, #000000 2px, transparent 2px); }
+    background-image: linear-gradient(to top, transparent, transparent 1px, #000000 1px, #000000 2px, transparent 2px); }
     @media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5) and (min-resolution: 144dpi) {
       .underlinks a:hover, .underlinks a:focus, .underlink:hover, article a:hover, .marquee a:hover, nav .all a:hover, nav .languages a:hover, .article-meta a:hover, .article-text a:hover, footer a:hover, .underlink:focus, article a:focus, .marquee a:focus, nav .all a:focus, nav .languages a:focus, .article-meta a:focus, .article-text a:focus, footer a:focus {
         background-image: -webkit-linear-gradient(bottom, transparent, transparent 1px, #000000 1px, #000000 2px, transparent 2px);
-        background-image: linear-gradient(bottom, transparent, transparent 1px, #000000 1px, #000000 2px, transparent 2px); } }
+        background-image: linear-gradient(to top, transparent, transparent 1px, #000000 1px, #000000 2px, transparent 2px); } }
 
 :root {
   --basesize: 1.25rem;
@@ -449,7 +449,7 @@ nav {
       text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
       display: inline-block;
       background-image: -webkit-linear-gradient(bottom, transparent, transparent 1px, black 1px, black 3px, transparent 3px);
-      background-image: linear-gradient(bottom, transparent, transparent 1px, black 1px, black 3px, transparent 3px); }
+      background-image: linear-gradient(to top, transparent, transparent 1px, black 1px, black 3px, transparent 3px); }
     nav .themes .active a {
       font-style: italic; }
   nav li {

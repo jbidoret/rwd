@@ -58,7 +58,7 @@ $link-underline-offset: 1px !default;
 $breaking-underlines: true !default;
 
 @mixin underline($color: $link-underline-color, $weight: $link-underline-width, $offset: $link-underline-offset){
-  background-image: linear-gradient(bottom, transparent, transparent $offset, $color $offset, $color ($offset + $weight), transparent ($offset + $weight))
+  background-image: linear-gradient(to top, transparent, transparent $offset, $color $offset, $color ($offset + $weight), transparent ($offset + $weight))
 }
 
 .underlinks a, .underlink {
