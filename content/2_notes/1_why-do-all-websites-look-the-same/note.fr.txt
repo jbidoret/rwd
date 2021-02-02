@@ -1,0 +1,43 @@
+Title: Pourquoi les sites web se ressemblent tous ?
+
+----
+
+Text:
+
+Un [tweet](https://twitter.com/juliengargot/status/1262260026976219137) de [@juliengargot](https://twitter.com/juliengargot/) à propos d’un article paru sur FastCompany : “(link: https://www.fastcompany.com/90501691/science-confirms-it-web-sites-really-do-all-look-the-same text: Science confirms it: Websites really do all look the same)”.
+
+L’article mentionne un vieux post de Boris Müller, webdesigner et enseignant à Postdam. *[Why Do All Websites Look the Same?](https://modus.medium.com/on-the-visual-weariness-of-the-web-8af1c969ce73)* (publié sur #Medium :) démarrait sur le constat désabusé d’un web désespérement *bland*, anesthésié par les templates, les CMS et le manque d’imagination des designers.
+
+> Everything looks the same: generic fonts, no layouts to speak of, interchangeable pages, and an absence of expressive visual language. Even micro-typography is a mess.
+
+Il ajoute à ce constat (un brin manichéen, comme une partie de la recherche menée ici va chercher à le démontrer) une critique frontale d’une dimension centrale, manifeste et magnifique, du web en tant que médium :
+
+> One of the fundamental principles of design is a deep and meaningful connection between form and content.
+
+Fondamentalement, le web est conçu pour séparer fond et forme. Ce faisant, il donne au contenu, aux mots, aux images et aux idées une immense plasticité – capacité de diffusion, d’interconnexion, de référencement, de remix ou de sample – appuyée sur une volonté délibérée d’universalisme.
+
+Fondamentalement, le webdesign s’écarte du paradigme de l’intrication fond/forme en proposant au designer une position plus complexe, plus fine. (hashtag: CSS), l’outil-langage qui permet de donner forme à un contenu dévie de cette intrication. Il offre au designer une nouvelle approche, plus en retrait : non plus démiurge absolu, “ayant droit” de vie et de mort sur le contenu qu’il met en forme, mais suggestif. CSS est conçu pour être résilient, adaptatif, accessible et contextuel. Le designer apte à se saisir de cet outil (dont la technicité ne paraît pas si différente des subtilités de maniement d’Indesign et consorts) peut/doit adopter une attitude plus en retrait, inclusive et ouverte.
+
+Müller tentait d’y apporter une réaction en proposant à ses étudiant·e·s de redesigner un site existant, traitant le navigateur comme une toile vierge afin d’y créer des “expériences visuelles riches, expressives et imaginatives”. Oubliant les contraintes d’utilisabilité, de lisibilité ou de flexibilité. Demandant une attitude (coucou Lazlo). Ne tenant pas compte de l’[Erwartungskonformität](https://de.wikipedia.org/wiki/Erwartungskonformit%C3%A4t), la “conformité aux attentes”. Ce à quoi ont parfaitement répondu ses étudiant·e·s.
+
+L’article de 2018, après l’indispensable citation de David Carson, se conclue sur une ouverture rendue nécessaire par les nombreux débats qu’il a produit : [Balancing Creativity and Usability](https://medium.com/@borism/balancing-creativity-and-usability-9bb2cd0fe929), tout en faisant émerger de (link: https://onezero.medium.com/its-not-just-you-websites-really-do-all-look-the-same-now-d8050b8ea743 text: nouvelles réactions), attirées par la capacité *clickbait*  du titre original.
+
+----
+
+Introduction: Réflexion suite à une discussion sur Twitter où devient publique (très partiellement) l’intention derrière ce projet.
+
+----
+
+Author: 
+
+----
+
+Date: 2020-07-26
+
+----
+
+Themes:
+
+- themes/sensible
+- themes/progressive
+- themes/graceful

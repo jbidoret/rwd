@@ -1,0 +1,13 @@
+Title: CSS is Rad
+
+----
+
+Introduction: *CSS is Rad, resilient design on an infinite canvas* est une conférence de Miriam Suzanne, donnée à de multiples reprises. C’est un plaidoyer puissant pour comprendre en quoi CSS est un outil (hashtag: radical).
+
+----
+
+Text: 
+
+----
+
+Author: Miriam Suzanne

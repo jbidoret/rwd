@@ -1,0 +1,27 @@
+Title: Make it boring
+
+----
+
+Url: https://jeremy.codes/blog/make-it-boring/
+
+----
+
+Introduction: Un article au titre un brin provoquant de Jeremy Wagner, qui tache d’exprimer pourquoi il serait plus essentiel que le web soit ennuyeux qu’*obstrusive*.
+
+----
+
+Text: 
+
+----
+
+Author: Jeremy Wagner
+
+----
+
+Themes:
+
+- themes/boring
+
+----
+
+Lang: en

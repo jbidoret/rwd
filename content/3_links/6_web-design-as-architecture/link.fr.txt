@@ -1,0 +1,29 @@
+Title: Le web design comme architecture
+
+----
+
+Url: http://www--arc.com/
+
+----
+
+Introduction: Les sites web sont des lieux, intrinsèquement publics, habités, locaux, des artefacts culturels, construits, ils vieillissent, existent dans des cadres, sont réalisés par des individus, sont prototypiques.
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Themes:
+
+- themes/accessible
+- themes/open
+- themes/future-proof
+
+----
+
+Lang: en

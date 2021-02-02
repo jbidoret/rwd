@@ -1,0 +1,28 @@
+Title: Exclusive web design
+
+----
+
+Url: https://exclusive-design.vasilis.nl/
+
+----
+
+Introduction: « Et si nous concevions des sites web exclusivement pour les personnes handicapées ? En d'autres termes, que se passerait-il si nous inversions le syndrome du “biais des capacités” et commencions à créer des expériences sur-mesure pour et avec de vraies personnes handicapées ? » Un projet de recherche mené par Vasilis van Gemert.
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Themes:
+
+- themes/accessible
+- themes/inclusive
+
+----
+
+Lang: en

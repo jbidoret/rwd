@@ -1,0 +1,5 @@
+Title: Gracieux
+
+----
+
+Introduction: La dégradation gracieuse (*graceful degradation*) est une approche qui consiste à produire un site web qui fonctionne pour les navigateurs les plus récents, tout en proposant une expérience, même dégradée, qui donne accès au contenu et aux fonctionnalités essentielles dans les navigateurs plus anciens. L’amélioration progressive (*progressive enhancement*) est une approche opposée, mais complémentaire et tout aussi légitime.

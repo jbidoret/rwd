@@ -25,10 +25,10 @@ package-lock.json
 # Content
 # ------------
 
-/content/*
-!/content/site.txt
-!/content/home/home.txt
-!/content/error/error.txt
+# /content/*
+# !/content/site.txt
+# !/content/home/home.txt
+# !/content/error/error.txt
 
 
 # Dev

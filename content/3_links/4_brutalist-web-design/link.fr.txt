@@ -1,0 +1,27 @@
+Title: Brutalist web design
+
+----
+
+Url: https://brutalist-web.design/
+
+----
+
+Introduction: 
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Themes:
+
+- themes/brutal
+
+----
+
+Lang: en

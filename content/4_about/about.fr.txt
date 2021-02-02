@@ -1,0 +1,32 @@
+Title: À propos
+
+----
+
+Text:
+
+*Radical web design*, ou RWD, fait référence au terme *Responsive Web design* forgé par Ethan Marcotte, qui propose un principe de design web “adaptatif”, progressif, capable de s’adapter à toutes les tailles d’écran, mais aussi à différents contextes, dispositifs, usages, capacités fonctionnelles, etc.
+
+Le web a trente ans. Il s’est imposé comme un médium central, au cœur de nos relations sociales, politiques et économiques. La période actuelle (pandémie, confinement) nous en donne chaque jour la preuve la plus évidente. Le projet initial d’un outil d’interconnexion des informations [Berners-Lee et al.] a muté et s’est amplifié démesurément, jusqu’à devenir le contexte dans lequel évoluent les plus grandes puissances économiques et politiques de notre monde. Les dialectiques à l’œuvre dans l’espace du web ont un impact immense sur nos vies, sur la constitution des régimes politiques qui les guident et les contraignent, sur nos relations sociales, économiques, culturelles.
+
+Le design, médiateur de ces dialectiques, a un rôle majeur dans l’expression de ces tensions. Il imagine les futurs, met en œuvre le présent, donne une forme (une matérialité, un caractère tangible et puissant) à ce réseau de liens.
+
+(link: https://framablog.org/2010/05/22/code-is-law-lessig/ text: Code is law), le vieil article de Lawrence Lessig fait encore foi. En France, de nombreux auteurs écrivent quotidiennement et nous alertent régulièrement sur les enjeux sociaux et politiques de cet *outil* qu’est le web.
+
+Dans le champ du design, de nombreux acteurs intègrent ces questions à leurs pratiques (*bullshit inside*, #maisbon). Des initiatives voient le jour, des tendances, des recherches, des hypothèses. Des réflexions émergent, sur : le bilan carbone de nos usages (low techs), la soumission aux puissances du marché (First things first 2.0), le projet universaliste du web (communs numériques, domaine public), les outils (conviviaux / Illich), les usages (de Certeau, Stiegler).
+
+Le web est aujourd’hui un élément fondamental de nos vies. Le *design* lui donne une forme visible et sensible. Les designers ont donc une responsabilité là-dedans. Les avancées technologiques ouvrent à de plus en plus d’innovations, sur le plan des usages comme des techniques. La prise en compte de l’universalité, inscrite au départ du projet du WWW, est mise à mal, par ces logiques “innovantes” induisant l’obsolescence des outils, des interfaces ou des usages. À l’heure de l’avènement des plateformes privées, de la soumission du politique aux enjeux déterminés par ces plateformes, que peut et que doit le designer interactif/multimédia ? Se soumettre, ignorer ou s’opposer / se radicaliser ?
+
+Le projet est de travailler cette question de l’impact social/politique/économique/écologique du design dans le champ du web, notamment à travers la *radicalité* de certaines approches. 
+
+> In today’s highly commercialized web of multinational corporations, proprietary applications, read-only devices, search algorithms, Content Management Systems, WYSIWYG editors, and digital publishers, it becomes an increasingly radical act to hand-code and self-publish experimental web art and writing projects.
+— J.R. Carpenter 
+
+RWD se propose d’inviter les étudiants de 1er cycle (2e et 3e année Design graphique multimédia) et de 2nd cycle du (link: https://nm.esad-pyrenees.fr/ text: pôle Nouveaux médias) de l’(link: https://esad-pyrenees.fr/ text: École supérieure d’art et de design des Pyrénées) à mettre en œuvre un projet d’adossement à la recherche permettant le développement d’une culture et d’une pratique consciente des enjeux explorés.
+
+Il s’agira dans un premier temps pour nous d’aller à la rencontre des acteur·ices du webdesign, de poser des questions, de questionner les réponses et d’expérimenter des formes radicales de publication en ligne.
+
+À moyen terme, des projets pédagogiques, une journée d’étude ou des workshops pourrront venir appuyer cette démarche.
+
+----
+
+Metaimage: 

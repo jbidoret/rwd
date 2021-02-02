@@ -1,0 +1,13 @@
+Title: Resilient web design
+
+----
+
+Introduction:
+
+>The most resilient ideas from the history of web design combined into an approach for building the websites of the future. 
+
+Un essai fondateur de Jeremy Keith sur la nécessité et l’importance de la résilience dans le champ du web design.
+
+----
+
+Text: 
