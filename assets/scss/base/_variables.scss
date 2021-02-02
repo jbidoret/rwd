@@ -2,9 +2,32 @@
   --basesize: 1.25rem;
   --bigsize : calc(4vw + 2vh + .5vmin); 
   --mediumsize: calc(var(--bigsize) / 2);
+  --introsize:1.5em;
   --delay: 10ms;
   --indent : 6rem;
   --basefamily :  "Times", "Times New Roman", serif; 
-
   --margin:  calc(var(--bigsize) * 2 + var(--mediumsize));
 }
+
+
+@media (max-width:1400px){
+  :root{
+    --introsize:1.25em;
+  }
+}
+
+
+@media (max-width:850px){
+  :root{
+    --mediumsize: var(--bigsize);
+    --margin: calc( var(--bigsize) + var(--mediumsize) );
+  }
+}
+
+@media (max-width:500px){
+  :root{
+    --basesize: 1rem;
+    --indent: 3rem
+  }
+}
+

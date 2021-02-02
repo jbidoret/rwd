@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -317,7 +318,11 @@ h1, h2, h3 {
   margin-top: 0; }
 
 h1 {
-  font-size: var(--mediumsize); }
+  font-size: var(--mediumsize);
+  line-height: 1.2; }
+  @media (max-width: 1400px) {
+    h1 {
+      font-size: 1.5em; } }
 
 p, ul, ol, blockquote {
   margin: 0;
@@ -365,10 +370,26 @@ blockquote {
   --basesize: 1.25rem;
   --bigsize: calc(4vw + 2vh + .5vmin);
   --mediumsize: calc(var(--bigsize) / 2);
+  --introsize:1.5em;
   --delay: 10ms;
   --indent: 6rem;
   --basefamily:  "Times", "Times New Roman", serif;
   --margin:  calc(var(--bigsize) * 2 + var(--mediumsize)); }
+
+@media (max-width: 1400px) {
+  :root {
+    --introsize:1.25em; } }
+
+@media (max-width: 850px) {
+  :root {
+    --mediumsize: var(--bigsize);
+    --margin: calc( var(--bigsize) + var(--mediumsize) ); } }
+
+@media (max-width: 500px) {
+  :root {
+    --basesize: 1rem;
+    --indent: 3rem
+  ; } }
 
 *, *::before, *::after {
   box-sizing: border-box; }
@@ -460,12 +481,20 @@ nav {
 .list {
   padding-left: 8vw;
   position: relative; }
+  @media (max-width: 850px) {
+    .list {
+      padding-left: 0; } }
   .list h2 {
     font-size: 1em;
     position: absolute;
     left: 0;
     top: 0;
     margin: 0; }
+    @media (max-width: 850px) {
+      .list h2 {
+        position: static;
+        margin-bottom: 1em;
+        font-size: calc(var(--bigsize) / 1.15); } }
   .list article {
     margin-bottom: 1em; }
   .list h3 {
@@ -509,15 +538,21 @@ nav {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
   .article-meta *:not(:last-child) {
     margin-right: .75em; }
 
 .article-introduction {
-  font-size: 1.5em;
-  max-width: 43ch;
+  font-size: var(--introsize);
+  max-width: calc(65ch / 1.5);
   margin-bottom: 1em;
   line-height: 1.25; }
+  @media (max-width: 1400px) {
+    .article-introduction {
+      max-width: calc(65ch / 1.25); } }
 
 .article-text p + p,
 .article-text blockquote + p {
@@ -525,7 +560,7 @@ nav {
 
 .article-text blockquote {
   margin: 1em 0;
-  font-size: 1.5em;
+  font-size: var(--introsize);
   padding-left: var(--indent);
   font-style: italic; }
   .article-text blockquote em, .article-text blockquote i {
@@ -542,7 +577,42 @@ footer {
   footer a:hover {
     color: black; }
 
+#contribute {
+  position: relative; }
+  #contribute::before {
+    content: "☺";
+    font-size: 2em;
+    position: absolute;
+    left: -1.5em;
+    opacity: 0; }
+
+#contribute:target::before {
+  -webkit-animation: highlight 500ms ease-out 1s forwards;
+  animation: highlight 500ms ease-out 1s forwards; }
+
+@-webkit-keyframes highlight {
+  1% {
+    opacity: 1; }
+  100% {
+    -webkit-transform: rotate(720deg);
+    transform: rotate(720deg);
+    opacity: 1; } }
+
+@keyframes highlight {
+  1% {
+    opacity: 1; }
+  100% {
+    -webkit-transform: rotate(720deg);
+    transform: rotate(720deg);
+    opacity: 1; } }
+
 main {
   margin: var(--margin) var(--margin) 0 var(--margin); }
+
+@media (max-width: 850px) {
+  main, nav, footer {
+    margin: var(--margin) var(--bigsize) 0 calc(var(--bigsize) * 2); }
+  footer {
+    margin-bottom: var(--bigsize); } }
 
 /*# sourceMappingURL=main.css.map */

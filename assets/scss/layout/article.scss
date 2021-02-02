@@ -6,6 +6,7 @@
   color: #444;
   font-size: .85em;
   display: flex;
+  flex-wrap: wrap;
   *:not(:last-child){
     margin-right: .75em;
   }
@@ -13,10 +14,14 @@
 }
 
 .article-introduction {
-  font-size: 1.5em;
-  max-width: 43ch;
+  font-size: var(--introsize);
+  max-width: calc(65ch / 1.5);
+  @media(max-width: 1400px){
+    max-width:calc(65ch / 1.25);
+  }
   margin-bottom: 1em;
   line-height: 1.25;
+  
 }
 
 .article-text {
@@ -26,7 +31,7 @@
   }
   blockquote {
     margin: 1em 0;
-    font-size: 1.5em;
+    font-size: var(--introsize);
     padding-left: var(--indent);
     font-style: italic;
     em, i { font-style: normal;}

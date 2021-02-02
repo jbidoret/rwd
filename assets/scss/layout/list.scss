@@ -1,10 +1,12 @@
 
 .list {
   padding-left: 8vw;
+  @media (max-width:850px){ padding-left: 0; }
   position: relative;
   h2 {
     font-size: 1em;
     position: absolute;
+    @media (max-width:850px){ position: static; margin-bottom: 1em; font-size: calc(var(--bigsize) / 1.15); }
     left: 0;
     top: 0;
     margin: 0;
@@ -18,9 +20,6 @@
   }
   p, blockquote {
     text-indent: 8ch;
-  }
-  .readmore{
-    
   }
   .lang {
     font-size: .75em;

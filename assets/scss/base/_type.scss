@@ -18,7 +18,12 @@ h1, h2, h3 {
 
 h1 {
   font-size: var(--mediumsize); 
+  line-height: 1.2;
+  @media (max-width:1400px){
+    font-size: 1.5em;
+  }
 }
+
 
 p, ul, ol, blockquote {
   margin: 0;
