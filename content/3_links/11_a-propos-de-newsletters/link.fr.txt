@@ -1,0 +1,36 @@
+Title: À propos de newsletters
+
+----
+
+Link-url: https://www.robinrendle.com/essays/newsletters
+
+----
+
+Introduction: Un article à la mise en forme singulière de Robin Rendle qui questionne la tendance à la démultiplication des newsletters et à la disparition des blogs et des espaces de publication individuels.
+
+----
+
+Text: 
+
+----
+
+Author: Robin Rendle
+
+----
+
+Tags: newsletters, blogs, publication
+
+----
+
+Date: 2021-02-03
+
+----
+
+Themes:
+
+- themes/handcoded
+- themes/future-proof
+
+----
+
+Lang: en

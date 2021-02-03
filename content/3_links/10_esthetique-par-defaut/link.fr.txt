@@ -1,0 +1,37 @@
+Title: Esthétique par défaut
+
+----
+
+Link-url: http://www.teleferique.org/stations/Cliquet/Default/
+
+----
+
+Introduction: Un article de l’artiste Étienne Cliquet, membre du collectif Téléférique, qui se base sur une méconnaissance –assez répandue dans le champ de l’art– des enjeux du design, mais qui propose une réflexion intéressante (parce que polémique et appelant des réactions) sur la notion d’esthétique par (hashtag: default).
+
+----
+
+Text: 
+
+----
+
+Author: Étienne Cliquet
+
+----
+
+Tags: art, default
+
+----
+
+Date: 2021-02-03
+
+----
+
+Themes:
+
+- themes/boring
+- themes/sober
+- themes/primitive
+
+----
+
+Lang: fr
