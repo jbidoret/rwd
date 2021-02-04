@@ -13,9 +13,13 @@
     $page_type = $page->intendedTemplate();
     if($children->count()) :?>
       <input class="action-checkbox" type="checkbox" name="no-details" id="no-details">
-      
       <label class="action" for="no-details">
         <span><?= t('Hide details: hide') ?></span> <span><?= t('Hide details: show') ?></span> <?= t('Hide details: details') ?>
+      </label>
+
+      <input class="action-checkbox" type="checkbox" name="display-grid" id="display-grid">
+      <label class="action" for="display-grid">
+        <span><?= t('Display grid') ?></span> <span><?= t('Display list') ?></span> 
       </label>
 
       <section class="<?= $page_type ?> list">
