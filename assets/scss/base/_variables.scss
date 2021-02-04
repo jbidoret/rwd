@@ -3,11 +3,13 @@
   --bigsize : calc(4vw + 2vh + .5vmin); 
   --mediumsize: calc(var(--bigsize) / 2);
   --introsize: 1.5em;
+  --smallsize : 1rem;
   --tinysize: .813rem;
   --delay: 10ms;
   --indent : 6rem;
-  --basefamily : "Ecole", "Times", "Times New Roman", serif; 
   --margin:  calc(var(--bigsize) * 2 + var(--mediumsize));
+  --text-max-width: 42rem;
+  --accentcolor: #f40;
 }
 
 

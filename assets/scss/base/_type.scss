@@ -1,8 +1,11 @@
 //* fonts
 @import "../fonts/ecole/ecole.css";
+@import "../fonts/source/source.css";
 
 
 body{
+  --basefamily : 'Source Serif VF', "Ecole", "Times", "Times New Roman", serif; 
+  --altfamily : "Ecole", "Times", "Times New Roman", serif; 
   font-family: var(--basefamily); 
   font-size: var(--basesize);
   text-rendering: optimizeLegibility;
@@ -22,17 +25,23 @@ h1 {
   @media (max-width:1400px){
     font-size: 1.5em;
   }
+  font-family: var(--altfamily);
 }
 
 
 p, ul, ol, blockquote {
   margin: 0;
-  max-width: 65ch;
+  max-width: var(--text-max-width);
 }
 
 ul {
   list-style-type: none;
   padding: 0;
+}
+
+.puces {
+  list-style-type: disc;
+  list-style-position: inside;
 }
 
 blockquote {
@@ -55,6 +64,7 @@ article a {
   &:hover {
     border-color: #000;
   }
+  font-family: var(--altfamily);
 }
 
 $background-color: #fff !default;
@@ -63,11 +73,11 @@ $link-color-active: #000000 !default;
 $link-underline-color: $link-color !default;
 $link-underline-color-active: $link-color-active !default;
 $link-underline-width: 1px !default;
-$link-underline-offset: 1px !default;
+$link-underline-offset: 3px;
 $breaking-underlines: true !default;
 
 @mixin underline($color: $link-underline-color, $weight: $link-underline-width, $offset: $link-underline-offset){
-  background-image: linear-gradient(to top, transparent, transparent $offset, $color $offset, $color ($offset + $weight), transparent ($offset + $weight))
+  background-image: linear-gradient(to top, transparent, transparent $offset, $color $offset, $color calc(#{$offset} + #{$weight}), transparent calc(#{$offset} + #{$weight}))
 }
 
 .underlinks a, .underlink {

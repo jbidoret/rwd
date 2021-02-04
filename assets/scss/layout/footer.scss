@@ -16,10 +16,10 @@ footer{
   }
 }
 #contribute:target::before{
-  animation: highlight 500ms ease-out 1s forwards;    
+  animation: rot 500ms ease-out 1s forwards;    
 } 
 
-@keyframes highlight {
+@keyframes rot {
   1% { opacity: 1; }
   100% { transform: rotate(720deg); opacity: 1; }
 }

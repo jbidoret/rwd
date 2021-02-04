@@ -20,8 +20,11 @@ nav {
         -2px 2px 0 $background-color, 
         2px 2px 0 $background-color;
         display: inline-block;
-      @include underline(black, 2);
-      // border-bottom: 2px solid #000;
+      @include underline(black, .05em, .015em);
+      &:hover{
+        color:var(--accentcolor);
+        @include underline(var(--accentcolor), .05em, .015em);
+      }
     }
     .active a{
       // background: url("../images/wavy.svg") repeat-x 0 .775em;
@@ -29,14 +32,18 @@ nav {
     }
   }
 
-  li { display: inline-block;}
+  li { display: inline;}
 
-  .all, .languages{
+  .all {
     a { @extend .underlink; }
   }
 
-  .languages {
-    text-transform: uppercase;
-  }
-  
+}
+
+
+.languages {
+  text-transform: uppercase;
+  font-family: var(--altfamily);
+  a { color: #666}
+  a:hover, .active { color: black}
 }

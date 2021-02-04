@@ -2,6 +2,13 @@
   margin-bottom: 2em;
 }
 
+.article-title{
+  font-family: var(--basefamily);
+  font-variation-settings: 'opsz' 60;
+  line-height: 1.1;
+  max-width: 32ch;
+  font-size:calc( var(--mediumsize) * 1.5); 
+}
 .article-meta, .tags{
   color: #444;
   font-size: .85em;
@@ -27,6 +34,7 @@
 }
 
 .article-text {
+  line-height: 1.45;
   p + p,
   blockquote + p {
     text-indent: var(--indent);
@@ -42,8 +50,7 @@
     @extend .underlink;
   }
   ul {
-    list-style-type: disc;
-    list-style-position: inside;
+    @extend .puces;
   }
   .initials {
     font-variant: all-small-caps;

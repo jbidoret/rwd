@@ -15,15 +15,18 @@
   article {
     margin-bottom: 1em;
   }
+  h3 {
+    font-weight: 650;
+  }
   h3, h4 {
     margin: 0; 
     font-size: 1em;
-  }
-  
+  }  
   p, blockquote {
-    text-indent: 8ch;
+    text-indent: var(--indent);
   }
   .lang {
+    white-space: nowrap;
     font-size: .75em;
     vertical-align: top;
   }
@@ -31,11 +34,21 @@
 
 .theme-introduction {
   font-size: 1.5em;
-  max-width: calc(43ch + var(--padding-left));
+  max-width: calc(var(--text-max-width) + var(--padding-left));
   margin-bottom: 1em;
   line-height: 1.25;
 }
 
+
+.details-text{ 
+  display: none;
+  font-size: var(--smallsize);
+  padding-left: var(--indent);  
+  p, ul, ol, blockquote { text-indent: 0; max-width: calc(var(--text-max-width) - var(--indent));}
+  li { @extend .puces; }
+}
+
+// ------------------------------------------ checkbox actions
 .action {
   display: inline-block;
   @extend .button;
@@ -44,13 +57,44 @@
   span:first-child{ display: inline;}
   span:last-child{ display: none;}
 }
+article .action {
+  margin-bottom: 1em;
+}
 .action-checkbox {
   display: none;
   &:checked + label {
     span:first-child{ display: none;}
     span:last-child{ display: inline;}
   }
-  &:checked ~ .list{
-    .details { display: none;}
-  }
+}
+#no-details:checked ~ .list{
+  .details { display: none;}
+  .show-text-action{ display: none;}
+}
+#display-grid:checked ~ .list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 4rem;
+  .show-text-action{ display: none;}
+}
+.show-text-checkbox:checked ~ .details-text{
+  display: block;
+}
+
+
+[data-template="notes"],
+[data-template="links"],
+[data-template="interviews"] {
+  .list{ padding-left: 0;}
+  h2 { display: none;}
+}
+
+a[href="#contribute"] {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 2rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

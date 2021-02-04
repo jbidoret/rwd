@@ -1,6 +1,8 @@
 #header span { 
   position: fixed; 
   font-size: var(--bigsize); 
+  font-family: var(--altfamily);
+  z-index: 2;
 }
 
 
@@ -21,4 +23,11 @@
   right: var(--bigsize); 
   top: var(--bigsize); 
   margin-top:-.75em; 
+}
+
+.d em {
+  position: absolute;
+  top: .068em;
+  left: 1.765em;
+  line-height: 0;
 }

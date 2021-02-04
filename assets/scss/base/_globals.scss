@@ -11,4 +11,8 @@ body{
 a {
   color: currentColor;
   text-decoration: none;
+  &:focus{
+    outline: none;
+    color: var(--accentcolor) !important;
+  }
 }
