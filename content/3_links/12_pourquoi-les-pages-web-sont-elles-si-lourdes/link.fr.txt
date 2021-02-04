@@ -1,0 +1,37 @@
+Title: Pourquoi les pages web sont-elles si lourdes ?
+
+----
+
+Link-url: https://idlewords.com/talks/website_obesity.htm
+
+----
+
+Introduction: Maciej Cegłowski sur la “crise d’obésité des sites web”. Il constate l’augmentation constante de la taille  (du poids en octets) des pages web, et propose des hypothèses pour pallier au problème (plutôt *Minecraft* que *Call of Duty*) et conclue “*Keeping the Web simple keeps it awesome.*”
+
+----
+
+Text: 
+
+----
+
+Author: Maciej Cegłowski
+
+----
+
+Tags: 
+
+----
+
+Date: 2021-02-03
+
+----
+
+Themes:
+
+- themes/fast
+- themes/performant
+- themes/sober
+
+----
+
+Lang: en

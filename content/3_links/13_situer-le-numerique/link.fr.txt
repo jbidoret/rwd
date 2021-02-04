@@ -1,0 +1,36 @@
+Title: Situer le numérique
+
+----
+
+Link-url: https://designcommun.fr/cahiers/situer-le-numerique/
+
+----
+
+Introduction: *Situer le numérique* est un manuel pédagogique qui permet d’introduire et de comprendre les (hashtag: ecology text: enjeux environnementaux du numérique). Ce manuel peut servir à former les personnes qui souhaitent travailler sur les impacts environnementaux du numérique et sur l’écoconception web, quelque soit leur niveau sur le sujet.
+
+----
+
+Text: 
+
+----
+
+Author: Gauthier Roussilhe
+
+----
+
+Tags: écologie
+
+----
+
+Date: 2021-02-03
+
+----
+
+Themes:
+
+- themes/future-proof
+- themes/sober
+
+----
+
+Lang: fr

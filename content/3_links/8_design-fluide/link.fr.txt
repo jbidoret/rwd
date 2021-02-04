@@ -22,6 +22,10 @@ Author: Louise Drulhe
 
 ----
 
+Tags: 
+
+----
+
 Date: 2021-02-01
 
 ----
@@ -29,6 +33,7 @@ Date: 2021-02-01
 Themes:
 
 - themes/fluid
+- themes/responsive
 
 ----
 

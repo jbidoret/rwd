@@ -22,6 +22,14 @@ Author: Jeremy Keith
 
 ----
 
+Tags: 
+
+----
+
+Date: 2021-02-01
+
+----
+
 Themes:
 
 - themes/resilient
@@ -30,7 +38,3 @@ Themes:
 ----
 
 Lang: en
-
-----
-
-Date: 2021-02-01
