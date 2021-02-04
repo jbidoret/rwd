@@ -20,6 +20,10 @@ return [
     'Hide details: show' => 'Afficher',
     'Hide details: details' => 'les détails',
     'Interview with' => 'Entretien avec',
-    'Interviews' => 'Entretiens'
+    'Interviews' => 'Entretiens',
+    'More info: show' => 'Plus d’infos',
+    'More info: hide' => 'Moins d’infos',
+    'Display grid' => 'Afficher en grille',
+    'Display list' => 'Afficher en liste'
   ]
 ];

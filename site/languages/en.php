@@ -19,6 +19,10 @@ return [
     'Hide details: show' => 'Show',
     'Hide details: details' => 'details',
     'Interview with' => 'Interview with',
-    'Interviews' => 'Interviews'
+    'Interviews' => 'Interviews',
+    'More info: show' => 'More info',
+    'More info: hide' => 'Less info',
+    'Display grid' => 'Display as a grid',
+    'Display list' => 'Display as a list'
   ]
 ];
