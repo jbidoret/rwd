@@ -24,7 +24,10 @@ Fondamentalement, le webdesign s’écarte du paradigme de l’intrication fond/
 
 Müller tentait d’y apporter une réaction en proposant à ses étudiant·es de redesigner un site existant, traitant le navigateur comme une toile vierge afin d’y créer des “expériences visuelles riches, expressives et imaginatives”. Oubliant les contraintes d’utilisabilité, de lisibilité ou de flexibilité. Demandant une attitude (coucou (hashtag: László). Ne tenant pas compte de l’[Erwartungskonformität](https://de.wikipedia.org/wiki/Erwartungskonformit%C3%A4t), la “conformité aux attentes”. 
 
-L’article de 2018, après l’indispensable citation de David Carson, se conclue sur une ouverture rendue nécessaire par les nombreux débats qu’il a produit : [Balancing Creativity and Usability](https://medium.com/@borism/balancing-creativity-and-usability-9bb2cd0fe929), tout en faisant émerger de (link: https://onezero.medium.com/its-not-just-you-websites-really-do-all-look-the-same-now-d8050b8ea743 text: nouvelles réactions), attirées par la capacité *clickbait*  du titre original.
+L’article de 2018, après l’indispensable citation de David Carson, se conclue sur un semblant d’ouverture rendu nécessaire par les nombreux débats qu’il a produit : [Balancing Creativity and Usability](https://medium.com/@borism/balancing-creativity-and-usability-9bb2cd0fe929), tout en faisant émerger de (link: https://onezero.medium.com/its-not-just-you-websites-really-do-all-look-the-same-now-d8050b8ea743 text: nouvelles réactions), attirées par la capacité *clickbait*  du titre original.
+
+Ce site reviendra sur ces questions (la capacité exploratoire du web design et la variété des possibles qu’il fait éclore chaque jour), mais des réactions à l’hypothèse pessimiste énoncée ci-dessus ont été formulées. Parmi elles, 
+(link: https://blog.envylabs.com/web-design-isnt-becoming-more-boring-and-isn-t-losing-its-soul-55710cc6cbbc text: Web design isn’t becoming more boring, and isn’t losing its soul).
 
 ----
 
