@@ -29,6 +29,6 @@
       <a href="<?=$site->url()?>">
         <span class="r">radical</span>
         <span class="w">web</span>
-        <span class="d">desıgn</span>
+        <span class="d">desı<em>.</em>gn</span>
       </a>
     </header>

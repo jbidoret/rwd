@@ -2,7 +2,7 @@
   <ul class="themes">
     <?php foreach($themes as $theme): ?>
       <li <?php e($theme->isOpen(), ' class="active"') ?>>
-      <a href="<?= $theme->url() ?>"><?= $theme->title()->lower() ?></a>
+        <a href="<?= $theme->url() ?>"><?= $theme->title()->lower() ?></a>
       </li>
     <?php endforeach ?>
   </ul>

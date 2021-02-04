@@ -21,7 +21,7 @@
   <?php else: ?>
     <nav>
       <ul class="themes">
-      <?= t('RWD might be') ?>
+      <li><?= t('RWD might be') ?></li>
       <?php foreach($themes->not($page) as $theme): ?>
         <li><a href="<?= $theme->url() ?>"><?= $theme->title()->lower() ?></a></li>
       <?php endforeach ?>
