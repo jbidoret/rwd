@@ -1,0 +1,43 @@
+Title: Bidouillabilité
+
+----
+
+Introduction: (quote: J’aime bien prendre l’exemple des baguettes chinoises. À priori, ça sert à manger. Si tu en fais un truc pour tenir une lampe, tu les détournes de leur finalité d’origine. Eh bien voilà, tu as hacké une paire de baguettes chinoises)
+
+----
+
+Text:
+
+De trop nombreuses citations risquent d’apparaitre ici ; elles témoignent du romantisme échevelé avec lequel on peut considérer la culture *hacker* et la relation aux objets techniques qui en est issue. L’analogie des baguettes chinoises provient de (link: https://journals.openedition.org/questionsdecommunication/9484 text: Hackers : *Au cœur de la résistance numérique*), ouvrage d’Anaelle Guitton qui cite ici Brian Harvey, auteur de (link: https://people.eecs.berkeley.edu/~bh/hacker.html text: *What is a Hacker?*).
+
+(quote: Quel que soit le code hacké, quelle que soit sa forme, langage programmatique ou poétique, mathématique ou musical, nous créons la possibilité de mettre au monde des formes nouvelles. Pas toujours de grandes choses, pas même de bonnes choses, mais de nouvelles choses. Arts, sciences, philosophie, culture : dans toute production de savoir dans laquelle des données peuvent être accumulées, d’où l’information peut être extraite, dans laquelle cette information produit de nouvelles possibilités pour le monde, il y a des hackers qui libèrent les formes émergentes des formes classiques author: McKenzie Wark, A Hacker Manifesto) 
+
+Tristan Nitot, (link: http://standblog.org/blog/ text: blogueur), vélotafeur, ancien *évangéliste*  des standards du Web chez Mozilla Europe et observateur attentif de l’évolution de la société de surveillance numérique a proposé le terme de *bidouillabilité* :
+
+> Bidouillabilité : nom féminin, traduction du terme anglais *Hackability*. Capacité – pour un objet technique ou un outil – à être détourné de sa vocation initiale en vue d'essayer de lui trouver de nouveaux usages. Se dit d'un système dont on peut observer le fonctionnement interne pour le comprendre, en vue de le modifier. Issu du terme anglais *Hacker* qui a donné *hackability*, qu'il ne faut pas prendre au sens de pirate informatique (abus de langage récent, surtout dans les médias). La bidouillabilité ne tient pas compte de la légalité de la démarche : quand on détourne l'usage d'un système technique de façon créative, c'est démontrer sa bidouillabilité, que la démarche soit légale ou pas. Voir aussi le (link: http://catb.org/jargon/html/meaning-of-hack.html text:*Jargon file : The meaning of Hack*), qui définit le hack comme étant “une démonstration de créativité intelligente”.
+
+----
+
+Author: 
+
+----
+
+Author-url: 
+
+----
+
+Wip: true
+
+----
+
+Date: 2021-02-12
+
+----
+
+Themes:
+
+- themes/hackable
+
+----
+
+Tags: 

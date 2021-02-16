@@ -1,0 +1,69 @@
+Title: À propos du site
+
+----
+
+Introduction: L’expérience de recherche engagée sur les thématiques *Radical web design* se construit en même temps que ce site web, dédié à servir d’outil de collecte, de centre de ressources, d’espace de dialogue et de lieu d’expérimentation.
+
+----
+
+Text:
+
+## Pourquoi
+
+De nombreux projets web commencent par la réservation d’un nom de domaine. Celui-ci n’échappe pas à cette règle – radicalweb.design a été enregistré en mai 2020. La première intention derrière ce site est de partager des ressources liées à la réflexion en cours : liens commentés, notes brèves, images ou articles de fond. Si le projet est encore à peine émergent aujourd’hui, il paraissait intéressant de le mener en ligne, partageant ainsi pleinement son processus de construction. 
+
+
+
+## Comment
+
+La première hypothèse était de déployer un site à la technicité la plus minimale, écrit “à la main” en simple HTML/CSS, dans les plus purs principes de (link: https://html.energy/ text: *HTML energy*) et publié en FTP,(media: maxresdefault.jpg) afin d’en maîtriser le plus largement possible l’empreinte technique, de lui assurer une qualité de performances la plus élevée et d’expérimenter le mode de publication en ligne le plus ancien et radical qui soit. 
+
+La seconde fut d’utiliser un générateur de site statique[^Un générateur de sites statiques est un système qui permet de *compiler* un ensemble de fichiers (gabarits, feuilles de styles, fichiers javascripts, fichiers textes et médias) pour produire une arborescence de pages HTML, à déployer sur un serveur] tel que (link: https://gohugo.io/ text: Hugo), (link: https://www.11ty.dev/ text: Eleventy) ou (link: https://jekyllrb.com/ text: Jekyll). Apparus dans les années 2010, ces outils sont aujourd’hui en plein développement ; ils permettent de conserver les performances du pur HTML (la seule tâche du serveur est de *servir* les pages, pas de les calculer préalablement) tout en bénéficiant d’un système de gabarits permettant de maintenir une homogénéité du balisage.
+
+La troisième solution, obéissant à une logique de confort et de pragmatisme, est d’utiliser le gestionnaire de contenus Kirby, avec lequel j’ai des habitudes de travail permettant au site de se mettre en œuvre rapidement, tout en bénéficiant des nombreuses fonctionnalités qu’offrent l’écosystème de *plugins* et la simplicité des mécanismes d’édition de contenu.
+
+Une autre approche aurait pu être d’utiliser un système de wiki, (link: http://wiki.erg.be/ text: façon erg).
+
+Si l’aventure du pur HTML était intéressante à mener (elle n’est pas écartée pour certaines dimensions du site), la dépendance technique induite par un générateur de sites statiques a pour le moment fait pencher la balance pour Kirby, qui permettra en outre à des étudiant·es d’éditer le contenu principal via son interface d’administration.
+
+
+*[HTML]: Hypertext Markup language
+*[WCAG]: Web Content Accessibility Guidelines
+*[CSS]: Cascading Style Sheets
+
+----
+
+Author: Julien Bidoret
+
+----
+
+Author-url: 
+
+----
+
+Wip: true
+
+----
+
+Date: 2021-02-12
+
+----
+
+Themes: 
+
+----
+
+Tags: 
+
+----
+
+Addresses:
+
+- 
+  street: Entrée 1
+  zip: "64000"
+  city: Pau
+- 
+  street: Entrée 2
+  zip: "75001"
+  city: Paris
