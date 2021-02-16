@@ -20,6 +20,9 @@ columns:
         status: all
         empty: No link yet
         limit: 3
+      commentions:
+        type: commentions
+        show: pending
 
   - width: 1/3
     sections:
@@ -34,4 +37,3 @@ columns:
           - themes
           - about
           - interviews
-        
