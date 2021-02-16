@@ -4,3 +4,6 @@ fields:
   introduction:
     type: markdown
     label: Introduction
+  wip:
+    type: toggle
+    label: En construction

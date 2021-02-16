@@ -5,4 +5,18 @@ fields:
     label: Text
     type: textarea
     size: large
+  wip:
+    type: toggle
+    label: En construction
+  
+  author:
+    label: Auteur
+    type: text
+    translate: false
+    width: 1/2
+  author_url:
+    label: URL auteur
+    type: url
+    translate: false
+    width: 1/2   
 

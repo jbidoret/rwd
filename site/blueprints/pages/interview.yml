@@ -47,6 +47,9 @@ columns:
       fields:
         type: fields
         fields:
+          wip:
+            type: toggle
+            label: En construction
           interviewee:
             label: Interview de
             type: text

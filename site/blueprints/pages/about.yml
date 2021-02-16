@@ -1,5 +1,4 @@
-title: About Page
-preset: page
+title: About
 
 options:
   changeSlug: false
@@ -8,9 +7,39 @@ options:
   delete: false
   status: false
 
-fields:
-  text:
-    label: Text
-    type: textarea
-    size: large
+columns:
+  - width: 2/3
+    sections:
+      data:
+        type: fields
+        fields:
+          text:
+            label: Text
+            type: textarea
+            size: large
+  - width: 1/3 
+    sections:
+      meta:
+        type: fields
+        fields:
+          wip:
+            type: toggle
+            label: En construction
+            translate: false
+          date:
+            label: Date
+            translate: false
+            required: true
+            default: now
+          author:
+            label: Auteur
+            type: text
+            translate: false
+            width: 1/2
+          author_url:
+            label: URL auteur
+            type: url
+            translate: false
+            width: 1/2   
+
 

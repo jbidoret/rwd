@@ -15,6 +15,9 @@ fields:
     label: Texte
     type: markdown
     size: small
+  wip:
+    type: toggle
+    label: En construction
   
   metadescription:
     label: Meta Description
