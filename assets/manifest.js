@@ -39,4 +39,4 @@ module.exports.userStyles = [
  * write your local dev url in the localDevUrl variable.
  * module.exports.localDevUrl = 'http://localhost/your-project/';
  */
-module.exports.localDevUrl = 'http://localhost/rwd/';
+module.exports.localDevUrl = 'http://localhost/rwd';

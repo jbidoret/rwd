@@ -1,3 +1,6 @@
+.article article {
+  padding-bottom: .1px;
+}
 .article-header{
   margin-bottom: 2em;
 }
@@ -5,13 +8,15 @@
 .article-title{
   font-family: var(--basefamily);
   font-variation-settings: 'opsz' 60;
+  padding-right: calc(var(--bigsize) * 4);
   line-height: 1.1;
   max-width: 32ch;
-  font-size:calc( var(--mediumsize) * 1.5); 
+  font-size:var(--bigsize); 
 }
 .article-meta, .tags{
+  
   color: #444;
-  font-size: .85em;
+  font-size: var(--tinysize);
   display: flex;
   flex-wrap: wrap;
   *:not(:last-child){
@@ -33,15 +38,54 @@
   line-height: 1.25;  
 }
 
+.link-url {
+  margin: 1.5em 0;
+  a {
+   background: white;
+   line-height: 2.5;
+   border-radius: 2em;
+   border: 1px solid;
+   padding: 1em 2.5em;
+   text-shadow: none;
+   box-decoration-break: clone;
+   &:focus, &:hover{ background: none; background-color: var(--accentcolor); color: currentColor !important;}
+   &::before{
+     content: "→ ";
+   }
+  }
+}
 .article-text {
-  line-height: 1.45;
+  line-height: 1.5;
+  h2, h3, h4 {
+    margin-top: 1em;
+  }
   p + p,
   blockquote + p {
     text-indent: var(--indent);
   }
+  p.comment {
+    text-indent: 0;
+    .author {
+      white-space: nowrap;
+      position: relative;
+      text-indent: 0;
+      width: var(--indent);
+      overflow: hidden;
+      padding-left: var(--indent);
+      &::before{
+        content:"⍩ ";
+        position: absolute;
+        left: 0;
+      }
+    }
+  }
+  .pullquote{
+    font-size: var(--introsize);
+    line-height: 1.25;
+    max-width: calc(var(--text-max-width) + var(--indent));
+  }
   blockquote {
     margin: 1em 0;
-    font-size: var(--introsize);
     padding-left: var(--indent);
     font-style: italic;
     em, i { font-style: normal;}
@@ -51,6 +95,7 @@
   }
   ul {
     @extend .puces;
+    margin-left: var(--indent);
   }
   .initials {
     font-variant: all-small-caps;
@@ -61,4 +106,41 @@
   .answer + .question {
     margin-top: 1em;
   }
+}
+
+sup.footnote {
+  top: -0.25em;
+  a {
+    margin: 0 0.05em 0 .15em;
+    background: none;
+    border-bottom: 1px solid #000;
+    // display: inline-block;
+    line-height: calc(1.25em - 1px);
+    &:hover {background: none}
+  }
+}         /* Footnote reference within text */
+.footnotes-container {
+  margin-top: 3em;
+  font-size: var(--tinysize);
+  padding-left: var(--indent);
+  max-width: calc(var(--text-max-width) - var(--indent));
+  &::before {
+    content: "";
+    display: block;
+    width: var(--indent);
+    border-bottom: 1px solid #000;
+    margin-bottom: 2em;
+  }
+}
+.footnotes-list {
+  padding: 0;
+  list-style-position: inside;
+} 
+.footnotes-list li {}   /* Footnote entry */
+.footnotereverse a{
+  background: none;
+} 
+
+#comments {
+  margin-top: 2rem;
 }

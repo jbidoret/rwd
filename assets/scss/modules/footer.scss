@@ -1,0 +1,9 @@
+#credits{ margin: 0 var(--margin-right) 1em var(--margin-left);  }
+#footer{ margin: 0 var(--margin-right) 2.5em var(--margin-left);  }
+
+.footer{
+  font-size: .85em;
+  color: #444;
+  a { @extend .underlink; }
+  a:hover { color: black;}
+}

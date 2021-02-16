@@ -1,7 +1,8 @@
 
 .list {
-  --padding-left:10vw;
+  --padding-left:calc(var(--indent) * 1.5);
   padding-left: var(--padding-left);
+  margin-bottom: 2.5em;
   @media (max-width:850px){ padding-left: 0; }
   position: relative;
   h2 {
@@ -13,8 +14,17 @@
     margin: 0;
   }
   article {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
   }
+  a:not(.button){
+    @extend .underlink;
+  }
+  header {
+    max-width: var(--text-max-width);
+    display: flex;
+    justify-content: space-between;
+  }
+    
   h3 {
     font-weight: 650;
   }
@@ -23,12 +33,15 @@
     font-size: 1em;
   }  
   p, blockquote {
-    text-indent: var(--indent);
+    // text-indent: var(--indent);
   }
   .lang {
     white-space: nowrap;
     font-size: .75em;
     vertical-align: top;
+  }
+  .details {
+    margin-bottom: .5em;
   }
 }
 
@@ -46,6 +59,54 @@
   padding-left: var(--indent);  
   p, ul, ol, blockquote { text-indent: 0; max-width: calc(var(--text-max-width) - var(--indent));}
   li { @extend .puces; }
+}
+
+// .details-figure {
+//   float: left;
+//   width: var(--indent);
+//   margin: .3em .5em 0 0;
+//   aspect-ratio: 16 / 9;
+//   overflow: hidden;
+//   background:var(--accentcolor);
+//   position: relative;
+//   &::after{
+//     content:"";
+//     background: linear-gradient(var(--accentcolor), black);
+//     position: absolute;
+//     top: 0;
+//     width: 100%;
+//     height: 100%;
+//     z-index: 2;
+//     mix-blend-mode: overlay;
+//     pointer-events: none;
+//   }
+//   img { 
+//     max-width: 100%; 
+//     opacity: .95; 
+//     display: block; 
+//     filter: grayscale(1) contrast(1.2);
+//     // mix-blend-mode: screen;
+//   }
+// }
+
+.details-figure {
+  float: left;
+  width: var(--indent);
+  margin: .4em .5em 0 0;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background:#eee;
+  position: relative;
+  img { 
+    max-width: 100%; 
+    opacity: .95; 
+    display: block; 
+    filter: grayscale(1);
+    mix-blend-mode: multiply;
+  }
+}
+.list article:hover img {
+  filter: grayscale(0);
 }
 
 // ------------------------------------------ checkbox actions
@@ -67,14 +128,18 @@ article .action {
     span:last-child{ display: inline;}
   }
 }
+// no details
 #no-details:checked ~ .list{
   .details { display: none;}
   .show-text-action{ display: none;}
 }
+// grid display
+.links.list,
 #display-grid:checked ~ .list{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  grid-gap: 4rem;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  grid-gap: 2rem 4rem;
+  article { margin-bottom: 0;}
   .show-text-action{ display: none;}
 }
 .show-text-checkbox:checked ~ .details-text{

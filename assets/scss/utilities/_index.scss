@@ -37,3 +37,66 @@ html {
   // 0% { transform: translateX(100%); left:100%}
   // 100% {transform: translateX(-100%); left:0}
 }
+
+
+.under {
+  position: fixed;
+  cursor: help;
+  height: 2rem;
+  width: 2rem;
+  line-height: 1;
+  z-index: 1;
+  mix-blend-mode: darken;
+  border-radius: 1rem;
+  overflow: hidden;
+  transform: rotate(90deg);
+  transition: transform 250ms, left 250ms, top 250ms, width 350ms 250ms;
+  white-space: nowrap;
+  span {
+    pointer-events: none;
+    position: absolute;
+    display: block;
+    height: 2rem;
+    width: 250px;
+    left: -30px;
+    background-image: 
+      repeating-linear-gradient(
+        -45deg, 
+        Chartreuse, 
+        Chartreuse 10px,
+        black 10px,
+        black 20px
+      );
+    animation: under 2s linear infinite;
+  }
+  em {
+    pointer-events: none;
+    position: absolute;
+    padding: .4rem .65rem;
+    letter-spacing: .1em;
+    font-weight: bold;
+    color: white;
+  }
+  i {
+    pointer-events: none;
+    display: none;
+    position: relative;
+    font-style: normal;
+    height: 100%;
+    
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  &.open {
+    transform: rotate(0);
+    width: 150px;
+    em {display: none;}
+    i { 
+      display: flex;
+    }
+  }
+}
+@keyframes under {
+  100% { transform: translateX(29px); }
+}

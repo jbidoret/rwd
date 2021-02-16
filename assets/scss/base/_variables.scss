@@ -1,5 +1,5 @@
 :root{
-  --basesize: 1.25rem;
+  --basesize: 1rem;
   --bigsize : calc(4vw + 2vh + .5vmin); 
   --mediumsize: calc(var(--bigsize) / 2);
   --introsize: 1.5em;
@@ -7,9 +7,14 @@
   --tinysize: .813rem;
   --delay: 10ms;
   --indent : 6rem;
-  --margin:  calc(var(--bigsize) * 2 + var(--mediumsize));
-  --text-max-width: 42rem;
-  --accentcolor: #f40;
+  --margin:  var(--bigsize);
+  --margin-top: 1vw;
+  --margin-right: 2.5vw;
+  --margin-left: calc(var(--bigsize) * 3);
+  --margin-bottom : var(--bigsize);
+  --text-max-width: 45rem;
+  // --accentcolor: #f40;
+  --accentcolor: Chartreuse;
 }
 
 
@@ -29,8 +34,9 @@
 
 @media (max-width:500px){
   :root{
-    --basesize: 1rem;
-    --indent: 3rem
+    --margin-left: calc(var(--bigsize) * 2);
+    --basesize: .85rem;
+    --indent: 2rem
   }
 }
 

@@ -1,0 +1,65 @@
+#header a > span { 
+  position: fixed; 
+  font-size: var(--bigsize); 
+  font-family: var(--altfamily);
+  z-index: 2;
+  line-height: 1.1;
+}
+
+// #header::after, 
+// #header::before{
+//   content: "";
+//   height: 100vh;
+//   position: absolute;
+//   left: calc(var(--bigsize) * .7);
+//   border-right: 1px solid turquoise;
+//   top:0;
+// }
+// #header::after {
+//   left: calc(var(--bigsize) * 1.25);
+// }
+
+// #header::after, 
+// #header::before{
+//   content: "";
+//   width: 100vw;
+//   position: absolute;
+//   top: 3.1vw;
+  
+//   border-bottom: 1px solid turquoise;
+  
+// }
+// #header::after {
+//   top: calc(var(--bigsize) + .16vw);
+// }
+.r { 
+  writing-mode: vertical-rl; 
+  transform: rotate(-180deg); 
+  bottom:2.5vw; 
+  left:1vw; 
+  margin: 0;
+}
+.w { 
+  top: 1.4vw; 
+  left: 2.5vw; 
+  transform: rotate(-45deg);
+  span:first-child {
+    position: absolute;
+    transform:  rotate(-45deg) translate(-100%, -5%)
+  }
+  span:last-child {
+    position: absolute;
+    transform:  rotate(45deg) translate(40%, 35%);
+  }
+}
+.d { 
+  right: 2.5vw; 
+  top: 1vw; 
+}
+
+.d em {
+  position: absolute;
+  top: -.02em;
+  left: 1.765em;
+  line-height: 0;
+}
