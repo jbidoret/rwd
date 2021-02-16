@@ -9,6 +9,7 @@ return [
     'RWD is' => '<em>RWD</em> is',
     'Links' => 'Links',
     'Notes' => 'Notes',
+    'Drafts' => 'Drafts',
     'All notes' => 'All notes',
     'All links' => 'All links',
     'All interviews' => 'All interviews',
@@ -23,6 +24,9 @@ return [
     'More info: show' => 'More info',
     'More info: hide' => 'Less info',
     'Display grid' => 'Display as a grid',
-    'Display list' => 'Display as a list'
+    'Display list' => 'Display as a list',
+    'Add a comment' => 'Add a comment',
+    'Reactions' => 'Reactions',
+    'Under construction' => 'Under construction' 
   ]
 ];

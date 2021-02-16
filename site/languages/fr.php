@@ -10,6 +10,7 @@ return [
     'RWD is' => 'Le <em>RWD</em> est',
     'Links' => 'Liens',
     'Notes' => 'Notes',
+    'Drafts' => 'Brouillons',
     'All notes' => 'Toutes les notes',
     'All links' => 'Tous les liens',
     'All interviews' => 'Tous les entretiens',
@@ -24,6 +25,9 @@ return [
     'More info: show' => 'Plus d’infos',
     'More info: hide' => 'Moins d’infos',
     'Display grid' => 'Afficher en grille',
-    'Display list' => 'Afficher en liste'
+    'Display list' => 'Afficher en liste',
+    'Add a comment' => 'Ajoutez un commentaire',
+    'Reactions' => 'Réactions',
+    'Under construction' => 'En construction' 
   ]
 ];
