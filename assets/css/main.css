@@ -833,9 +833,14 @@ a[href="#contribute"] {
   .article-text .initials {
     font-variant: all-small-caps; }
   .article-text .question {
-    padding-left: var(--indent); }
+    padding-left: var(--indent);
+    color: blue; }
   .article-text .answer + .question {
     margin-top: 1em; }
+  .article-text .answer + .answer p:first-child {
+    text-indent: var(--indent); }
+  .article-text .answer + .answer .initials {
+    display: none; }
 
 sup.footnote {
   top: -0.25em; }

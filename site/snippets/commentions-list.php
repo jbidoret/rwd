@@ -15,7 +15,7 @@
   <?php endforeach ?>
 
   <?php if ($comments->count() > 0) : ?>
-    <h2><?= t('commentions.snippet.list.comments') ?> <span>⍩</span> </h2>
+    <h2><?= t('commentions.snippet.list.comments') ?> </h2>
 
     <ul>
         <?php foreach ($comments as $comment) : ?>
