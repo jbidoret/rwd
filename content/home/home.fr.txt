@@ -6,6 +6,10 @@ Text:
 
 ----
 
+Wip: true
+
+----
+
 Metadescription: Une exploration de l’impact social, politique, économique ou écologique du web design par le prisme de la radicalité des approches.
 
 ----

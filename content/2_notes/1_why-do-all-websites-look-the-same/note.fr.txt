@@ -39,7 +39,7 @@ Author-url:
 
 ----
 
-Tags: CSS, Medium, László
+Wip: false
 
 ----
 
@@ -54,3 +54,7 @@ Themes:
 - themes/graceful
 - themes/exciting
 - themes/boring
+
+----
+
+Tags: CSS, Medium, László

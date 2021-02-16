@@ -10,12 +10,31 @@ Text:
 
 ----
 
+Author: 
+
+----
+
+Author-url: 
+
+----
+
 Tags: 
 
 ----
 
-Date: 
+Wip: false
 
 ----
 
-Themes: 
+Date: 2021-02-03
+
+----
+
+Themes:
+
+- themes/accessible
+- themes/boring
+- themes/sober
+- themes/fast
+- themes/performant
+- themes/graceful
