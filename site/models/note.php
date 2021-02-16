@@ -13,6 +13,7 @@ function excerpt_paragraph($html, $max_char = 100, $trail='...', $link='' ){
     if($link){
       $link = " <a href='" . $link . "' class='readmore'>" . t("Read more") . "</a>";
     }
+    return '<p>'.$p.$trail.'</p>';
     return '<p>'.$p.$trail.$link.'</p>';
 }
 
