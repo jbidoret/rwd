@@ -12,20 +12,18 @@
           </section>
         <?php endif ?>
       <?php endforeach ?>
-
-      <section class="contribute">
-        <a href="#contribute" class="button">+</a>
-      </section>
     </main>
     <?php snippet('nav') ?>  
   <?php else: ?>
     <nav>
-      <ul class="themes">
-      <li><?= t('RWD might be') ?></li>
-      <?php foreach($themes->not($page) as $theme): ?>
-        <li><a href="<?= $theme->url() ?>"><?= $theme->title()->lower() ?></a></li>
-      <?php endforeach ?>
-      </ul>
+      <p class="intro"><br>
+        <?= t('RWD might be') ?>
+        <?php 
+          $i = 1;
+          foreach($themes as $theme): ?>
+            <a href="<?= $theme->url() ?>"><?= $theme->title()->lower() ?></a><?php e($i != $themes->count(), ', ', '.') ?>
+        <?php $i++; endforeach ?>
+      </p>
       <?php snippet("links") ?>
     </nav>
   <?php endif ?>

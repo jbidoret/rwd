@@ -9,7 +9,7 @@
       </div>
     <?php endif ?>
 
-    <?php $types = [ "notes" => $notes, "links" => $links, "interviews" => $interviews ]; ?>
+    <?php $types = [ "notes" => $notes, "links" => $links, "interviews" => $interviews, "drafts" => $drafts ]; ?>
 
     <?php foreach($types as $key => $type):?>
       <?php if($type->count()) :?>
@@ -20,9 +20,7 @@
       <?php endif ?>
     <?php endforeach ?>
 
-    <section class="contribute">
-      <a href="#contribute" class="button">+</a>
-    </section>
+    <?php snippet('comments') ?>
 
   </main>
 
