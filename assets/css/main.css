@@ -388,17 +388,9 @@ hr {
   .underlinks a:focus, .underlink:focus, .marquee a:focus, .list a:focus:not(.button):not(.action), .article-meta a:focus, .tags a:focus, .article-text a:focus, .all a:focus, .footer a:focus, .commentions-list-item h4 a:focus {
     outline: none;
     box-shadow: none; }
-  @media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5) and (min-resolution: 144dpi) {
-    .underlinks a, .underlink, .marquee a, .list a:not(.button):not(.action), .article-meta a, .tags a, .article-text a, .all a, .footer a, .commentions-list-item h4 a {
-      background-image: -webkit-linear-gradient(bottom, transparent, transparent 0.05em, #bebebe 0.05em, #bebebe calc(0.05em + 1), transparent calc(0.05em + 1));
-      background-image: linear-gradient(to top, transparent, transparent 0.05em, #bebebe 0.05em, #bebebe calc(0.05em + 1), transparent calc(0.05em + 1)); } }
   .underlinks a:hover, .underlinks a:focus, .underlink:hover, .marquee a:hover, .list a:hover:not(.button):not(.action), .article-meta a:hover, .tags a:hover, .article-text a:hover, .all a:hover, .footer a:hover, .commentions-list-item h4 a:hover, .underlink:focus, .marquee a:focus, .list a:focus:not(.button):not(.action), .article-meta a:focus, .tags a:focus, .article-text a:focus, .all a:focus, .footer a:focus, .commentions-list-item h4 a:focus {
     background-image: -webkit-linear-gradient(bottom, transparent, transparent 0.05em, #000000 0.05em, #000000 calc(0.05em + 1px), transparent calc(0.05em + 1px));
     background-image: linear-gradient(to top, transparent, transparent 0.05em, #000000 0.05em, #000000 calc(0.05em + 1px), transparent calc(0.05em + 1px)); }
-    @media (-webkit-min-device-pixel-ratio: 1.5) and (-webkit-min-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5) and (min-resolution: 144dpi) {
-      .underlinks a:hover, .underlinks a:focus, .underlink:hover, .marquee a:hover, .list a:hover:not(.button):not(.action), .article-meta a:hover, .tags a:hover, .article-text a:hover, .all a:hover, .footer a:hover, .commentions-list-item h4 a:hover, .underlink:focus, .marquee a:focus, .list a:focus:not(.button):not(.action), .article-meta a:focus, .tags a:focus, .article-text a:focus, .all a:focus, .footer a:focus, .commentions-list-item h4 a:focus {
-        background-image: -webkit-linear-gradient(bottom, transparent, transparent 0.05em, #000000 0.05em, #000000 calc(0.05em + 1), transparent calc(0.05em + 1));
-        background-image: linear-gradient(to top, transparent, transparent 0.05em, #000000 0.05em, #000000 calc(0.05em + 1), transparent calc(0.05em + 1)); } }
 
 :root {
   --basesize: 1rem;
