@@ -4,7 +4,7 @@
     
   // Work in progress clickable / dublickable pastilla
   const wip = document.querySelector('.under');
-  if(wip) positionWip(wip);
+  if(wip && !document.body.getAttribute('data-template') == 'home') positionWip(wip);
 
   // set wip pastilla random position
   function positionWip(w){

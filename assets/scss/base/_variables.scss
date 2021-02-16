@@ -18,6 +18,12 @@
 }
 
 
+@media (min-width:1300px){
+  :root{
+    --bigsize : 4.2rem
+  }
+}
+
 @media (max-width:1400px){
   :root{
     --introsize:1.25em;

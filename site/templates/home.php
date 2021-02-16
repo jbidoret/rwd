@@ -15,7 +15,7 @@
     </main>
     <?php snippet('nav') ?>  
   <?php else: ?>
-    <nav>
+    <nav id="nav">   
       <p class="intro"><br>
         <?= t('RWD might be') ?>
         <?php 

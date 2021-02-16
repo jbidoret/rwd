@@ -15,3 +15,6 @@ main, #nav, #footer  {
   margin: var(--margin-top) var(--margin-right) var(--margin-bottom) var(--margin-left); 
 }
 
+#nav + #footer{
+  margin-top: calc(-1 * var(--margin-bottom) + 1em);
+}

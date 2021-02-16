@@ -34,9 +34,9 @@ body{
       }
     }
   }
-  #footer{ margin-bottom: 1vw;}
+  
   .under {
-    left: var(--margin-left) !important;
-    top: 3vw !important
+    left: var(--margin-left);
+    top: 3vw
   }
 }

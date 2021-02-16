@@ -417,6 +417,11 @@ hr {
   --text-max-width: 45rem;
   --accentcolor: Chartreuse; }
 
+@media (min-width: 1300px) {
+  :root {
+    --bigsize: 4.2rem
+  ; } }
+
 @media (max-width: 1400px) {
   :root {
     --introsize:1.25em; } }
@@ -587,11 +592,9 @@ body {
         color: var(--accentcolor);
         background-image: -webkit-linear-gradient(bottom, transparent, transparent 0.015em, var(--accentcolor) 0.015em, var(--accentcolor) calc(0.015em + 0.05em), transparent calc(0.015em + 0.05em));
         background-image: linear-gradient(to top, transparent, transparent 0.015em, var(--accentcolor) 0.015em, var(--accentcolor) calc(0.015em + 0.05em), transparent calc(0.015em + 0.05em)); }
-  [data-template="home"] #footer {
-    margin-bottom: 1vw; }
   [data-template="home"] .under {
-    left: var(--margin-left) !important;
-    top: 3vw !important; }
+    left: var(--margin-left);
+    top: 3vw; }
 
 .list {
   --padding-left:calc(var(--indent) * 1.5);
@@ -870,6 +873,9 @@ sup.footnote {
 
 main, #nav, #footer {
   margin: var(--margin-top) var(--margin-right) var(--margin-bottom) var(--margin-left); }
+
+#nav + #footer {
+  margin-top: calc(-1 * var(--margin-bottom) + 1em); }
 
 #header a > span {
   position: fixed;
