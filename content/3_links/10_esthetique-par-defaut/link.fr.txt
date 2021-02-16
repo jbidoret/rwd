@@ -10,7 +10,7 @@ Introduction: Un article d’Étienne Cliquet, artiste membre du collectif Tél�
 
 ----
 
-Text: Il me semble notamment oublier combien l’esthétique “par défaut” obéit elle-aussi à des choix de design, fussent-ils peu informés.
+Text: 
 
 ----
 
@@ -19,6 +19,16 @@ Author: Étienne Cliquet
 ----
 
 Tags: art, default
+
+----
+
+Cover:
+
+- capture-decran-2021-02-15-a-15.57.14.png
+
+----
+
+Wip: false
 
 ----
 

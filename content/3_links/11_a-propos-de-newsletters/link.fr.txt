@@ -22,6 +22,16 @@ Tags: newsletters, blogs, publication
 
 ----
 
+Cover:
+
+- capture-decran-2021-02-15-a-15.12.13.png
+
+----
+
+Wip: false
+
+----
+
 Date: 2021-02-03
 
 ----

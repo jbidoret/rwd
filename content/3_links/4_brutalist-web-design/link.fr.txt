@@ -1,16 +1,20 @@
-Title: Brutalist web design
+Title: Brutalist websites
 
 ----
 
-Link-url: https://brutalist-web.design/
+Link-url: https://brutalistwebsites.com/
 
 ----
 
-Introduction: « Le terme brutalisme est souvent associé à l'architecture brutaliste, mais il peut s'appliquer à d'autres formes de construction, comme le design de sites web. Ce site web explique comment. »
+Introduction: Brutalistwebsites propose une définition formulée ainsi : « Par sa rugosité et l’indifférence aux formes faciles ou confortables, le Brutalisme peut être considéré comme une réaction de la jeune génération à la légèreté, à l'optimisme et à la frivolité du webdesign actuel ».
 
 ----
 
-Text: Le site brutalistwebsites.com proposait une définition formulée ainsi : “*In its ruggedness and lack of concern to look comfortable or easy, Brutalism can be seen as a reaction by a younger generation to the lightness, optimism, and frivolity of today's web design*”.
+Text:
+
+David Bryant Copeland, créateur de (link: https://brutalist-web.design/ text: brutalist-web.design) a reformulé  la posture esthétique évoquée ci-dessus en une série de *guidelines*, et propose l’affiliation suivante : « Le terme brutalisme est souvent associé à l'architecture brutaliste, mais il peut s'appliquer à d'autres formes de construction, comme le design de sites web. Ce site web explique comment. »
+
+Les termes originaux de Brutalistwebsites sont « *In its ruggedness and lack of concern to look comfortable or easy, Brutalism can be seen as a reaction by a younger generation to the lightness, optimism, and frivolity of today's web design* »
 
 ----
 
@@ -19,6 +23,16 @@ Author:
 ----
 
 Tags: 
+
+----
+
+Cover:
+
+- capture-decran-2021-02-15-a-15.22.05.png
+
+----
+
+Wip: false
 
 ----
 

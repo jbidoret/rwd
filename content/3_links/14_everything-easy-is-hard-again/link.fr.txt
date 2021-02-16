@@ -1,0 +1,43 @@
+Title: Everything Easy is Hard Again
+
+----
+
+Link-url: https://frankchimero.com/blog/2018/everything-easy/
+
+----
+
+Introduction: La transcription d’une conférence donnée par le designer Franck Chimero où il constate et déplore la complexité grandissante de l’écosystème et des processus du design et du développement web.
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover:
+
+- capture-decran-2021-02-15-a-15.07.49.png
+
+----
+
+Wip: false
+
+----
+
+Date: 2021-02-04
+
+----
+
+Themes: 
+
+----
+
+Lang: en

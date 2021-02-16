@@ -18,6 +18,20 @@ Author:
 
 ----
 
+Tags: 
+
+----
+
+Cover:
+
+- capture-decran-2021-02-15-a-15.15.40.png
+
+----
+
+Wip: false
+
+----
+
 Date: 2021-02-01
 
 ----

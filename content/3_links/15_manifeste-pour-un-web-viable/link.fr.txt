@@ -1,0 +1,49 @@
+Title: Manifeste pour un web viable
+
+----
+
+Link-url: https://www.sustainablewebmanifesto.com/
+
+----
+
+Introduction: « Si l’internet était un pays, il serait le 7<sup>e</sup> plus grand pollueur. » Un manifeste qui liste quelques grands principes pour proposer un web –et un internet– viable.
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover:
+
+- capture-decran-2021-02-15-a-15.06.54.png
+
+----
+
+Wip: false
+
+----
+
+Date: 2021-02-13
+
+----
+
+Themes:
+
+- themes/resilient
+- themes/open
+- themes/sober
+- themes/performant
+- themes/future-proof
+
+----
+
+Lang: en

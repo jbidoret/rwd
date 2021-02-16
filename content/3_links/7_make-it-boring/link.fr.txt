@@ -6,7 +6,7 @@ Link-url: https://jeremy.codes/blog/make-it-boring/
 
 ----
 
-Introduction: Un article au titre un brin provoquant de Jeremy Wagner, qui tache d’exprimer pourquoi il serait plus essentiel que le web soit ennuyeux qu’*obstrusive*.
+Introduction: Un article au titre un brin provoquant de Jeremy Wagner, qui tache d’exprimer pourquoi il est plus essentiel pour lui que le web soit ennuyeux qu’*obstrusive*.
 
 ----
 
@@ -18,6 +18,24 @@ Author: Jeremy Wagner
 
 ----
 
+Tags: 
+
+----
+
+Cover:
+
+- capture-decran-2021-02-15-a-15.15.03.png
+
+----
+
+Wip: false
+
+----
+
+Date: 2021-02-01
+
+----
+
 Themes:
 
 - themes/boring
@@ -25,7 +43,3 @@ Themes:
 ----
 
 Lang: en
-
-----
-
-Date: 2021-02-01
