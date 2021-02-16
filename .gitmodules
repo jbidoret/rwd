@@ -17,6 +17,3 @@
 [submodule "site/plugins/kirby3-commentions"]
 	path = site/plugins/kirby3-commentions
 	url = https://github.com/sebastiangreger/kirby3-commentions.git
-[submodule "site/plugins/arena"]
-	path = site/plugins/arena
-	url = https://github.com/kx550/kirby3-arena.git
