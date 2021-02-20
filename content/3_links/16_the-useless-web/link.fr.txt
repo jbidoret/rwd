@@ -1,0 +1,45 @@
+Title: The Useless Web
+
+----
+
+Link-url: https://theuselessweb.com/
+
+----
+
+Introduction: Créé en 2012 par (link: https://tholman.com/ text: Tim Holman), The Useless Web référence des sites “inutiles”, étranges, drôles, idiots, absurdes, poétiques ou bizarres. Il est un des espaces qui signale la diversité des productions spécifiques au web.
+
+----
+
+Text: Depuis 2020, Tim Holman documente les contextes de créations de certains de ces sites dans une page dédiée : (link: https://theuselessweb.com/sites/ text: theuselessweb.com/sites).
+
+----
+
+Author: Tim Holman
+
+----
+
+Tags: fun
+
+----
+
+Cover:
+
+- capture-decran-2021-02-19-a-12.49.17.png
+
+----
+
+Wip: false
+
+----
+
+Date: 2021-02-19
+
+----
+
+Themes:
+
+- themes/weird
+
+----
+
+Lang: 
