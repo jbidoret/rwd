@@ -13,17 +13,16 @@ return function ($site, $page, $kirby) {
   $interviews = page('interviews')->children()->listed()->filter(function($child) use($theme){
     return $child->themes()->toPages()->has($theme);
   })->sortBy('date', 'desc');
-
-
-  $drafts = $site->index()->unlisted()->filter(function($child) use($theme){
+  $quotes = page('quotes')->children()->listed()->filter(function($child) use($theme){
     return $child->themes()->toPages()->has($theme);
   })->sortBy('date', 'desc');
+
   
   return [
     'themes' => $themes,
     'links' => $links,
     'interviews' => $interviews,
     'notes' => $notes,
-    'drafts' => $drafts
+    'quotes' => $quotes
   ];
 };
