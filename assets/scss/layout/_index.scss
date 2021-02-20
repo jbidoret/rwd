@@ -12,11 +12,11 @@
 
 
 main, #nav, #footer  {
-  margin: var(--margin-top) var(--margin-right) var(--margin-bottom) var(--margin-left); 
+  margin: var(--margintop) var(--marginright) var(--marginbottom) var( --marginleft); 
 }
 
 #nav + #footer{
-  margin-top: calc(-1 * var(--margin-bottom) + 1em);
+  margin-top: calc(-1 * var(--marginbottom) + 1em);
 }
 
 #connector {

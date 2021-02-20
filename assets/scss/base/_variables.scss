@@ -8,10 +8,11 @@
   --delay: 10ms;
   --indent : 6rem;
   --margin: var(--bigsize); 
-  --margin-top: 1vw;
-  --margin-right: 2.5vw;
-  --margin-left: calc(var(--bigsize) * 3);
-  --margin-bottom : var(--bigsize);
+  // 
+  --margintop: 1vw;
+  --marginright: 2.5vw;
+  --marginleft: calc(var(--bigsize) * 3);
+  --marginbottom: var(--bigsize);
   --text-max-width: 45rem;
   
   --background-color: #f7f7f7;
@@ -43,7 +44,7 @@
 
 @media (max-width:500px){
   :root{
-    --margin-left: calc(var(--bigsize) * 2);
+     --marginleft: calc(var(--bigsize) * 2);
     --basesize: .85rem;
     --indent: 2rem
   }

@@ -72,7 +72,7 @@ if(article){
           var parent = link.parentNode;
           parent.parentNode.insertBefore(figure, parent.nextElementSibling);
           link.classList.add('opened');
-        }
+        };
         // load image
         const src = link.getAttribute('href');
         image.src = src;
@@ -100,12 +100,12 @@ if(article){
       // buttons
       var close = document.createElement('button');
       close.textContent = "×";
-      close.className= "close"
+      close.className= "close";
       figure.appendChild(close);
       close.onclick = () => {
         figure.parentNode.removeChild(figure);
         link.classList.remove('opened');
-      }
+      };
     }
   };
 }
