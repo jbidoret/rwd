@@ -17,8 +17,7 @@
     endif
   ?>
 
-
-  <link rel="alternate" type="application/rss+xml" title="Latest articles" href="<?= site()->url() ?>/feed"/>
+  <link rel="alternate" type="application/rss+xml" title="<?= t('rwd.feed.title')?>" href="<?= site()->url() ?>/feed"/>
   
 </head>
 <body
