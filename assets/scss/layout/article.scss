@@ -59,6 +59,7 @@
   h2, h3, h4 {
     margin-top: 1em;
   }
+  h4 {margin-bottom: 0;}
   p + p,
   blockquote + p {
     text-indent: var(--indent);
@@ -80,8 +81,6 @@
     }
   }
   .pullquote{
-    font-size: var(--introsize);
-    line-height: 1.25;
     max-width: calc(var(--text-max-width) + var(--indent));
   }
   blockquote {
@@ -90,7 +89,7 @@
     font-style: italic;
     em, i { font-style: normal;}
   }
-  a {
+  a:not(.media-link) {
     @extend .underlink;
   }
   ul {
@@ -101,8 +100,10 @@
     font-variant: all-small-caps;
   }
   .question {
+    max-width: calc(var(--text-max-width) );
     padding-left: var(--indent);
-    color: blue
+    color: blue;
+    & + .question { margin-top: 0;}
   }
   .answer + .question {
     margin-top: 1em;
@@ -148,4 +149,52 @@ sup.footnote {
 
 #comments {
   margin-top: 2rem;
+}
+
+.media-link{
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 14px;
+  height: 16px;
+  text-indent: 4em;
+  background: url(../images/img.png) no-repeat;
+  background-size: cover;
+  margin: 0;
+  // vertical-align: middle;
+  position: relative;
+  top: .1em;
+  transition: all 150ms ;
+  &:hover { 
+    // transform: rotate(360deg);
+  }
+}
+.media-link + span.media-caption { display: none;}
+.media-container{
+    margin: 1em 0 2em;
+    max-width: var(--text-max-width);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .close {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translate(50%, -50%);
+      @extend .bigbutton;
+      padding: 1em 1.25em;
+    }
+    img { max-width: 100%; display: block; margin: 0 0 .5em;}
+    figcaption {
+      font-size: var(--tinysize);
+      margin: .5em 0 -.5em;
+      color: #666;
+      width: 100%;
+      padding-left: var(--indent);
+      display: flex;
+      justify-content: space-between;
+      :first-child {padding-right: 1em;}
+    }
 }

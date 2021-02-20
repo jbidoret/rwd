@@ -6,37 +6,12 @@ body{
 }
 [data-template="home"]{
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: flex-start;
   flex-direction: column;
-  #header {
-    // color: chartreuse;
-  }
-  nav {
-    margin-top: 1vw;
-  }
-  .intro {
-    max-width: none;
-    line-height: 1.1;
-    font-size: var(--bigsize);
-    margin-bottom: .5em;
-    a {
-      text-shadow: 
-        -2px -2px 0 $background-color, 
-        2px -2px 0 $background-color, 
-        -2px 2px 0 $background-color, 
-        2px 2px 0 $background-color;
-        display: inline;
-      @include underline(black, .05em, .015em);
-      &:hover{
-        color:var(--accentcolor);
-        @include underline(var(--accentcolor), .05em, .015em);
-      }
-    }
-  }
   
-  .under {
-    left: var(--margin-left);
-    top: 3vw
-  }
+  // .under {
+  //   left: var(--margin-left);
+  //   top: 3vw
+  // }
 }

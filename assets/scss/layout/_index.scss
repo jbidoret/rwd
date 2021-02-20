@@ -18,3 +18,13 @@ main, #nav, #footer  {
 #nav + #footer{
   margin-top: calc(-1 * var(--margin-bottom) + 1em);
 }
+
+#connector {
+  z-index: -1;
+  pointer-events: none;
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

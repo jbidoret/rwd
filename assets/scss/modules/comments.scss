@@ -34,12 +34,14 @@
   margin-bottom: 1em;
   h4 {
     margin-bottom: 0; 
-    a { @extend .underlink; }
     strong { font-weight: normal;}
   }  
+  a { @extend .underlink; }
+  
 }
 .commentions-list-date {
   color: #999;
+  font-size: var(--tinysize);
   &::before { content: " — "}
 }
 .commentions-list-message {
@@ -50,9 +52,7 @@
 .commentions-form {
   max-width: var(--text-max-width);
   input[type=submit]{
-    @extend .button;
-    padding: 1em 2.5em;
-    border-radius: 2em;
+    @extend .bigbutton;
   }
   input[type=text],
   input[type=email],

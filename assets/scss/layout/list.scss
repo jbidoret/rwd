@@ -32,8 +32,9 @@
     margin: 0; 
     font-size: 1em;
   }  
-  p, blockquote {
-    // text-indent: var(--indent);
+  .pullquote {
+    font-size: 1em;
+    line-height: revert;
   }
   .lang {
     white-space: nowrap;
@@ -60,34 +61,6 @@
   p, ul, ol, blockquote { text-indent: 0; max-width: calc(var(--text-max-width) - var(--indent));}
   li { @extend .puces; }
 }
-
-// .details-figure {
-//   float: left;
-//   width: var(--indent);
-//   margin: .3em .5em 0 0;
-//   aspect-ratio: 16 / 9;
-//   overflow: hidden;
-//   background:var(--accentcolor);
-//   position: relative;
-//   &::after{
-//     content:"";
-//     background: linear-gradient(var(--accentcolor), black);
-//     position: absolute;
-//     top: 0;
-//     width: 100%;
-//     height: 100%;
-//     z-index: 2;
-//     mix-blend-mode: overlay;
-//     pointer-events: none;
-//   }
-//   img { 
-//     max-width: 100%; 
-//     opacity: .95; 
-//     display: block; 
-//     filter: grayscale(1) contrast(1.2);
-//     // mix-blend-mode: screen;
-//   }
-// }
 
 .details-figure {
   float: left;

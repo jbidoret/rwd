@@ -25,13 +25,13 @@
 //   width: 100vw;
 //   position: absolute;
 //   top: 3.1vw;
-  
 //   border-bottom: 1px solid turquoise;
-  
 // }
 // #header::after {
 //   top: calc(var(--bigsize) + .16vw);
 // }
+
+
 .r { 
   writing-mode: vertical-rl; 
   transform: rotate(-180deg); 
@@ -40,8 +40,8 @@
   margin: 0;
 }
 .w { 
-  top: 1.4vw; 
-  left: 2.5vw; 
+  top: 1.3vw; 
+  left: 2vw; 
   transform: rotate(-45deg);
   span:first-child {
     position: absolute;
