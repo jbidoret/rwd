@@ -420,7 +420,7 @@ hr {
   --tinysize: .813rem;
   --delay: 10ms;
   --indent: 6rem;
-  --margin:  var(--bigsize);
+  --margin: var(--bigsize);
   --margin-top: 1vw;
   --margin-right: 2.5vw;
   --margin-left: calc(var(--bigsize) * 3);
