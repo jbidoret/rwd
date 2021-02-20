@@ -1,0 +1,46 @@
+Title: IndieWeb
+
+----
+
+Link-url: https://indieweb.org/
+
+----
+
+Introduction: L'IndieWeb se présente comme une alternative au web *corporate* et aux réseaux centralisés. Elle promeut des sites web personnels, hébergés de manière indépendante, qui permettent de conserver les données sociales de leurs auteurs sur leurs propres domaines.
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover:
+
+- capture-decran-2021-02-19-a-22.25.27.png
+
+----
+
+Wip: false
+
+----
+
+Date: 2021-02-19
+
+----
+
+Themes:
+
+- themes/open
+- themes/inclusive
+
+----
+
+Lang: 
