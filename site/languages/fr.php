@@ -10,6 +10,7 @@ return [
     'RWD is' => 'Le <em>RWD</em> est',
     'Links' => 'Liens',
     'Notes' => 'Notes',
+    'Quotes' => 'Citations',
     'Drafts' => 'Brouillons',
     'All notes' => 'Toutes les notes',
     'All links' => 'Tous les liens',
@@ -28,6 +29,7 @@ return [
     'Display list' => 'Afficher en liste',
     'Add a comment' => 'Ajoutez un commentaire',
     'Reactions' => 'Réactions',
-    'Under construction' => 'En construction' 
+    'Under construction' => 'En construction',
+    'rwd.feed.title' => 'Notes, liens et ressources sur le Radical Web design'
   ]
 ];
