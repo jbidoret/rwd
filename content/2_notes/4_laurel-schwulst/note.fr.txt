@@ -1,0 +1,59 @@
+Title: Laurel Schwulst
+
+----
+
+Link-url: https://laurelschwulst.com/
+
+----
+
+Introduction: Laurel Schwulst est une artiste du web, une enseignante et une autrice américaine. Elle est une représentante singulière de pratiques radicales de la publication en ligne, au cœur d’un réseau d’auteurs, d’artistes et de designers parmi les plus surprenants et intéressants du moment.
+
+----
+
+Text:
+
+Laurel Schwulst défend une pratique du design (formel et éditorial) du web qui possède ses propres rythmes et rituels. Ainsi, dans ses projets pour des institutions d’art contemorain, elle signale combien un web design à la fois « engagé (*authored*) et dynamique peut mettre au premier plan le rôle de producteur d’art et de culture d’une institution, et pas seulement lui servir de cadre figé ».
+
+Son article (link: https://thecreativeindependent.com/people/laurel-schwulst-my-website-is-a-shifting-house-next-to-a-river-of-knowledge-what-could-yours-be/ text: *My website is a shifting house next to a river of knowledge. What could yours be?* title: Mon site web est une maison mobile à côté d'un fleuve de connaissances. Que pourrait être le vôtre ?) pour The Creative Independant, est un plaidoyer pour retrouver une habitabillité du web. Elle y signale combien le créateur d’un site web est à la fois son auteur et son architecte, combien le web – la toile – devrait être un réseau de liens entre des individus et combien il est important pour les individus – et notamment les artistes – de construire leur propre site (media: original_10f0b57c8b7f1bb981ed6399ea92a33d.jpg).
+
+(quote: A website, or anything interactive, is inherently unfinished. It’s imperfect—maybe sometimes it even has a few bugs. But that’s the beauty of it. Websites are living, temporal spaces.)
+
+Un site pourrait être une chambre, une maison, un jardin, un bateau, un nuage, une étagère, une plante, une flaque d’eau ; il pourrait avoir sa propre temporalité, saisonalité ; il pourrait être habité et ouvrir ses portes vers d’autres habitats.
+
+En support de son enseignement dans de prestigieuses universités américaines (Yale, Princeton, Rutgers ou CalArts), elle publie (link: https://veryinteractive.net/ text:veryinteractive), une plateforme dans laquelle sont publiées ses propositions et ressources pédagogiques. En 2020, en compagnie de (link: https://johnprovencher.com/ text: John Provencher), elle a initié le projet (link: https://fruitful.school/ text: fruitful.school), une série de workhops de longue durée dédiés à explorer de nouvelles modalités collaboratives de publication en ligne. Elle y poursuit son hypothèse de métaphorisation du web, pour un web 🍊 fruité.
+
+Sa pratique de designer et de création de sites web se déploie principalement dans deux espaces, le studio de webdesign (link: beautiful-company.com text: Beautiful Company) et la bien nommée agence de *consulting*  et de direction artistique (link: https://coombs-schwulst-seu.com/ text: CSS).
+
+----
+
+Author: 
+
+----
+
+Tags: NYC, LaurelSchwulst
+
+----
+
+Cover:
+
+- capture-decran-2021-02-18-a-13.01.37.png
+
+----
+
+Wip: true
+
+----
+
+Date: 2021-02-18
+
+----
+
+Themes:
+
+- themes/radical
+- themes/subversive
+- themes/sensible
+
+----
+
+Lang: en
