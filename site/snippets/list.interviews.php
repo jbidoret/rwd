@@ -16,8 +16,8 @@
         <?php endif ?>
       </a>  
     <?php else :?>
-      <a href="<?= $interview->url() ?>#contribute" class="button">
-        <?= t('commentions.snippet.form.ctacomment') ?>
+      <a href="<?= $interview->url() ?>#contribute" class="button" title="<?= t('commentions.snippet.form.ctacomment') ?>">
+        ⍨
       </a>
     <?php endif ?>
   </article>

@@ -21,9 +21,6 @@
       echo js('assets/production/all.min.js');
     endif
   ?>
-  
-  <script async defer data-domain="radicalweb.design" src="https://stats.radicalweb.design/js/index.js"></script>
-    
 
 </body>
 </html>

@@ -9,7 +9,7 @@
       </div>
     <?php endif ?>
 
-    <?php $types = [ "notes" => $notes, "links" => $links, "interviews" => $interviews, "drafts" => $drafts ]; ?>
+    <?php $types = [ "notes" => $notes, "links" => $links, "interviews" => $interviews, "quotes" => $quotes ]; ?>
 
     <?php foreach($types as $key => $type):?>
       <?php if($type->count()) :?>

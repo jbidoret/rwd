@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-  <main class="article">
+  <main class="article" id="main">
     <header class="article-header">
       <h1 class="article-title"><?= $page->title()->html() ?></h1>
       <p class="article-meta">

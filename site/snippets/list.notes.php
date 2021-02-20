@@ -4,7 +4,7 @@
       <h3><a href="<?= $note->url() ?>"><?= $note->title() ?></a></h3>      
     </header>    
     <div class="details">
-      <?= $note->intro() ?>
+      <?= $note->introduction()->kt() ?>
     </div>
     <?php if($note->text()->isNotEmpty() || $note->commentions()->count() > 0): ?>
       <a href="<?= $note->url() ?>" class="button">
@@ -17,8 +17,8 @@
         <?php endif ?>
       </a>  
     <?php else :?>
-      <a href="<?= $note->url() ?>#contribute" class="button">
-        <?= t('commentions.snippet.form.ctacomment') ?>
+      <a href="<?= $note->url() ?>#contribute" class="button" title="<?= t('commentions.snippet.form.ctacomment') ?>">
+        ⍨
       </a>
     <?php endif ?>
   </article>

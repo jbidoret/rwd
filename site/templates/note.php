@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 
-  <main class="article">
+  <main class="article" id="main">
     <article>
 
       <header class="article-header">
@@ -37,6 +37,11 @@
         <div class="article-introduction">
           <?= $page->introduction()->kirbytext() ?>
         </div>
+      <?php endif ?>
+      <?php if($page->link_url()->isNotEmpty()) :?>
+        <p class="link-url">
+          <a href="<?= $page->link_url() ?>"><?= $page->niceURL() ?></a>
+        </p>
       <?php endif ?>
       <?php if($page->text()->isNotEmpty()): ?>
         <div class="article-text">

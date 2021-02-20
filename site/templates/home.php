@@ -13,19 +13,7 @@
         <?php endif ?>
       <?php endforeach ?>
     </main>
-    <?php snippet('nav') ?>  
-  <?php else: ?>
-    <nav id="nav">   
-      <p class="intro"><br>
-        <?= t('RWD might be') ?>
-        <?php 
-          $i = 1;
-          foreach($themes as $theme): ?>
-            <a href="<?= $theme->url() ?>"><?= $theme->title()->lower() ?></a><?php e($i != $themes->count(), ', ', '.') ?>
-        <?php $i++; endforeach ?>
-      </p>
-      <?php snippet("links") ?>
-    </nav>
   <?php endif ?>
 
+<?php snippet('nav') ?>  
 <?php snippet('footer') ?>
