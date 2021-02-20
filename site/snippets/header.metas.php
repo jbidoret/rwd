@@ -31,6 +31,12 @@
     <meta name="description" content="<?= $description ?>">
     <meta name="keywords" content="<?= $site->keywords()->text() ?>">
 
+    <meta name="dc.title" content="<?php echo $title ?>" />
+    <meta name="dc.description" content="<?= $description ?>" />
+    <meta name="dc.relation" content="<?= $page->url() ?>" />
+    <meta name="dc.source" content="<?= $site->url() ?>" />
+    <meta name="dc.language" content="<?= $kirby->language() ?>" />
+
     <meta property="og:url" content="<?= $page->url() ?>">
     <meta property="og:type" content="website">
     <meta property="og:title" content="<?= r($page !== $site->homePage(), $page->title()->html() . ' | ') . $site->title()->html() ?>">
