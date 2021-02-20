@@ -26,6 +26,11 @@ Une autre approche aurait pu être d’utiliser un système de wiki, (link: http
 
 Si l’aventure du pur HTML était intéressante à mener (elle n’est pas écartée pour certaines dimensions du site), la dépendance technique induite par un générateur de sites statiques a pour le moment fait pencher la balance pour Kirby, qui permettra en outre à des étudiant·es d’éditer le contenu principal via son interface d’administration.
 
+## *Work in progress*
+
+De multiples errances vont jalonner le parcours de création de ce site. Quelques fonctionnalités semblent néanmoins indispensables à l’autonomie (la *convivialité* ?) que l’on attend pour ce site :
+- un flux RSS, qui agrège l’ensemble des notes, liens, interviews, conversations…
+- un espace et une fonctionnalité de commentaires / contribution
 
 *[HTML]: Hypertext Markup language
 *[WCAG]: Web Content Accessibility Guidelines
