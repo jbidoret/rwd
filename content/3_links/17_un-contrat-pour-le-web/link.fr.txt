@@ -1,0 +1,50 @@
+Title: Un contrat pour le Web
+
+----
+
+Link-url: https://contractfortheweb.org/
+
+----
+
+Introduction: *Contract for the Web* est une initiative de la (link: https://webfoundation.org/ text: World Wide Web Foundation) dont le but serait de restreindre ou d'éliminer la manipulation politique, les fake news, les violations de la vie privée et d'autres problèmes liés à Internet.
+
+----
+
+Text:
+
+Le contrat est constitué de neuf principes essentiels, destinés à la fois aux gouvernements, aux entreprises et aux individus. Si l’intitiative est louable, elle souffre d’un certain angélisme, comme de nombreuses propositions de Tim Berners-Lee. 
+
+Adopté par plus de 150 organisations, dont Google, Microsoft ou Facebook, ce contrat ne semble pas avoir fait évoluer grand chose : les principes 5 et 6 proposant de « respecter et protéger la vie privée et les données personnelles dans le but de construire une confiance en ligne » et « développer des technologies qui soutiennent le meilleur de l'humanité et contestent le pire » restant largement ignorés par nombre des signataires.
+
+----
+
+Author: World Wide Web Foundation
+
+----
+
+Tags: law
+
+----
+
+Cover:
+
+- capture-decran-2021-02-19-a-13.26.07.png
+
+----
+
+Wip: false
+
+----
+
+Date: 2021-02-15
+
+----
+
+Themes:
+
+- themes/accessible
+- themes/open
+
+----
+
+Lang: en
