@@ -22,6 +22,10 @@ return [
     'extra' => true
   ],
 
+	// Smartypants
+	'smartypants' => true,
+
+
 	// Komments
 	// 'mauricerenck.komments.debug' => true,
 	// 'mauricerenck.komments.enable-webmention-support' => false,
