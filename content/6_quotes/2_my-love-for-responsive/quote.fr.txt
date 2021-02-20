@@ -1,0 +1,27 @@
+Title: My love for responsive
+
+----
+
+Text: My love for responsive centers around the idea that my website will meet you wherever you are—from mobile to full-blown desktop and anywhere in between.
+
+----
+
+Author: Trent Walton
+
+----
+
+Quote-url: https://trentwalton.com/2011/05/10/fit-to-scale/
+
+----
+
+Tags: 
+
+----
+
+Date: 2021-02-18
+
+----
+
+Themes:
+
+- themes/responsive

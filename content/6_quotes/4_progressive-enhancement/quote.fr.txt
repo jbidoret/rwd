@@ -1,0 +1,27 @@
+Title: Progressive enhancement
+
+----
+
+Text: Progressive enhancement is more about dealing with technology failing than technology not being supported.
+
+----
+
+Author: Andy Hume
+
+----
+
+Quote-url: https://twitter.com/andyhume/status/341594378072125440
+
+----
+
+Tags: 
+
+----
+
+Date: 2021-02-18
+
+----
+
+Themes:
+
+- themes/progressive

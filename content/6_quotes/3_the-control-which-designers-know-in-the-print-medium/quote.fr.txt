@@ -1,0 +1,32 @@
+Title: The control which designers know in the print medium
+
+----
+
+Text:
+
+The control which designers know in the print medium, and often desire in the web medium, is simply a function of the limitation of the printed page.
+
+We should embrace the fact that the web doesn’t have the same constraints, and design for this flexibility.
+
+----
+
+Author: John Allsopp, A Dao of Web Design
+
+----
+
+Quote-url: https://alistapart.com/article/dao/
+
+----
+
+Tags: 
+
+----
+
+Date: 2021-02-18
+
+----
+
+Themes:
+
+- themes/responsive
+- themes/fluid

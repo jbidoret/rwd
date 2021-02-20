@@ -1,0 +1,27 @@
+Title: I want to challenge us all to have greater ambitions for the web.
+
+----
+
+Text: I want to challenge us all to have greater ambitions for the web. I want the web to reflect our hopes and fulfill our dreams, rather than magnify our fears and deepen our divisions.
+
+----
+
+Author: Tim Berners-Lee
+
+----
+
+Quote-url: https://webfoundation.org/2018/03/web-birthday-29/
+
+----
+
+Tags: utopia
+
+----
+
+Date: 2021-02-18
+
+----
+
+Themes:
+
+- themes/open

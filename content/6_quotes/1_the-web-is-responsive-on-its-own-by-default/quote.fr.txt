@@ -1,0 +1,31 @@
+Title: The web is responsive on its own—by default.
+
+----
+
+Text: The web is responsive on its own—by default. It’s us that’s been breaking it all these years by placing content in fixed-width containers.
+
+----
+
+Author: Andy Hume
+
+----
+
+Quote-url: http://web.archive.org/web/20110710020607/http://blog.andyhume.net/responsive-by-default/
+
+----
+
+Tags: default
+
+----
+
+Date: 2021-02-18
+
+----
+
+Themes:
+
+- themes/responsive
+
+----
+
+Link-url: 
