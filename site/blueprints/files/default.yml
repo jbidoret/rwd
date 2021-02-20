@@ -1,0 +1,30 @@
+title: Default file
+
+columns:
+  - width: 2/3
+    fields:
+      alt:
+        type: text
+        width: 1/2
+      source:
+        type: url
+        width: 1/2
+      caption:
+        type: textarea
+        
+      yt_url:
+        label: URL Youtube
+        type: url
+        when:
+          media_type: youtube
+  - width: 1/3
+    fields: 
+      media_type:
+        type: select
+        required: true
+        options:
+          image: Image
+          video: Vidéo
+          youtube: Youtube
+
+  

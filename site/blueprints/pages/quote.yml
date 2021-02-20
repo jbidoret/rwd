@@ -1,0 +1,42 @@
+title: Quote
+
+columns:
+  - width: 2/3   
+    sections:
+      data:
+        type: fields   
+        fields:
+          text:
+            label: Text
+            type: markdown
+          author:
+            label: Author
+            type: text
+            translate: false
+          quote_url:
+            label: URL
+            type: url
+            translate: false
+          tags:
+            type: tags
+            label: Tags
+            query: site.index.pluck("tags", ",", true)      
+      commentions:
+        type: commentions
+  - width: 1/3
+    sections:
+      fields:
+        type: fields
+        fields:
+          date:
+            label: Date
+            translate: false
+            default: today
+          themes:
+            type: pages
+            template: theme
+            query: site.find("themes")
+            translate: false
+      files: 
+        type: files
+        headline: Fichiers

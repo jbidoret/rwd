@@ -11,6 +11,7 @@ columns:
         template: note
         status: all
         empty: No note yet
+        sortBy: date desc
         limit: 3
       links:
         headline: Links
@@ -19,6 +20,25 @@ columns:
         template: link
         status: all
         empty: No link yet
+        sortBy: date desc
+        limit: 3
+      interviews:
+        headline: Interviews
+        type: pages
+        parent: site.find("interviews")
+        template: interview
+        status: all
+        empty: No interview yet
+        sortBy: date desc
+        limit: 3
+      quotes:
+        headline: Quotes
+        type: pages
+        parent: site.find("quotes")
+        template: quote
+        status: all
+        empty: No quote yet
+        sortBy: date desc
         limit: 3
       commentions:
         type: commentions
@@ -37,3 +57,4 @@ columns:
           - themes
           - about
           - interviews
+          - quotes
