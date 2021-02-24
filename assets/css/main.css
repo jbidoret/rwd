@@ -849,6 +849,19 @@ a[href="#contribute"] {
   .article-text .answer + .answer .initials {
     display: none; }
 
+figure.video {
+  padding: 56.25% 0 0 0;
+  position: relative;
+  margin: 1em 0;
+  border: 0; }
+  figure.video > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0; }
+
 sup.footnote {
   top: -0.25em; }
   sup.footnote a {
