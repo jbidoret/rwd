@@ -2,7 +2,7 @@ Title: IndieWeb
 
 ----
 
-Link-url: https://indieweb.org/
+Link-url: https://indieweb.org/Main_Page-fr
 
 ----
 
@@ -40,6 +40,7 @@ Themes:
 
 - themes/open
 - themes/inclusive
+- themes/independant
 
 ----
 

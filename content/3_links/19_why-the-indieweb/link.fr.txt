@@ -36,7 +36,9 @@ Date: 2021-02-24
 
 ----
 
-Themes: 
+Themes:
+
+- themes/independant
 
 ----
 
