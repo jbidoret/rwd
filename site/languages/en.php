@@ -11,6 +11,7 @@ return [
     'Notes' => 'Notes',
     'Drafts' => 'Drafts',
     'Quotes' => 'Quotes',
+    'Tweets' => 'Tweets',
     'All notes' => 'All notes',
     'All links' => 'All links',
     'All interviews' => 'All interviews',

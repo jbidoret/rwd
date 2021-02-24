@@ -12,6 +12,7 @@ return [
     'Notes' => 'Notes',
     'Quotes' => 'Citations',
     'Drafts' => 'Brouillons',
+    'Tweets' => 'Tweets',
     'All notes' => 'Toutes les notes',
     'All links' => 'Tous les liens',
     'All interviews' => 'Tous les entretiens',
