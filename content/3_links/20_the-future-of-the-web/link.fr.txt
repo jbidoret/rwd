@@ -1,0 +1,47 @@
+Title: The future of the web
+
+----
+
+Link-url: https://alistapart.com/article/the-future-of-the-web/
+
+----
+
+Introduction: Un article de Matt Griffin sur A List Apart, publié en 2016, dans lequel s'expose la controverse entre deux visions des futurs souhaitables du web ; l'un, guidé par l'Extensible Web Manifesto, l'autre par les tenants du Progressive enhancement.
+
+----
+
+Text:
+
+Matt Griffin est également l'auteur d'un documentaire, *What Comes Next Is the Future* qui dispose de son propre site web : (link: http://www.futureisnext.com/ text: futureisnext.com) et dans lequel sont interviewés de nombreux acteurs importants du web : Jeffrey Zeldman, Denise Jacobs, Tim Berners-Lee, Ethan Marcotte, Chris Wilson, Lyza Danger Gardner, Eric Meyer, Irene Au, Alex Russell, Trent Walton, Val Head, Jonathan Snook.
+
+(vimeo: https://vimeo.com/177267839)
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover:
+
+- capture-decran-2021-02-24-a-15.41.07.png
+
+----
+
+Wip: false
+
+----
+
+Date: 2021-02-23
+
+----
+
+Themes: 
+
+----
+
+Lang: 
