@@ -1,0 +1,47 @@
+Title: Peut-on encore être graphiste au pays des Templates ?
+
+----
+
+Link-url: https://www.my-os.net/blog/index.php?2007/08/08/564-peut-on-etre-graphiste-au-pays-des-templates
+
+----
+
+Introduction: Un texte publié en 2007 par Étienne Mineur qui signale une perte de pouvoir des graphistes dans le champ du web et du numérique à l’heure de l’avènement des templates et la nécessaire reconfiguration de leurs activités.
+
+----
+
+Text: Lire aussi les nombreux commentaires en bas de page qui viennent enrichir et compléter le propos.
+
+----
+
+Author: Étienne Mineur
+
+----
+
+Tags: 
+
+----
+
+Cover:
+
+- >
+  screenshot_2021-02-24-peut-on-encore-etre-graphiste-au-pays-des-templates-etienne-mineur-archives.png
+
+----
+
+Wip: false
+
+----
+
+Date: 2021-02-24
+
+----
+
+Themes:
+
+- themes/boring
+- themes/sensible
+
+----
+
+Lang: fr
