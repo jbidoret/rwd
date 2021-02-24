@@ -1,0 +1,43 @@
+Title: Why The IndieWeb?
+
+----
+
+Link-url: https://briefs.video/videos/why-the-indieweb/
+
+----
+
+Introduction: « C'est l'histoire de la naissance du web, de sa perte d'innocence, de son déclin, et de ce que nous pouvons faire pour le rendre un peu moins grossier. » Une présentation en vidéo des raisons de l’existence de l’IndieWeb dans le *vlog* d’Heydon Pickering.
+
+----
+
+Text: 
+
+----
+
+Author: Heydon Pickering
+
+----
+
+Tags: independant
+
+----
+
+Cover:
+
+- capture-decran-2021-02-24-a-10.07.08.png
+
+----
+
+Wip: false
+
+----
+
+Date: 2021-02-24
+
+----
+
+Themes: 
+
+----
+
+Lang: en
