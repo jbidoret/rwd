@@ -29,8 +29,9 @@ Si l’aventure du pur HTML était intéressante à mener (elle n’est pas éca
 ## *Work in progress*
 
 De multiples errances vont jalonner le parcours de création de ce site. Quelques fonctionnalités semblent néanmoins indispensables à l’autonomie (la *convivialité* ?) que l’on attend pour ce site :
-- un flux RSS, qui agrège l’ensemble des notes, liens, interviews, conversations…
+- un (link: feed text: flux RSS), qui agrège l’ensemble des notes, liens et interviews.
 - un espace et une fonctionnalité de commentaires / contribution
+- une republication automatique (associée à un mécanisme de résolution d’URLs) des tweets postés depuis le compte (link: https://twitter.com/rdclwebdesign text: @rdclwebdesign).
 
 *[HTML]: Hypertext Markup language
 *[WCAG]: Web Content Accessibility Guidelines
