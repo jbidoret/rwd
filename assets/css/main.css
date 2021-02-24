@@ -398,16 +398,16 @@ hr {
     .pullquote footer::before {
       content: "— "; }
 
-.underlinks a, .underlink, .marquee a, .list a:not(.button):not(.action), .article-meta a, .tags a, .article-text a:not(.media-link), .all a, .languages a:hover, .languages .active, .footer a, .commentions-list-item a {
+.underlinks a, .underlink, .marquee a, .list a:not(.button):not(.action), .list-introduction a, .article-meta a, .tags a, .article-text a:not(.media-link), .all a, .languages a:hover, .languages .active, .footer a, .commentions-list-item a {
   text-decoration: none;
   position: relative;
   text-shadow: -1px -1px 0 var(--background-color), 1px -1px 0 var(--background-color), -1px 1px 0 var(--background-color), 1px 1px 0 var(--background-color);
   background-image: -webkit-linear-gradient(bottom, transparent, transparent 0px, #51c20f 0px, #51c20f calc(0px + 1px), transparent calc(0px + 1px));
   background-image: linear-gradient(to top, transparent, transparent 0px, #51c20f 0px, #51c20f calc(0px + 1px), transparent calc(0px + 1px)); }
-  .underlinks a:focus, .underlink:focus, .marquee a:focus, .list a:focus:not(.button):not(.action), .article-meta a:focus, .tags a:focus, .article-text a:focus:not(.media-link), .all a:focus, .languages a:focus:hover, .languages .active:focus, .footer a:focus, .commentions-list-item a:focus {
+  .underlinks a:focus, .underlink:focus, .marquee a:focus, .list a:focus:not(.button):not(.action), .list-introduction a:focus, .article-meta a:focus, .tags a:focus, .article-text a:focus:not(.media-link), .all a:focus, .languages a:focus:hover, .languages .active:focus, .footer a:focus, .commentions-list-item a:focus {
     outline: none;
     box-shadow: none; }
-  .underlinks a:hover, .underlinks a:focus, .underlink:hover, .marquee a:hover, .list a:hover:not(.button):not(.action), .article-meta a:hover, .tags a:hover, .article-text a:hover:not(.media-link), .all a:hover, .languages a:hover, .languages .active:hover, .footer a:hover, .commentions-list-item a:hover, .underlink:focus, .marquee a:focus, .list a:focus:not(.button):not(.action), .article-meta a:focus, .tags a:focus, .article-text a:focus:not(.media-link), .all a:focus, .languages a:focus:hover, .languages .active:focus, .footer a:focus, .commentions-list-item a:focus {
+  .underlinks a:hover, .underlinks a:focus, .underlink:hover, .marquee a:hover, .list a:hover:not(.button):not(.action), .list-introduction a:hover, .article-meta a:hover, .tags a:hover, .article-text a:hover:not(.media-link), .all a:hover, .languages a:hover, .languages .active:hover, .footer a:hover, .commentions-list-item a:hover, .underlink:focus, .marquee a:focus, .list a:focus:not(.button):not(.action), .list-introduction a:focus, .article-meta a:focus, .tags a:focus, .article-text a:focus:not(.media-link), .all a:focus, .languages a:focus:hover, .languages .active:focus, .footer a:focus, .commentions-list-item a:focus {
     background-image: -webkit-linear-gradient(bottom, transparent, transparent 0px, #000000 0px, #000000 calc(0px + 1px), transparent calc(0px + 1px));
     background-image: linear-gradient(to top, transparent, transparent 0px, #000000 0px, #000000 calc(0px + 1px), transparent calc(0px + 1px)); }
 
@@ -627,7 +627,7 @@ body {
   .list h3, .list h4 {
     margin: 0;
     font-size: 1em; }
-  .list .pullquote {
+  .list:not(.quotes).pullquote {
     font-size: 1em;
     line-height: revert; }
   .list .lang {
@@ -636,6 +636,9 @@ body {
     vertical-align: top; }
   .list .details {
     margin-bottom: .5em; }
+  .list:not(.quotes) .pullquote {
+    font-size: 1em;
+    line-height: revert; }
 
 .theme-introduction {
   font-size: 1.5em;
@@ -670,6 +673,9 @@ body {
 .list article:hover img {
   -webkit-filter: grayscale(0);
   filter: grayscale(0); }
+
+.list-introduction {
+  margin-bottom: 2em; }
 
 .action {
   display: inline-block;
@@ -827,7 +833,7 @@ a[href="#contribute"] {
     .article-text blockquote em, .article-text blockquote i {
       font-style: normal; }
   .article-text ul {
-    margin-left: var(--indent); }
+    padding-left: var(--indent); }
   .article-text .initials {
     font-variant: all-small-caps; }
   .article-text .question {

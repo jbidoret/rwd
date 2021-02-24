@@ -32,7 +32,7 @@
     margin: 0; 
     font-size: 1em;
   }  
-  .pullquote {
+  &:not(.quotes).pullquote {
     font-size: 1em;
     line-height: revert;
   }
@@ -43,6 +43,10 @@
   }
   .details {
     margin-bottom: .5em;
+  }
+  &:not(.quotes) .pullquote{
+    font-size: 1em;
+    line-height: revert;
   }
 }
 
@@ -80,6 +84,11 @@
 }
 .list article:hover img {
   filter: grayscale(0);
+}
+
+.list-introduction {
+  margin-bottom: 2em;
+  a { @extend .underlink; }
 }
 
 // ------------------------------------------ checkbox actions
