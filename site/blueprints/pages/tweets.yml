@@ -1,0 +1,22 @@
+title: Tweets
+
+options:
+  changeSlug: false
+  changeTitle: false
+  duplicate: false
+  delete: false
+  status: false
+
+sections:
+  field:
+    type: fields
+    fields:
+      introduction:
+        type: markdown
+        label: Introduction
+  quotes:
+    headline: Tweets
+    type: pages
+    status: all
+    sortBy: date desc
+  

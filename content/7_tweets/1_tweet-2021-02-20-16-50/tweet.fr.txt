@@ -1,0 +1,12 @@
+Title: 20/02/2021 – 16:50
+
+----
+
+Text: 
+
+> Automating tweets republication from [@rdclwebdesign](https://twitter.com/rdclwebdesign?ref_src=twsrc%5Etfw) to Kirby site via <https://ifttt.com/>
+
+
+---- 
+
+Tweet_url: http://twitter.com/rdclwebdesign/status/1363153951344984066
