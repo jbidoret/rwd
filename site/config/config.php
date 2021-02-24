@@ -9,6 +9,7 @@ Kirby Configuration
 
 return [
 	'environment' => 'production',
+	'debug'=>true,
 
 	// language
 	'languages' => true,
