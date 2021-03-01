@@ -1,0 +1,29 @@
+Title: Another web design
+
+----
+
+Introduction: 
+
+----
+
+Text: 
+
+----
+
+Tags: 
+
+----
+
+Cover: 
+
+----
+
+Wip: false
+
+----
+
+Date: 2021-02-24
+
+----
+
+Themes: 
