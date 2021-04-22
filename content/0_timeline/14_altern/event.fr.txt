@@ -1,0 +1,25 @@
+Title: Altern
+
+----
+
+Link-url: http://altern.org
+
+----
+
+Introduction: Altern.org était un hébergeur web gratuit créé dès 1992 par Valentin Lacambre (fondateur de 3615 Internet). Il fit l’objet en 1999 d’un procès, perdu du fait de l’indéfinition de l’activité d’hébergeur à cette époque, qui amena la fermeture des services en 2000.
+
+----
+
+Text: Lire la [FAQ](http://altern.org/alternb/defense/faq.html) sur l’affaire.
+
+----
+
+Date: 1999-02-10
+
+----
+
+Category: tech
+
+----
+
+Themes: 

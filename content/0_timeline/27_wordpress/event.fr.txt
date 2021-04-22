@@ -1,0 +1,29 @@
+Title: WordPress
+
+----
+
+Link-url: https://wordpress.org/
+
+----
+
+Introduction:
+
+Évolution d’un CMS développé en PHP et associé à une base de données MySQL, initialement orienté vers la publication de blogs, WordPress est aujourd’hui utilisé par près de 40 % des sites web dans le monde.
+
+*[CMS]: Content Management System, système de gestion de contenu
+
+----
+
+Text: 
+
+----
+
+Date: 2003-05-27
+
+----
+
+Category: soft
+
+----
+
+Themes: 

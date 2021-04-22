@@ -1,0 +1,25 @@
+Title: jodi.org
+
+----
+
+Link-url: http://jodi.org
+
+----
+
+Introduction: Jodi est un collectif fondé par Joan Heemskerk et Dirk Paesmans. Leur site, explorant et détournant des esthéthiques du web déjà en cours de vernacularisation, gagne en 1999 un Webby Award. Ils commentèrent leur trophée par “Ugly commercial sons of bitches”.
+
+----
+
+Text: 
+
+----
+
+Date: 1999-01-01
+
+----
+
+Category: art
+
+----
+
+Themes: 

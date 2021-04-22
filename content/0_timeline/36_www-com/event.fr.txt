@@ -1,0 +1,25 @@
+Title: www.com
+
+----
+
+Link-url: 
+
+----
+
+Introduction: Le web accueille 2.4 millions de sites et 188 millions d’utilisateurs.
+
+----
+
+Text: 
+
+----
+
+Date: 1998-12-01
+
+----
+
+Category: context
+
+----
+
+Themes: 

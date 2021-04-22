@@ -1,0 +1,25 @@
+Title: Indexhibit
+
+----
+
+Link-url: https://indexhibit.org/
+
+----
+
+Introduction: Indexhibit est un système de gestion de contenu fondé en 2006 par (link: https://vaska.com/ text: Jeffery Vaska) et (link: https://eatock.com/ text: Daniel Eatock). Offrant une interface graphique minimale, il fut largement plébiscité par de nombreux·ses graphistes et artistes, en réaction aux approches hyperexpressives et aux interactions complexes produites par Flash.
+
+----
+
+Text: 
+
+----
+
+Date: 2006-04-01
+
+----
+
+Category: soft
+
+----
+
+Themes: 

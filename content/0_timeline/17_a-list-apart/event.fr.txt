@@ -1,0 +1,25 @@
+Title: A List Apart
+
+----
+
+Link-url: https://alistapart.com/
+
+----
+
+Introduction: Créé en 1997 par Jeffrey Zeldman sous la forme d’une mailing-list, A List Apart devient un webzine et explore les questions du design, du dévelopment et du contenu du Web, en s’intéressant particulièrement aux question des standards.
+
+----
+
+Text: 
+
+----
+
+Date: 1998-12-01
+
+----
+
+Category: webdesign
+
+----
+
+Themes: 

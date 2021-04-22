@@ -1,0 +1,25 @@
+Title: Google
+
+----
+
+Link-url: 
+
+----
+
+Introduction: Sergey Brin et Larry Page lancent leur moteur, en le fondant à la fois sur un algorithme révolutionnaire de classement des pages et sur une approche entièrement focalisée sur la fonction de recherche.
+
+----
+
+Text: 
+
+----
+
+Date: 1998-09-01
+
+----
+
+Category: tech
+
+----
+
+Themes: 

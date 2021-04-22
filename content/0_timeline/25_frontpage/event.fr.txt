@@ -1,0 +1,25 @@
+Title: FrontPage
+
+----
+
+Link-url: 
+
+----
+
+Introduction: Sortie de Microsoft FrontPage, logiciel WYSIWYG de création web créé par Vermeer Technologies puis racheté var Microsfoft pour être intégré à sa suite Office.
+
+----
+
+Text: 
+
+----
+
+Date: 1995-11-01
+
+----
+
+Category: soft
+
+----
+
+Themes: 

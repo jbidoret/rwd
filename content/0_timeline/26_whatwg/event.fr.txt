@@ -1,0 +1,29 @@
+Title: WHATWG
+
+----
+
+Link-url: https://whatwg.org/
+
+----
+
+Introduction:
+
+Le WHATWG est fondé en2004 par Apple, la fondation Mozilla, et Opera Software en réponse à des désaccords – formulés notamment par Ian « Hixie » Hickson – sur les orientations du W3C (affirmation du XHTML au détriment du HTML, lenteur des décisions, inadéquation avec la réalité de l’évolution du web…)
+
+*[WHATWG]: Web Hypertext Application Technology Working Group
+
+----
+
+Text: 
+
+----
+
+Date: 2004-06-04
+
+----
+
+Category: tech
+
+----
+
+Themes: 

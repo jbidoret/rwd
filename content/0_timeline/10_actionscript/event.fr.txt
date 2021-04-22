@@ -1,0 +1,25 @@
+Title: ActionScript
+
+----
+
+Link-url: https://www.clubic.com/pro/entreprises/adobe/dossier-22357-adobe-flash-back-grandeur-et-decadence-d-une-technologie-visionnaire.html
+
+----
+
+Introduction: Flash 5 inclue la première version d’ActionScript, langage de programmation qui décuple les possibilités d’interactions, permet la création d’applications web et d’animations complexes, annonçant les prémices de l’âge d’or des jeux Flash.
+
+----
+
+Text: 
+
+----
+
+Date: 2000-01-01
+
+----
+
+Category: tech
+
+----
+
+Themes: 

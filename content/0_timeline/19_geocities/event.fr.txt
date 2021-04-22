@@ -1,0 +1,25 @@
+Title: Geocities
+
+----
+
+Link-url: 
+
+----
+
+Introduction: Fondée en 1994 par David Bohnett et John Rezner, GeoCities était un service d’hébergement offrant 2Mo gratuits, formant une communauté de sites web organisée en “villes”. Plus tard racheté par Yahoo, il fut fermé en 2009
+
+----
+
+Text: (link: https://anthology.rhizome.org/one-terabyte-of-kilobyte-age text: One Terabyte of Kilobyte Age) est un projet des artistes Olia Lialina et Dragan Espenschied dont l’objectif est la préservation, la restauration et la redécouverte des sites web de GeoCities.
+
+----
+
+Date: 1994-12-01
+
+----
+
+Category: tech
+
+----
+
+Themes: 

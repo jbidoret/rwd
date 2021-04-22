@@ -1,0 +1,25 @@
+Title: Jekyll
+
+----
+
+Link-url: https://jekyllrb.com/
+
+----
+
+Introduction: Jekyll est un générateur de sites statiques, créé en 2008 par Tom Preston-Werner et maintenu depuis par Parker Moore. Il est à l'origine d'une tendance forte du développement web, cherchant à produire des sites rapides et performants sans la charge serveur qu’occasionne généralement les CMS.
+
+----
+
+Text: 
+
+----
+
+Date: 2008-11-01
+
+----
+
+Category: tech
+
+----
+
+Themes: 

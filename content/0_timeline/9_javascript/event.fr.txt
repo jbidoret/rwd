@@ -1,0 +1,25 @@
+Title: Javascript
+
+----
+
+Link-url: 
+
+----
+
+Introduction: Javascript, language de scripts côté client, est développé en dix jours par Brendan Eich, pour le compte de Netscape.
+
+----
+
+Text: 
+
+----
+
+Date: 1995-05-15
+
+----
+
+Category: tech
+
+----
+
+Themes: 

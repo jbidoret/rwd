@@ -1,0 +1,25 @@
+Title: Responsive web design
+
+----
+
+Link-url: https://alistapart.com/article/responsive-web-design/
+
+----
+
+Introduction: (link: http://ethanmarcotte.com text: Ethan Marcotte) définit par le terme *(link: https://ethanmarcotte.com/wrote/responsive-design-at-10/ text: Responsive web design)* un ensemble de pratiques permettant à la mise en forme des sites web de s’adapter à leur contexte d’affichage.
+
+----
+
+Text: 
+
+----
+
+Date: 2010-05-01
+
+----
+
+Category: design
+
+----
+
+Themes: 

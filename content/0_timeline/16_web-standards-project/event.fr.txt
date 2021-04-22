@@ -1,0 +1,29 @@
+Title: Web Standards Project
+
+----
+
+Link-url: https://www.webstandards.org/
+
+----
+
+Introduction:
+
+Avec George Olsen et Glenn Davis, Jeffrey Zeldman lance le WaSP, groupe de développeurs soucieux de faire progresser l’adoption des Standards Web dans le design et le développement des sites.
+
+*[WaSP]: Web Standards Project
+
+----
+
+Text: 
+
+----
+
+Date: 1998-01-01
+
+----
+
+Category: context
+
+----
+
+Themes: 

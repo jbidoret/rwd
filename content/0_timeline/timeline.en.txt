@@ -1,0 +1,13 @@
+Title: Timeline
+
+----
+
+Introduction:
+
+A partial and arbitrary timeline of events related to web design,  its evolution and the dialectics that have animated it, put in the context of their technological, techno-political, software and artistic environment. In addition, the selection tries to draw, in parallel to major international events, a look at the logics at work in the French space.
+
+Largely based on personal experience - and therefore, at the time, subject to many biases - it is largely inspired by the work of (link: https://www.webdesignmuseum.org/web-design-history/ text: Webdesign Museum), the book [Web Design. The Evolution of the Digital World 1990 - Today](https://thehistoryofweb.design/) by Rob Ford and Julius Wiedemann and the (link: https://julie-blanc.fr/projects/timeline-publishing/ text: Timeline des technologies de l'édition numérique) by Julie Blanc.
+
+----
+
+Wip: true

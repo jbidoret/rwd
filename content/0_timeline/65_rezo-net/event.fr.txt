@@ -1,0 +1,25 @@
+Title: Rezo.net
+
+----
+
+Link-url: http://rezo.net
+
+----
+
+Introduction: Créé en 1999 par Pierre Lazuly, Rezo.net est un site agrégatif français dont le contenu est issu de sources collectivement sélectionnées. Il est le successeur d’(link: http://www.uzine.net/ text: uZine),
+
+----
+
+Text: 
+
+----
+
+Date: 1999-05-01
+
+----
+
+Category: site
+
+----
+
+Themes: 

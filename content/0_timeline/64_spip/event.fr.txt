@@ -1,0 +1,25 @@
+Title: SPIP
+
+----
+
+Link-url: http://spip.net
+
+----
+
+Introduction: Créé originellement pour le site (link: http://uzine.net text: uzine.net), Spip est un gestionnaire de contenu libre développé en France (le code est « francophone »), encore utilisé par de nombreux sites, dont Le Monde diplomatique, Vacarme ou Reporterre.
+
+----
+
+Text: Lire « (link: https://www.spip.net/fr_article918.html text: l’histoire minuscule et anecdotique de SPIP) »
+
+----
+
+Date: 2001-07-01
+
+----
+
+Category: tech
+
+----
+
+Themes: 

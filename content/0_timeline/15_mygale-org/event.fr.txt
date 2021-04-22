@@ -1,0 +1,25 @@
+Title: Mygale.org
+
+----
+
+Link-url: http://mygale.org
+
+----
+
+Introduction: Mygale.org était un hébergeur Web gratuit fondé à l’Université Paris 8 par Frédéric Cirera. Le service fut après Altern l’un des pionniers de l'Internet francophone.
+
+----
+
+Text: Lire l’article de Jean-Noël Lafargue sur (link: http://hyperbate.fr/dernier/?p=4123 text: Le dernier des blogs) et celui d’(link: https://journals.openedition.org/terminal/244 text: Olivier Trédan) qui revient aux débuts de l’autopublication dans les années 1990, et relit les tensions entre velléités d’indépendance du cyberespace et la quête de modèle économique viable s’appuyant sur les contenus générés par les utilisateurs.
+
+----
+
+Date: 1996-11-15
+
+----
+
+Category: tech
+
+----
+
+Themes: 

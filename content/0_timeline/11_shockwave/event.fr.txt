@@ -1,0 +1,25 @@
+Title: Shockwave
+
+----
+
+Link-url: 
+
+----
+
+Introduction: Le plugin Shockwave, diffusé par Macromedia, permet de diffuser sur le web des productions multimédia produites grâce à Director, logiciel initialement dédié à la création de CD-ROMs.
+
+----
+
+Text: 
+
+----
+
+Date: 1995-05-01
+
+----
+
+Category: soft
+
+----
+
+Themes: 

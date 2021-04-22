@@ -1,0 +1,25 @@
+Title: Creating Killer Web Sites
+
+----
+
+Link-url: https://www.killersites.com/
+
+----
+
+Introduction: [David Siegel](https://en.wikipedia.org/wiki/David_Siegel_(entrepreneur)) publie *Creating Killer Web Sites: The Art of Third-Generation Site Design*, rapidement devenu un *best-seller* et réédité en 1997, qui cherchait à promouvoir une appropriation par les designers de la publication sur le web, y compris au détriment de l’utilisabilité ou des standards émergents du web.
+
+----
+
+Text: *Creating Killer Web Sites* est réputé être le premier véritable livre de design pour le web. Devenu le livre le plus vendu sur Internet en 1996, traduit en dix langues, il a amené de nombreux designers à investir le web comme un medium à haut potentiel graphique et expressif.
+
+----
+
+Date: 1997-01-01
+
+----
+
+Category: design
+
+----
+
+Themes: 

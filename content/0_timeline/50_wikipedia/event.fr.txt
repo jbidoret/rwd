@@ -1,0 +1,25 @@
+Title: Wikipédia
+
+----
+
+Link-url: https://wikipedia.org/
+
+----
+
+Introduction: L’encyclopédie en ligne, « universelle et multilingue », est créée par Jimmy Wales (et Larry Sanger).
+
+----
+
+Text: 
+
+----
+
+Date: 2001-01-01
+
+----
+
+Category: context
+
+----
+
+Themes: 

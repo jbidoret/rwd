@@ -1,0 +1,25 @@
+Title: Social bookmarking
+
+----
+
+Link-url: 
+
+----
+
+Introduction: Nés dès la fin des années 90 et très populaires dans les années 2000,  les services de *social bookmarking* ((link: https://fr.wikipedia.org/wiki/Digg text: digg), (link: https://del.icio.us text: del.icio.us), ou plus tard (link: https://www.reddit.com/ text: reddit)) permettent aux internautes de partager des liens tout en les qualifiant (*folksonomies*).
+
+----
+
+Text: 
+
+----
+
+Date: 2005-01-01
+
+----
+
+Category: context
+
+----
+
+Themes: 

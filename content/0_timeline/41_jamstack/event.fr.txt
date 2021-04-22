@@ -1,0 +1,25 @@
+Title: JAMstack
+
+----
+
+Link-url: https://jamstack.wtf/
+
+----
+
+Introduction: Suite à la montée en puissance des générateurs de sites statiques (Jekyll, Hugo), la compagnie Netlify propose la notion de JAMstack, une architecture technique basée sur *JavaScript, APIs, Markup* à déployer dans le *cloud*.
+
+----
+
+Text: 
+
+----
+
+Date: 2016-05-01
+
+----
+
+Category: tech
+
+----
+
+Themes: 

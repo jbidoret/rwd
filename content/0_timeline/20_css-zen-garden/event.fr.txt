@@ -1,0 +1,25 @@
+Title: CSS Zen Garden
+
+----
+
+Link-url: http://www.csszengarden.com/
+
+----
+
+Introduction: Créé par Dave Shea, le site se proposait de (dé)montrer ce qui pouvaitt être accompli visuellement grâce à CSS. Le CSS Zen garden fut une ressource fondamentale pour l’appropriation de CSS par les webdesigners.
+
+----
+
+Text: 
+
+----
+
+Date: 2003-01-01
+
+----
+
+Category: webdesign
+
+----
+
+Themes: 

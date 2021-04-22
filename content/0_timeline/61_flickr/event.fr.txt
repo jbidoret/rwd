@@ -1,0 +1,25 @@
+Title: Flickr
+
+----
+
+Link-url: https://www.flickr.com/
+
+----
+
+Introduction: Le service de partage de photos Flickr est lancé en 2004. Racheté par Yahoo! en 2005, il est un des pionniers de l’association d’images à des taxonomies.
+
+----
+
+Text: 
+
+----
+
+Date: 2004-05-01
+
+----
+
+Category: context
+
+----
+
+Themes: 

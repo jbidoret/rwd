@@ -1,0 +1,25 @@
+Title: Thoughts on Flash
+
+----
+
+Link-url: https://en.wikipedia.org/wiki/Thoughts_on_Flash
+
+----
+
+Introduction: Lettre ouverte publiée par Steve Jobs, expliquant les raisons pour lesquelles iOS ne supporterait pas Flash, et annonçant de facto son abandon quelques années plus tard.
+
+----
+
+Text: 
+
+----
+
+Date: 2010-04-29
+
+----
+
+Category: context
+
+----
+
+Themes: 

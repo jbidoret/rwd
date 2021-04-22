@@ -1,0 +1,25 @@
+Title: Praystation
+
+----
+
+Link-url: https://joshuadavis.com/ps0-praystation-v0
+
+----
+
+Introduction: Ce site, créé par l’artiste et designer Joshua Davis, fut un pionnier du partage open-source de fichiers Flash explorant les possibilités du design d’interaction et génératif. Il fut suivi et augmenté par le forum dreamless.org en 1999.
+
+----
+
+Text: 
+
+----
+
+Date: 1998-05-01
+
+----
+
+Category: site
+
+----
+
+Themes: 

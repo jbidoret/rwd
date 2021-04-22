@@ -1,0 +1,29 @@
+Title: PHP
+
+----
+
+Link-url: https://www.php.net/history.php
+
+----
+
+Introduction:
+
+Déveoppée en 1994, avant d’être publié l’année suivante, PHP est un langage de script côté serveur, le plus utilisé encore aujourd’hui pour la création dynamique de pages web.
+
+*[PHP]: À l’origine pour Personal Home Page
+
+----
+
+Text: 
+
+----
+
+Date: 1994-07-01
+
+----
+
+Category: tech
+
+----
+
+Themes: 

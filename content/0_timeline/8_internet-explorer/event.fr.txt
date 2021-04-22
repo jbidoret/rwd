@@ -1,0 +1,25 @@
+Title: Internet Explorer
+
+----
+
+Link-url: 
+
+----
+
+Introduction: Premier navigateur Web de Microsoft, fourni avec Windows 95, il inaugure la première “(link: https://en.wikipedia.org/wiki/Browser_wars text: guerre des navigateurs)” qu’il allait gagner contre Netscape Navigator.
+
+----
+
+Text: 
+
+----
+
+Date: 1995-08-16
+
+----
+
+Category: tech
+
+----
+
+Themes: 

@@ -1,0 +1,25 @@
+Title: Cool Site of the Day
+
+----
+
+Link-url: https://en.wikipedia.org/wiki/Cool_Site_of_the_Day
+
+----
+
+Introduction: *Cool Site of the Day* est le premier exemple d’un site de curation dédiée au web, à l’inspiration d’un grand nombre d’imitateurs jusqu’à aujourd’hui.
+
+----
+
+Text: 
+
+----
+
+Date: 1994-08-01
+
+----
+
+Category: webdesign
+
+----
+
+Themes: 

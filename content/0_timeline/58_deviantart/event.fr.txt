@@ -1,0 +1,25 @@
+Title: DeviantArt
+
+----
+
+Link-url: https://www.deviantart.com/
+
+----
+
+Introduction: Communauté de partage de productions artistiques, graphiques ou photographiques, DeviantArt s’est initialement construit sur le partages de *customisations* graphiques d’applications ((link: https://skins.webamp.org/ text: Winamp)).
+
+----
+
+Text: 
+
+----
+
+Date: 2000-08-01
+
+----
+
+Category: art
+
+----
+
+Themes: 

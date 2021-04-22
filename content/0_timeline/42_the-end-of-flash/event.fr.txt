@@ -1,0 +1,25 @@
+Title: The End of Flash
+
+----
+
+Link-url: https://www.adobe.com/fr/products/flashplayer/end-of-life.html
+
+----
+
+Introduction: Flash a façonné un visage du web, mais le déclin amorcé par la (link: timeline/thoughts-on-flash text: décision de Steve Jobs) de ne pas le prendre en charge pour l'iPhone a vu son échéance le 31 décembre 2020, anéantissant un large pan de l’histoire du média.
+
+----
+
+Text: 
+
+----
+
+Date: 2020-12-01
+
+----
+
+Category: soft
+
+----
+
+Themes: 

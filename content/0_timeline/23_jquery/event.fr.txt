@@ -1,0 +1,25 @@
+Title: jQuery
+
+----
+
+Link-url: https://jquery.com/
+
+----
+
+Introduction: jQuery est une bibliothèque JavaScript créée par John Resig dans l’objectif de faciliter et homogénéiser l'écriture de javascript dans les différents navigateurs web.
+
+----
+
+Text: 
+
+----
+
+Date: 2006-01-01
+
+----
+
+Category: tech
+
+----
+
+Themes: 

@@ -1,0 +1,25 @@
+Title: Internet Explorer 6
+
+----
+
+Link-url: 
+
+----
+
+Introduction: 6e version du navigateur de Microsoft, elle atteignit 90% de parts de marché (2004) dans la concurrence entre les navigateurs, mais fut très critiquée pour ses failles de sécurité comme pour son support très approximatif des standards du web.
+
+----
+
+Text: 
+
+----
+
+Date: 2001-08-01
+
+----
+
+Category: tech
+
+----
+
+Themes: 

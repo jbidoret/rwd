@@ -1,0 +1,29 @@
+Title: The Thing
+
+----
+
+Link-url: http://thing.net/
+
+----
+
+Introduction:
+
+En 1991, The Thing était un BBS, l’un des premiers types de forum en ligne, axé sur l'art contemporain et la théorie culturelle. Publié sur le Web en 1995, The Thing a encouragé une communauté d’artistes à s’engager dans des expériences d'organisation politique, d'écriture, de performance, de vente et de distribution d'œuvres d'art en ligne.
+
+*[BBS]: Bulletin Board System
+
+----
+
+Text: 
+
+----
+
+Date: 1995-01-01
+
+----
+
+Category: art
+
+----
+
+Themes: 

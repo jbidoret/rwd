@@ -1,0 +1,25 @@
+Title: desordre.net
+
+----
+
+Link-url: http://www.desordre.net/
+
+----
+
+Introduction: Site internet construit et alimenté par Philippe De Jonckheere, le Désordre met en liens textes, images, sons dans une approche autobiographique et autofictionelle bricolée en HTML et en Javascript.
+
+----
+
+Text: 
+
+----
+
+Date: 2000-02-01
+
+----
+
+Category: art
+
+----
+
+Themes: 

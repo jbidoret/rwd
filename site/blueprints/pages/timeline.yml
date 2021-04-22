@@ -1,0 +1,30 @@
+title: Timeline
+
+options:
+  #changeSlug: false
+  #changeTitle: false
+  duplicate: false
+  delete: false
+  status: false
+
+num: date desc
+
+sections:
+  data:
+    type: fields
+    fields:
+      introduction:
+        label: Introduction
+        type: markdown
+      wip:
+        type: toggle
+        label: En construction
+  events:
+    headline: Events
+    type: pages
+    templates: 
+      - event
+    status: all
+    sortBy: date desc
+    info: "{{page.category}} – {{page.date.toDate('Y')}}"
+  

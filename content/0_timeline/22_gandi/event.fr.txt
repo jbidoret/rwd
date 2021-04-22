@@ -1,0 +1,25 @@
+Title: Gandi
+
+----
+
+Link-url: https://www.gandi.net/
+
+----
+
+Introduction: Gandi est un bureau d'enregistrement de noms de domaine et un hébergeur français fondé dans l’objectif « de casser le marché de la vente des noms de domaine ».
+
+----
+
+Text: 
+
+----
+
+Date: 2000-03-01
+
+----
+
+Category: context
+
+----
+
+Themes: 

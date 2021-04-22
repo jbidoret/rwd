@@ -1,0 +1,25 @@
+Title: Macromedia Flash
+
+----
+
+Link-url: 
+
+----
+
+Introduction: Future Splash animator est acquis par Macromedia, qui y voit un concurrent de Shockwave. Commercialisé sous le nom de Flash 1.0, une extension de navigateur sera rapidement développée pour être accessible dans Netscape, puis dans Internet Explorer.
+
+----
+
+Text: 
+
+----
+
+Date: 1996-11-01
+
+----
+
+Category: soft
+
+----
+
+Themes: 
