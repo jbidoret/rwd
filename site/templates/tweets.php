@@ -9,7 +9,7 @@
     <?php endif ?>
 
     <?php 
-    $children = $page->children()->listed()->sortBy('modified', 'desc');
+    $children = $page->children()->listed()->flip();
     $page_type = $page->intendedTemplate();
     if($children->count()) :?>
       <section class="<?= $page_type ?> list">
@@ -41,11 +41,5 @@
   </main>
   
   <?php snippet('nav') ?>  
-
-  <footer id="credits" class="footer">
-    <p class="small">
-    Ce site est publié par <a href="https://accentgrave.net/">Julien Bidoret</a>, enseignant à l’<a href="https://esad-pyrenees.fr">École supérieure d’art et de design des Pyrénées</a> et développé grâce à <a href="https://getkirby.com">Kirby</a>.
-    </p>
-  </footer>
 
 <?php snippet('footer') ?>

@@ -17,6 +17,6 @@ sections:
   quotes:
     headline: Tweets
     type: pages
-    status: all
-    sortBy: date desc
+    # status: all
+    # sortBy: date desc
   
