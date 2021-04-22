@@ -1,0 +1,47 @@
+Title: Web History
+
+----
+
+Link-url: https://thehistoryoftheweb.com
+
+----
+
+Introduction: Jay Hoffmann publie son Histoire du Web sous la forme d’une chronologie en ligne sur thehistoryoftheweb.com,  elle s’adosse à une (link: https://thehistoryoftheweb.com/archives/ text: archive d’articles) ainsi qu’à (link: https://css-tricks.com/category/history/ text: une série sur CSS Tricks).
+
+----
+
+Text: 
+
+----
+
+Author: Jay Hoffmann
+
+----
+
+Tags: history
+
+----
+
+Cover:
+
+- capture-decran-2021-03-24-a-11.54.01.png
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2021-03-24
+
+----
+
+Themes: 
+
+----
+
+Lang: en

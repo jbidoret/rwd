@@ -1,0 +1,9 @@
+Title: Ennuyeux
+
+----
+
+Introduction: Ennuyeux le web ? Oui. Non. Et pourquoi pas ? Derrière ce terme, régulièrement utilisé pour qualifier un web fade, soumis à la loi des *templates* et des tendances sans saveur, peut  aussi se signaler un webdesign volontairement simple, efficace ou immédiat.
+
+----
+
+Wip: false

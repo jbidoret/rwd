@@ -1,0 +1,46 @@
+Title: Vers des sites personnels
+
+----
+
+Link-url: https://matthiasott.com/articles/into-the-personal-website-verse
+
+----
+
+Introduction: 
+
+----
+
+Text: 
+
+----
+
+Author: Matthias Ott
+
+----
+
+Tags: 
+
+----
+
+Cover:
+
+- capture-decran-2021-03-02-a-20.53.13.png
+
+----
+
+Wip: false
+
+----
+
+Date: 2021-03-02
+
+----
+
+Themes:
+
+- themes/independant
+- themes/handcoded
+
+----
+
+Lang: en

@@ -7,10 +7,11 @@
     <?php endforeach ?>
   </ul>
   <ul class="all">    
-    <li><a href="<?=page('notes')->url()?>"><?= t("Notes") ?></a></li>
-    <li><a href="<?=page('links')->url()?>"><?= t("Links") ?></a></li>
-    <li><a href="<?=page('interviews')->url()?>"><?= t("Interviews") ?></a></li>
-    <li><a href="<?=page('tweets')->url()?>"><?= t("Tweets") ?></a></li>
-    <li><a href="<?=page('about')->url()?>"><?= t("About") ?></a></li>
+    <?php $p = page('notes') ?><li><a href="<?=$p->url()?>"><?=$p->title()?></a></li>
+    <?php $p = page('links') ?><li><a href="<?=$p->url()?>"><?=$p->title()?></a></li>
+    <?php $p = page('interviews') ?><li><a href="<?=$p->url()?>"><?=$p->title()?></a></li>
+    <?php $p = page('tweets') ?><li><a href="<?=$p->url()?>">Tweets</a></li>
+    <?php $p = page('timeline') ?><li><a href="<?=$p->url()?>"><?=$p->title()?></a></li>
+    <?php $p = page('about') ?><li><a href="<?=$p->url()?>"><?=$p->title()?></a></li>
   </ul>
 </div>

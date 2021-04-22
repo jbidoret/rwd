@@ -1,0 +1,9 @@
+Title: Résilient
+
+----
+
+Introduction: La résilience se définit comme une capacité à résister aux chocs, aux perturbations ou aux pannes. Appliqué au webdesign, le terme absorbe des qualités intrinsèques du web (acceptation de l’erreur, robustesse des protocoles), comme des décisions de design (simplicité des structures graphiques, logiques d’amélioration progressive ou de dégradation gracieuse).
+
+----
+
+Wip: false

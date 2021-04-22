@@ -1,2 +1,9 @@
 Title: Open
 
+----
+
+Introduction: As early as 1993, the web was placed in the public domain, and quickly put under a free license, signalling the project's desire for openness and universalism. If it has allowed "walled gardens" to bloom (the platforms we know today), its free foundations have been fundamental in its emergence and are to be reinvested so that a desirable future can be imagined.
+
+----
+
+Wip: false

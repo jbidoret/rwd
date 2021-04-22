@@ -27,30 +27,30 @@ return [
 	'smartypants' => true,
 
 
-	// Komments
-	// 'mauricerenck.komments.debug' => true,
-	// 'mauricerenck.komments.enable-webmention-support' => false,
-	// 'mauricerenck.komments.send-mention-on-update' => false,
-
 	// Commentions
 	'sgkirby.commentions.templatesWithComments' => ['note', 'link', 'interview', 'theme'],
-	'sgkirby.commentions.templatesWithWebmentions' => [],
+	// 'sgkirby.commentions.templatesWithWebmentions' => ['note', 'interview',],
 	'sgkirby.commentions.t.fr.snippet.list.dateFormat.date'     => 'd/m/y H:i',
 	'sgkirby.commentions.t.fr.snippet.list.dateFormat.strftime' => '%d/%m/%Y %H:%M',
 	'sgkirby.commentions.t.fr.snippet.form.email.optional'      => 'E-mail <span>optionel ; n’est pas affiché</span>',
 	'sgkirby.commentions.t.fr.snippet.form.website.optional'    => 'Site web <span>optionel ; public si saisi</span>',
-	'sgkirby.commentions.t.fr.snippet.form.ctacomment'          => 'Contribuez !',
+	'sgkirby.commentions.t.fr.snippet.form.responseurl' 				=> 'URL de la réponse <span>assurez-vous qu’elle contient un lien vers cette page</span>',
+	'sgkirby.commentions.t.fr.snippet.form.ctacomment'          => 'Contribuer',
 	'sgkirby.commentions.t.fr.snippet.form.comment'             => 'Messsage',
 	'sgkirby.commentions.t.fr.snippet.list.comments'						=> 'Contributions',
-	'sgkirby.commentions.t.fr.feedback.comment.queued'          => 'Merci ! Soyez patient·e, votre commentaire doit être validé avant publication : )',
-	'sgkirby.commentions.t.fr.feedback.comment.thankyou'        => 'Merci de votre commentaire!',
-	'sgkirby.commentions.t.fr.feedback.webmention.queued'       => 'Merci, votre webmention est en attente de traitement. Soyez patient·e, votre commentaire doit être validé avant publication : )',
+	'sgkirby.commentions.t.fr.feedback.comment.queued'          => 'Merci ! Soyez patient·e, votre contribution doit être validé avant publication : )',
+	'sgkirby.commentions.t.fr.feedback.comment.thankyou'        => 'Merci de votre contribution !',
+	'sgkirby.commentions.t.fr.feedback.webmention.queued'       => 'Merci, votre webmention est en attente de traitement. Soyez patient·e, elle doit être validé avant publication : )',
 	'sgkirby.commentions.commentfields' => [
 		'name' => true,  // include name field and mark as required
 		'email',         // include email as optional field
 		'website',       // include optional website field
 	],
 	'sgkirby.commentions.hideforms' => true,
+	'sgkirby.commentions.expand' => true,
+	'sgkirby.commentions.secret' => 'toutsutoutblanccorpsnublancunmetrejambescolleescommecousues',
+
+
 
 	// Markdown plugin
 	'community.markdown-field.buttons'    => [['h1', 'h2', 'h3', 'h4', 'h5', 'h6'], 'bold', 'italic', 'divider', 'link','pagelink', 'email', 'file', 'divider', 'ul', 'ol', 'blockquote'],
@@ -85,6 +85,19 @@ return [
         '800vw' => [ 'width' => 800, 'height' => 800, 'crop' => 'center' ],
       ],
     ]
+	],
+
+	'hooks' => [
+		'page.create:after' => function ($page) {
+			if ($page->intendedTemplate() == "event"){
+				$page->changeStatus('listed');
+			}
+		},
+		'page.update:after' => function ($newPage, $oldPage) {
+			if ($newPage->intendedTemplate() == "event"){
+				// $newPage->changeStatus('listed');
+			}
+		}
 	],
 	
 	// RSS

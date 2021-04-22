@@ -4,9 +4,10 @@
     <h1><?= $page->title()->html() ?>&#8239;?</h1>
 
     <?php if($page->introduction()->isNotEmpty()): ?>
-      <div class="theme-introduction">
+      <section class="hypothese list">
+        <h2><?= t( "Hypothesis" ) ?></h2>
         <?= $page->introduction()->kirbytext() ?>
-      </div>
+      </section>
     <?php endif ?>
 
     <?php $types = [ "notes" => $notes, "links" => $links, "interviews" => $interviews, "quotes" => $quotes ]; ?>

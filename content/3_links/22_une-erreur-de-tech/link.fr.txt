@@ -1,0 +1,46 @@
+Title: Une erreur de tech
+
+----
+
+Link-url: http://www.gauthierroussilhe.com/fr/posts/une-erreur-de-tech
+
+----
+
+Introduction: Gauthier Roussilhe formule une critique de la notion de “low-tech”, dont il signale l’intérêt mais aussi la fragilité, et avance une tentative de définition : « une démarche politique qui permet de recomposer son rapport à un monde contraint par la “technique” ».
+
+----
+
+Text: 
+
+----
+
+Author: Gauthier Roussilhe
+
+----
+
+Tags: low-tech, ecology
+
+----
+
+Cover:
+
+- capture-decran-2021-03-02-a-20.06.48.png
+
+----
+
+Wip: false
+
+----
+
+Date: 2021-03-02
+
+----
+
+Themes:
+
+- themes/sober
+- themes/future-proof
+
+----
+
+Lang: fr

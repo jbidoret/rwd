@@ -1,0 +1,35 @@
+Title: Internet et logiciel libre
+
+----
+
+Introduction: À la fin des années 70 émergent parallèlement ces deux briques de base du web. Mêmes acteurs, mêmes lieux et une interdépendance absolue –chacun ayant besoin de l’autre pour exister.
+
+----
+
+Text: — brouillon
+
+----
+
+Author: 
+
+----
+
+Author-url: 
+
+----
+
+Wip: true
+
+----
+
+Date: 2021-03-03
+
+----
+
+Themes:
+
+- themes/open
+
+----
+
+Tags: 

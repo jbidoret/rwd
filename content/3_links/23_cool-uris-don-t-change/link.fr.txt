@@ -1,0 +1,47 @@
+Title: Cool URIs don’t change
+
+----
+
+Link-url: https://www.w3.org/Provider/Style/URI
+
+----
+
+Introduction: En parallèle du HTML et de HTTP, la troisième brique fondamentale du Web : l’adressage unique des documents – et le souhait affirmé d’une intagibilité de cet adressage.
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover:
+
+- capture-decran-2021-03-24-a-11.54.34.png
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2021-03-02
+
+----
+
+Themes: 
+
+----
+
+Lang: 

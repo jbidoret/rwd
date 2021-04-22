@@ -1,0 +1,9 @@
+Title: Fluide
+
+----
+
+Introduction: La notion de *Responsive web design*, utilisée par Ethan Marcotte en 2010 pour décrire l’adaptativité des pages web aux contraintes des dispositifs d’affichage, s’est étendue pour embrasser l’ensemble des enjeux que porte la fluidité du web.
+
+----
+
+Wip: false

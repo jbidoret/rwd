@@ -18,7 +18,8 @@
   --background-color: #f7f7f7;
   --text-color: #1a1a1a;
   --mark-background: LightGoldenRodYellow;
-  --accentcolor: Chartreuse;
+  // --accentcolor: Chartreuse;
+  --accentcolor: deepPink;
 }
 
 
@@ -37,7 +38,7 @@
 
 @media (max-width:850px){
   :root{
-    --mediumsize: var(--bigsize);
+    // --mediumsize: var(--bigsize);
     --margin: calc( var(--bigsize) + var(--mediumsize) );
   }
 }
@@ -50,3 +51,10 @@
   }
 }
 
+
+@media (max-width:640px) {
+  :root {
+    --margintop: 7.25vw;
+    --marginright: 9.5vw;
+  }
+}

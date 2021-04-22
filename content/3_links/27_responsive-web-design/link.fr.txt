@@ -1,0 +1,49 @@
+Title: Responsive web design
+
+----
+
+Link-url: https://alistapart.com/article/responsive-web-design/
+
+----
+
+Introduction: Article fondateur d’Ethan Marcotte dans les colonnes d’*A List Apart*, qui réunit sous ce terme une mise en page flexible, compatible avec tous les affichages, utilisant des grilles fluides, des images flexibles et les requêtes de média.
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover:
+
+- capture-decran-2021-04-07-a-19.52.04.png
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2021-04-07
+
+----
+
+Themes:
+
+- themes/responsive
+
+----
+
+Lang: 

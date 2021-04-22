@@ -1,0 +1,47 @@
+Title: Les débuts de l’accessibilité du Web
+
+----
+
+Link-url: https://thehistoryoftheweb.com/accessibility-tools/
+
+----
+
+Introduction: Un article de Jay Hoffmann qui retrace l’émergence de l’inscription fondamentale de l’accessibilité dans les logiques du web, signalant les outils qui ont permis aux designers et aux développeurs de découvrir ces problématiques.
+
+----
+
+Text: 
+
+----
+
+Author: Jay Hoffmann
+
+----
+
+Tags: 
+
+----
+
+Cover: 
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2021-04-06
+
+----
+
+Themes:
+
+- themes/accessible
+
+----
+
+Lang: en

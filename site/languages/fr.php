@@ -13,6 +13,7 @@ return [
     'Quotes' => 'Citations',
     'Drafts' => 'Brouillons',
     'Tweets' => 'Tweets',
+    'Timeline' => 'Timeline',
     'All notes' => 'Toutes les notes',
     'All links' => 'Tous les liens',
     'All interviews' => 'Tous les entretiens',
@@ -31,6 +32,7 @@ return [
     'Add a comment' => 'Ajoutez un commentaire',
     'Reactions' => 'Réactions',
     'Under construction' => 'En construction',
-    'rwd.feed.title' => 'Notes, liens et ressources sur le Radical Web design'
+    'rwd.feed.title' => 'Notes, liens et ressources sur le Radical Web design',
+    'Hypothesis' => 'Hypothèse'
   ]
 ];

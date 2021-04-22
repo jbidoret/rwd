@@ -1,0 +1,9 @@
+Title: Subversif
+
+----
+
+Introduction: Le caractère acentrique et irrégulable du web, augmenté par la simplicité et l’immédiateté de la mise en disponibilité d’une information ainsi que l’étendue de l’échelle à laquelle cette information peut être rendue disponible, font du web un espace dans lequel peuvent s’inventer de nouvelles formes et de nouvelles idées, à même de contester et de réinventer l’ordre et la marche du monde.
+
+----
+
+Wip: false

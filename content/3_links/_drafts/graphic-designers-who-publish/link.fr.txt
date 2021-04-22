@@ -1,0 +1,45 @@
+Title: Graphic designers who publish
+
+----
+
+Link-url: https://onpublishing.page/
+
+----
+
+Introduction: 
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover: 
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2021-03-17
+
+----
+
+Themes: 
+
+----
+
+Lang: 

@@ -16,7 +16,7 @@
       echo css('assets/production/all.min.css');
     endif
   ?>
-
+  <?php commentions('endpoints'); ?>
   <link rel="alternate" type="application/rss+xml" title="<?= t('rwd.feed.title')?>" href="<?= site()->url() ?>/feed"/>
   
 </head>

@@ -1,0 +1,55 @@
+Title: Entretiens à mener
+
+----
+
+Introduction: Un bon point de départ semble d’interroger des artistes, designers, auteur·ices croisé·es ces dernières années et dont le travail, les points de vue ou les attitudes pourraient aider à confronter certaines hypothèses, perplexités et enthousiasmes liées aux pratiques du webdesign et de la publication en ligne.
+
+----
+
+Text:
+
+Sans exhaustivité aucune et dans le désordre le plus total : 
+- Raphaël Bastide
+- Gregory Cadars ✔
+- Philippe de Jonckheere
+- Antoine Fauchier
+- Thomas Parisot
+- Laurel Schwultz *
+- Anthony Masure
+- Olia Lialina *
+- Abrüpt.ch *
+- Florens Verschelde
+- Vasilis van Gemert *
+- Sylvain Julé
+- Julien Taquet et 
+- Julie Blanc
+- Timothée Goguely
+- Valentin Bigel
+- Ethical design no thanks *
+Aussi, quelques pionniers représentant·es de l’internet libre francophone ? Glazman, Fil ?
+
+\* on ne s’est pas encore vraiment croisés, mais leur travail me semble majeur pour ce qui nous préoccupe…
+
+----
+
+Author: Julien Bidoret
+
+----
+
+Author-url: 
+
+----
+
+Wip: true
+
+----
+
+Date: 2021-02-15
+
+----
+
+Themes: 
+
+----
+
+Tags: 

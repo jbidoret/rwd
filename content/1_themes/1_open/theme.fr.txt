@@ -1,1 +1,9 @@
 Title: Ouvert
+
+----
+
+Introduction: Dès 1993, le web a été placé dans le domaine public, et rapidement mis sous licence libre, signalant la volonté d’ouverture et d’universalisme du projet. S’il a permis à des “jardins clos” d’éclore (les plateformes que l’on connait aujourd’hui), ses fondations libres ont été fondamentales dans son émergence et sont à réinvestir pour qu’un avenir désirable puisse lui être donné.
+
+----
+
+Wip: false

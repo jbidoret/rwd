@@ -1,1 +1,9 @@
 Title: Accessible
+
+----
+
+Introduction: L’*accessibilité* est l'un des principes fondamentaux du web. Conceptualisés dès 1995 par Cynthia Waddell, les grands principes de l’accessibilité du web ont associé au projet universaliste des règles pratiques permettant de maintenir et d’augmenter cette accessibilité à toutes et à tous, indépendamment de l’équipement, des capacités ou de la connectivité.
+
+----
+
+Wip: false

@@ -15,3 +15,18 @@ body{
   //   top: 3vw
   // }
 }
+
+.splash{
+  position: absolute;
+  z-index: -1;
+  filter: grayscale(1);
+  mix-blend-mode: overlay;
+  display: none;
+}
+#rwdcanvas{
+  position: fixed;
+  z-index: 100;
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  top:0;left:0;
+}

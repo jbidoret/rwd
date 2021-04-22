@@ -10,7 +10,7 @@ body{
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  line-height: 1.4;  
+  line-height: 1.45;  
   background-color: var(--background-color);
   color:var(--text-color);
 }
@@ -65,6 +65,7 @@ hr {
   font-size: var(--tinysize);
   cursor: pointer;
   transition: border-color 250ms;
+  
   &:hover {
     border-color: #000;
   }
@@ -73,7 +74,7 @@ hr {
 
 .bigbutton {
   border: 1px solid #999;
-  background: white;
+  background: transparent;
   display: inline-block;
   font-size: var(--tinysize);
   cursor: pointer;
@@ -109,7 +110,7 @@ hr {
 }  
 
 
-$link-color: rgb(81, 194, 15) !default;
+$link-color: #b30663;// rgb(81, 194, 15) !default;
 $link-color-active: #000000 !default;
 $link-underline-color: $link-color !default;
 $link-underline-color-active: $link-color-active !default;

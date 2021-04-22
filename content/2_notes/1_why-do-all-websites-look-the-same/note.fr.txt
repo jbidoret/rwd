@@ -8,7 +8,9 @@ Introduction: Réflexion suite à une discussion sur Twitter où devient publiqu
 
 Text:
 
-Un [tweet](https://twitter.com/juliengargot/status/1262260026976219137) de [@juliengargot](https://twitter.com/juliengargot/) à propos d’un article paru sur FastCompany : “(link: https://www.fastcompany.com/90501691/science-confirms-it-web-sites-really-do-all-look-the-same text: Science confirms it: Websites really do all look the same)”.
+Un a-priori, qu’on essaiera de développer : dire “tous les sites web se ressemblent” est équivalent à dire “tous les livres se ressemblent”.
+
+Je croise un [tweet](https://twitter.com/juliengargot/status/1262260026976219137) de [@juliengargot](https://twitter.com/juliengargot/) à propos d’un article paru sur FastCompany : “(link: https://www.fastcompany.com/90501691/science-confirms-it-web-sites-really-do-all-look-the-same text: Science confirms it: Websites really do all look the same)”. 
 
 L’article mentionne un vieux post de Boris Müller, webdesigner et enseignant à Postdam. *[Why Do All Websites Look the Same?](https://modus.medium.com/on-the-visual-weariness-of-the-web-8af1c969ce73)* (publié sur (hashtag: Medium) :) démarrait sur le constat désabusé d’un web désespérement *bland*, anesthésié par les templates, les CMS et le manque d’imagination des designers.
 
@@ -26,8 +28,9 @@ Müller tentait d’y apporter une réaction en proposant à ses étudiant·es d
 
 L’article de 2018, après l’indispensable citation de David Carson, se conclue sur un semblant d’ouverture rendu nécessaire par les nombreux débats qu’il a produit : [Balancing Creativity and Usability](https://medium.com/@borism/balancing-creativity-and-usability-9bb2cd0fe929), tout en faisant émerger de (link: https://onezero.medium.com/its-not-just-you-websites-really-do-all-look-the-same-now-d8050b8ea743 text: nouvelles réactions), attirées par la capacité *clickbait*  du titre original.
 
-Ce site reviendra sur ces questions (la capacité exploratoire du web design et la variété des possibles qu’il fait éclore chaque jour), mais des réactions à l’hypothèse pessimiste énoncée ci-dessus ont été formulées. Parmi elles, 
-(link: https://blog.envylabs.com/web-design-isnt-becoming-more-boring-and-isn-t-losing-its-soul-55710cc6cbbc text: Web design isn’t becoming more boring, and isn’t losing its soul).
+Ce site reviendra sur ces questions (la capacité exploratoire du web design et la variété des possibles qu’il fait éclore chaque jour), mais des réactions à l’hypothèse pessimiste énoncée ci-dessus ont été formulées. Parmi elles, (link: https://blog.envylabs.com/web-design-isnt-becoming-more-boring-and-isn-t-losing-its-soul-55710cc6cbbc text: Web design isn’t becoming more boring, and isn’t losing its soul) qui tente de déterminer quels sont les sites qui seraient ennuyeux (les “sites-brochures”) et de signaler combien de très nombreux autres ne tombent pas dans ce travers.
+
+— à suivre
 
 ----
 

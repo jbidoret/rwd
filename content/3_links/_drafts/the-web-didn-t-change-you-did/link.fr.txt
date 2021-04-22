@@ -1,0 +1,25 @@
+Title: The web didn’t change; you did
+
+----
+
+Introduction: 
+
+----
+
+Text: 
+
+----
+
+Tags: 
+
+----
+
+Cover: 
+
+----
+
+Wip: false
+
+----
+
+Is-important: false

@@ -1,0 +1,51 @@
+Title: When the Web Was Weird
+
+----
+
+Link-url: https://www.popularmechanics.com/culture/web/a29643491/weird-web-design-evolution/
+
+----
+
+Introduction: À partir de l’exemple de (link: http://www.superbad.com/ text: Superbad.com) créé par Ben Benjamin en 1997, Caroline Delbert analyse la manière dont le web mainstream a pu s’approprier les bizarreries du web indépendant.
+
+----
+
+Text: 
+
+----
+
+Author: Caroline Delbert
+
+----
+
+Tags: 
+
+----
+
+Cover:
+
+- capture-decran-2021-03-24-a-11.52.44.png
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2021-03-24
+
+----
+
+Themes:
+
+- themes/weird
+- themes/independant
+- themes/subversive
+
+----
+
+Lang: en

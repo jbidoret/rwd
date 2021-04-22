@@ -35,9 +35,13 @@ columns:
           cover:
             type: files
             multiple: false
+            help: 800 x 450 / 1200 x 675
           wip:
             type: toggle
             label: En construction
+          is_important:
+            type: toggle
+            label: Important ?
           date:
             label: Date
             translate: false

@@ -18,10 +18,22 @@ nav {
       color: var(--text-color); 
       height: 1.1em;
       @include underlink(1px, var(--text-color), .05em, .075em);
+      position: relative;
+      display: inline-block;
       &:hover{
-        color:var(--accentcolor);
-        @include underline(var(--accentcolor), .05em, .075em);
+        color: var(--accentcolor);
+        @include underline(black, .05em, .075em);
+        display: inline-block;
+        // transform: translateY(-.1em);
+        // padding-bottom: .1em;
+        text-shadow: none;
+        // background: linear-gradient(45deg, deepPink, Chartreuse);
+        
       }
+    }
+    li:hover {
+      background: linear-gradient(90deg, rgba(119,6,67,1) 0%, rgba(255,20,147,1) 17%, rgba(105,212,0,1) 100%); 
+      background-clip: text;  -webkit-background-clip: text;  -moz-background-clip: text;  -moz-text-fill-color: transparent;  -webkit-text-fill-color: transparent;
     }
     .active a{
       // background: url("../images/wavy.svg") repeat-x 0 .775em;
@@ -37,11 +49,15 @@ nav {
       content: revert;
     }
 
+    @media (max-width:640px) {
+      line-height: 1.45em;
+    }
 
   }
 
   li { display: inline;}
 
+  
 
 
 }
