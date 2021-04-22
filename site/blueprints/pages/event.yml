@@ -1,0 +1,49 @@
+title: Event
+
+options:
+  num: '{{ page.date.toDate("Y-m-d") }}'
+
+columns:
+  - width: 2/3   
+    sections:
+      data:
+        type: fields   
+        fields:
+          link_url:
+            label: URL
+            type: url
+            translate: false
+          introduction:
+            label: Introduction
+            type: markdown
+          text:
+            label: Text
+            type: markdown
+  - width: 1/3
+    sections:
+      fields:
+        type: fields
+        fields:
+          date:
+            label: Date
+            display: MM-YYYY
+            # required: true
+            translate: false
+          category:
+            label: Category
+            type: select
+            options:
+              - design
+              - site
+              - tech
+              - context
+              - art
+              - soft
+          themes:
+            type: pages
+            template: theme
+            query: site.find("themes")
+            translate: false
+      files: 
+        type: files
+        headline: Fichiers
