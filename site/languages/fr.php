@@ -32,7 +32,7 @@ return [
     'Add a comment' => 'Ajoutez un commentaire',
     'Reactions' => 'Réactions',
     'Under construction' => 'En construction',
-    'rwd.feed.title' => 'Notes, liens et ressources sur le Radical Web design',
+    'rwd.feed.title' => 'Radical web design – notes, liens et ressources',
     'Hypothesis' => 'Hypothèse'
   ]
 ];

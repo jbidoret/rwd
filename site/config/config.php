@@ -109,18 +109,18 @@ return [
 			'action'  => function ($language) {
 					$options = [
 							'en' => [
-									'title'       => 'Latest articles',
+									'title'       => 'Radical web design – Latest publications',
 									'feedurl' 		=> site()->url() . '/en/feed/',
-									'description' => 'Latest radical publications',
+									'description' => 'Notes, links, resources',
 									'link'        => '/en/feed',
 									'datefield'   => 'date',
 									'textfield'   => 'introduction',
 									'snippet'     => 'feed/rss'
 							],
 							'fr' => [
-									'title'       => 'Derniers articles',
+									'title'       => 'Radical web design – Dernières publications',
 									'feedurl' 		=> site()->url() . '/fr/feed/',
-									'description' => 'Dernieres publications radicales',
+									'description' => 'Notes, liens, ressources',
 									'link'        => '/fr/feed',
 									'datefield'   => 'date',
 									'textfield'   => 'introduction',

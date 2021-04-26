@@ -31,7 +31,7 @@ return [
     'Add a comment' => 'Add a comment',
     'Reactions' => 'Reactions',
     'Under construction' => 'Under construction',
-    'rwd.feed.title' => 'Notes, links and resources on Radical Web design',
+    'rwd.feed.title' => 'Radical web design – notes, links and resources',
     'Hypothesis' => 'Hypothesis'
   ]
 ];
