@@ -1,0 +1,50 @@
+Title: Magic box: craft and the computer
+
+----
+
+Link-url: http://www.eyemagazine.com/feature/article/magic-box-craft-and-the-computer
+
+----
+
+Introduction: Paru dans le numéro 70 de la revue Eye, cet essai de David Crow parcourt les questions liées à la notion d’artisanat dans le design graphique et dans ses outils numériques.
+
+----
+
+Text: 
+
+----
+
+Author: David Crow
+
+----
+
+Tags: 
+
+----
+
+Cover:
+
+- craft.png
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2021-04-27
+
+----
+
+Themes:
+
+- themes/tinkered
+- themes/handcoded
+
+----
+
+Lang: en
