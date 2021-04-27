@@ -55,8 +55,6 @@
             letter_y2 = block[1] + block[3] - m,
             letter_w = block[2],
             letter_h = block[3];
-
-        // console.log(letter_x, letter_x2);
           
         context.beginPath();
         context.lineWidth = 2;
@@ -96,7 +94,6 @@
             break;
         
           default:
-            // Draw r
             const r1 = [letter_x,  letter_h];
             const r2 = [r(letter_x, letter_x + letter_w / 3), letter_y];
             const r3 = [r(letter_x + letter_w, (letter_x + letter_w) * 1.2), r(letter_h/4, letter_h/4*3)];

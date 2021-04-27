@@ -3,6 +3,7 @@
     display: block;
     margin: 1em 0 4em;
     font-size: var(--tinysize);
+    a {@extend .underlink;}
   }
 }
 .timeline-year {
@@ -69,6 +70,7 @@
   }  
   .details {
     font-size: var(--tinysize);
+    max-width: 50ch;
   }
   time {
     font-size: var(--tinysize);
