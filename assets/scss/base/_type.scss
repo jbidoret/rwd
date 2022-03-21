@@ -148,5 +148,6 @@ $shadow-size: 2px;
 }
 
 .underlinks a, .underlink {
-  @include underlink(1px, $link-color);
+  // @include underlink(1px, $link-color);
+  text-decoration: underline;
 }
