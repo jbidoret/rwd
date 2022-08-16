@@ -9,7 +9,7 @@
     <?php endif ?>
     
     <?php 
-    $grouped_events = $page->children()->listed()->sortBy('date', 'desc')->group(function($p) {
+    $grouped_events = $page->children()->listed()->filterBy('date', '!=', '')->sortBy('date', 'desc')->group(function($p) {
         return $p->date()->toDate('Y');
       }
     );
