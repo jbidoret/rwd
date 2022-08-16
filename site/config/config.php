@@ -29,6 +29,8 @@ return [
 
 	// Commentions
 	'sgkirby.commentions.templatesWithComments' => ['note', 'link', 'interview', 'theme'],
+	'sgkirby.commentions.templatesWithWebmentions' => ['note'],
+
 	// 'sgkirby.commentions.templatesWithWebmentions' => ['note', 'interview',],
 	'sgkirby.commentions.t.fr.snippet.list.dateFormat.date'     => 'd/m/y H:i',
 	'sgkirby.commentions.t.fr.snippet.list.dateFormat.strftime' => '%d/%m/%Y %H:%M',
