@@ -1,0 +1,25 @@
+Title: MySpace
+
+----
+
+Link-url: https://myspace.com/
+
+----
+
+Introduction: Fondé en 2003, le réseau social MySpace fut un acteur de premier plan dans l’essor du partage musical en ligne, et fut également le lieu d’une grande liberté créative laissée aux utilisateurs dans le design de leurs pages.
+
+----
+
+Text: 
+
+----
+
+Date: 2003-01-01
+
+----
+
+Category: site
+
+----
+
+Themes: 

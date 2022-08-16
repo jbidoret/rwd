@@ -1,0 +1,49 @@
+Title: Webmaterials
+
+----
+
+Link-url: https://webmaterials.design/
+
+----
+
+Introduction: Un podcast sur le design, le code et l'état de l'industrie du web. Espen Brunborg et Vasilis van Gemert y mettent en question la façon dont nous concevons et réalisons les choses sur le Web.
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover:
+
+- capture-decran-2021-06-14-a-12.45.19.png
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2021-06-14
+
+----
+
+Themes:
+
+- themes/radical
+
+----
+
+Lang: 

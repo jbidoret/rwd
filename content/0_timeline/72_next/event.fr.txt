@@ -1,0 +1,25 @@
+Title: NeXT
+
+----
+
+Link-url: 
+
+----
+
+Introduction: Sortie des premiers ordinateurs de la firme NeXT, fondée en 1985 par Steve Jobs, cofondateur d'Apple Computer. Son système d’exploitation et son environnement de développement innovants ont largement influencé l’informatique domestique. Les premiers développements du web se basaient sur ce système.
+
+----
+
+Text: 
+
+----
+
+Date: 1988-01-01
+
+----
+
+Category: tech
+
+----
+
+Themes: 

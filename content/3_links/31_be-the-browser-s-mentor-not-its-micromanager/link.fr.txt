@@ -1,0 +1,49 @@
+Title: Be the browser’s mentor, not its micromanager.
+
+----
+
+Link-url: https://buildexcellentwebsit.es/
+
+----
+
+Introduction: Give the browser some solid rules and hints, then let it make the right decisions for the people that visit it, based on their device, connection quality and capabilities.
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover: 
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-04-26
+
+----
+
+Themes:
+
+- themes/suggestive
+- themes/fluid
+- themes/inclusive
+
+----
+
+Lang: 

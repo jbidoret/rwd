@@ -1,0 +1,25 @@
+Title: SGML
+
+----
+
+Link-url: 
+
+----
+
+Introduction: Standard Generalized Markup Language (« langage de balisage généralisé normalisé ») est un langage de description à balises, sur lequel s’est basé Tim Berners-Lee pour l’établissement du HTML.
+
+----
+
+Text: 
+
+----
+
+Date: 1986-10-01
+
+----
+
+Category: soft
+
+----
+
+Themes: 

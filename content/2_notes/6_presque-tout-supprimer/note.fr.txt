@@ -1,0 +1,43 @@
+Title: (Presque) tout supprimer
+
+----
+
+Introduction: Quand l’exploration des approches les plus radicales du webdesign et de la publication en ligne mène à la suppression de toute mise en forme des contenus publiés.
+
+----
+
+Text:
+
+(link: https://tdarb.org/ text: Bradley Taunt) est un designer et développeur web canadien, un « webdesigner solitaire qui hurle dans les abysses de l'Internet. Fulminant et se lamentant sur la boursouflure toujours croissante qu'est devenu le web “moderne” » [^tdarb]
+
+[^tdarb]: https://xhtml.club/
+
+Il a fondé les projets [1mb.club](https://1mb.club/) et [XHTML.club](https://xhtml.club) – où XHTML abbrège *Extreme HyperText Movement for Luddites* – qui sont tous deux des répertoires de sites web obéissant à des contraintes maximales. 
+
+Le [1mb.club](https://1mb.club/) est une liste de sites ou de pages web, au design axé sur la performance, et dont le poids total est inféreur à 1 Mb. Il regroupe des sites très divers ; certains très expérimentaux, d’autres tout à fait “normaux”. Certains de ces sites abordent la question du poids des pages de manière pleinement consciente et en font une contrainte créative de design, majoritairement en se positionnant en réaction à l’obésité du web contemporain. D’autres ignorent ces approches et, plus “naïvement”, sont conçus et développés sur des bases naturellement frugales ; notamment en étant basés sur des contenus majoritairement textuels, sans grand usage de JavaScript ou de CSS.
+
+[XHTML.club](https://xhtml.club) adopte une attitude plus extrême, en listant des sites qui ne font *aucun* usage de JavaScript ou de CSS.
+
+----
+
+Author: 
+
+----
+
+Author-url: 
+
+----
+
+Wip: true
+
+----
+
+Date: 2022-03-09
+
+----
+
+Themes: 
+
+----
+
+Tags: 
