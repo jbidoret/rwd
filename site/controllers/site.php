@@ -9,7 +9,7 @@ return function ($site, $page, $kirby) {
   $notes = [];
 
   // add the tag filter
-  if($tag = urldecode(param('tag'))) {
+  if($tag = urldecode(param('tag') ?? '')) {
     $notes = page('notes')->children()->listed()->filterBy('tags', $tag, ',')->sortBy('date', 'desc');
     $links = page('links')->children()->listed()->filterBy('tags', $tag, ',')->sortBy('date', 'desc');
     $interviews = page('interviews')->children()->listed()->filterBy('tags', $tag, ',')->sortBy('date', 'desc');    
