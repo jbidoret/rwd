@@ -1,0 +1,25 @@
+Title: HTML5
+
+----
+
+Link-url: https://html.spec.whatwg.org/multipage/
+
+----
+
+Introduction: HTML5 est la dernière révision majeure du langage HTML qui devient un « *living standard* », un standard en évolution permanente.
+
+----
+
+Text: 
+
+----
+
+Date: 2015-01-01
+
+----
+
+Category: tech
+
+----
+
+Themes: 

@@ -1,0 +1,45 @@
+Title: What's next for web design
+
+----
+
+Link-url: https://aneventapart.com/news/post/looking-ahead-june-2022
+
+----
+
+Introduction: Let’s make humanism, democracy, and inclusion the real Web 3.0. Une note de Jeffrey Zeldman, qui revient brièvement sur l'histoire du web et espère en son devenir.
+
+----
+
+Text: 
+
+----
+
+Author: Jeffrey Zeldman
+
+----
+
+Tags: 
+
+----
+
+Cover: 
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-06-02
+
+----
+
+Themes: 
+
+----
+
+Lang: 

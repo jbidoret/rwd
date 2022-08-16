@@ -1,0 +1,25 @@
+Title: Napster
+
+----
+
+Link-url: 
+
+----
+
+Introduction: Service de partage de fichiers en pair à pair, la popularité de Napster s’est notamment bâtie sur la simplicité du partage de fichiers mp3. Le service fut stoppé en 2001 suite à une procédure judiciaire pour infraction à la législation sur le droit d'auteur. Il a permis le développement massif des technologies de partage de pair à pair.
+
+----
+
+Text: 
+
+----
+
+Date: 1999-06-01
+
+----
+
+Category: context
+
+----
+
+Themes: 

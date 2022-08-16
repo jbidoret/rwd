@@ -1,0 +1,33 @@
+Title: Le Web est-il devenu trop compliqué ?
+
+----
+
+Introduction: 
+
+----
+
+Text: 
+
+----
+
+Tags: 
+
+----
+
+Cover: 
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2021-06-14
+
+----
+
+Themes: 

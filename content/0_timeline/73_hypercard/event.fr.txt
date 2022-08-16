@@ -1,0 +1,25 @@
+Title: HyperCard
+
+----
+
+Link-url: 
+
+----
+
+Introduction: HyperCard est une application et un *framework* de développement pour les ordinateurs Apple. C'est l'un des premiers systèmes hypermédia fonctionnels ayant mené au World Wide Web.
+
+----
+
+Text: 
+
+----
+
+Date: 1987-01-01
+
+----
+
+Category: soft
+
+----
+
+Themes: 

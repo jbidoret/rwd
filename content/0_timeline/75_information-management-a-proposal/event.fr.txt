@@ -1,0 +1,25 @@
+Title: Information Management: A Proposal
+
+----
+
+Link-url: https://www.w3.org/History/1989/proposal.html
+
+----
+
+Introduction: La proposition portée au directoire du CERN par Tim Berners-Lee (+ Robert Caillau) d’établissement d’un système de gestion hypertextuel de l’information (un réseau de nœuds d'information plutôt qu'un arbre hiérarchique ou une liste ordonnée) qui deviendra le Web.
+
+----
+
+Text: “Vague, but exciting…” fut la réponse de Mike Sendall à TBL.
+
+----
+
+Date: 1989-03-01
+
+----
+
+Category: tech
+
+----
+
+Themes: 
