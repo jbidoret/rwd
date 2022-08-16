@@ -11,9 +11,3 @@
 [submodule "site/plugins/footnotes"]
 	path = site/plugins/footnotes
 	url = git@github.com:sylvainjule/kirby-footnotes.git
-[submodule "site/plugins/kirby-sanitizer"]
-	path = site/plugins/kirby-sanitizer
-	url = https://github.com/avoskitchen/kirby-sanitizer.git
-[submodule "site/plugins/kirby3-commentions"]
-	path = site/plugins/kirby3-commentions
-	url = https://github.com/sebastiangreger/kirby3-commentions.git
