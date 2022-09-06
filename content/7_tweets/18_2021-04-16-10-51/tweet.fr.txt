@@ -2,14 +2,20 @@ Title: 16/04/2021 – 10:51
 
 ----
 
-Text: 
+Text: > RH : en effet, il est difficile pour des développeurs ou des designers de travailler avec des équipements plus de 4 ans.
 
-> RH : en effet, il est difficile pour des développeurs ou des designers de travailler avec des équipements plus de 4 ans. 
-> 
-> 
-> 🙃</p>&mdash; Radical Web Design (@rdclwebdesign) <a href="https://twitter.com/rdclwebdesign/status/1383161090167746562?ref_src=twsrc%5Etfw">April 16, 2021</a></blockquote>
+----
 
+Wip: false
 
----- 
+----
 
-Tweet_url: http://twitter.com/rdclwebdesign/status/1383161090167746562
+Author: 
+
+----
+
+Author-url: 
+
+----
+
+Tweet-url: http://twitter.com/rdclwebdesign/status/1383161090167746562

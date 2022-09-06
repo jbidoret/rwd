@@ -2,13 +2,24 @@ Title: 06/04/2021 – 09:20
 
 ----
 
-Text: 
+Text:
 
 > ⚠ Your browser is not using an ad blocker! This makes your browser slower and hurts your privacy. For the best web experience, you should install an ad blocker. <https://adblockbar.neocities.org/>
 > 
-> 
+>
 
+----
 
----- 
+Wip: false
 
-Tweet_url: http://twitter.com/rdclwebdesign/status/1379514322641154049
+----
+
+Author: 
+
+----
+
+Author-url: 
+
+----
+
+Tweet-url: http://twitter.com/rdclwebdesign/status/1379514322641154049

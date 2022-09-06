@@ -1,0 +1,25 @@
+Title: 18/08/2022, 10:51
+
+----
+
+Text:
+
+DIR OL DIR,  DIR UL DIR, DIR MENU DIR, DIR DIR DIR  {
+  list-style-type: square;
+}
+
+----
+
+Wip: false
+
+----
+
+Author: 
+
+----
+
+Author-url: 
+
+----
+
+Tweet-url: https://twitter.com/rdclwebdesign/status/1560187566917312512
