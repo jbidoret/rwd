@@ -22,7 +22,7 @@ Kirby::plugin('accentgrave/quote', [
         $html = '';
 
         $has_url = $tag->url != '';
-        $url = trim($tag->url);
+        $url = trim($tag->url ?? "");
 
         $class = $tag->class;
         $class .= ' ' . option('accentgrave.quote.blockquote_classname', '');        
