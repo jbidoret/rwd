@@ -24,6 +24,7 @@ return [
     'Hide details: details' => 'details',
     'Interview with' => 'Interview with',
     'Interviews' => 'Interviews',
+    'Websites' => 'Websites',
     'More info: show' => 'More info',
     'More info: hide' => 'Less info',
     'Display grid' => 'Display as a grid',

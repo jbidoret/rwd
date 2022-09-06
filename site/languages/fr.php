@@ -25,6 +25,7 @@ return [
     'Hide details: details' => 'les détails',
     'Interview with' => 'Entretien avec',
     'Interviews' => 'Entretiens',
+    'Websites' => 'Sites web',
     'More info: show' => 'Plus d’infos',
     'More info: hide' => 'Moins d’infos',
     'Display grid' => 'Afficher en grille',
