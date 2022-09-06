@@ -1,0 +1,45 @@
+Title: Modern layouts
+
+----
+
+Link-url: https://youtu.be/jreccgYLfx8
+
+----
+
+Introduction: Une conférence de Jen Simmons
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover: 
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-09-03
+
+----
+
+Themes: 
+
+----
+
+Lang: 
