@@ -1,0 +1,45 @@
+Title: Other Office
+
+----
+
+Link-url: https://otheroffice.net/
+
+----
+
+Introduction: Other Office is the design practice of Simon Sweeney and Shauna Buckley. We make identities, websites, installations and printed matter.
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover: - img_2976.jpg
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-08-16
+
+----
+
+Themes: 
+
+----
+
+Lang: en

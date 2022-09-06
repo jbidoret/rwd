@@ -1,0 +1,41 @@
+Title: Schemas of Uncertainty
+
+----
+
+Link-url: http://schemasofuncertainty.com/
+
+----
+
+Introduction: Schemas of Uncertainty is a research project on the relation between prediction and prescription within current socio-political structures.
+
+----
+
+Text: Website by (link: https://bewe.me/ text: Ben West)
+
+----
+
+Author: Ben West, Callum Copley, Danae Io
+
+----
+
+Tags: 
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-08-17
+
+----
+
+Themes: 
+
+----
+
+Lang: 
+
+----
+
+Cover: 

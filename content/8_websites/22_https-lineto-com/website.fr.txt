@@ -1,0 +1,45 @@
+Title: Lineto.com
+
+----
+
+Link-url: https://lineto.com/
+
+----
+
+Introduction: Lineto Type Foundry
+
+----
+
+Text: 
+
+----
+
+Author: Jürg Lehni
+
+----
+
+Tags: type
+
+----
+
+Cover: 
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-08-17
+
+----
+
+Themes: 
+
+----
+
+Lang: en

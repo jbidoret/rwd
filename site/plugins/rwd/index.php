@@ -26,6 +26,16 @@ Kirby::plugin('rwd/helpers', [
             $first_p_pos = strpos( $field, 'p>' );
             $new_text = substr_replace( $field, $initials_html, $first_p_pos + 2, 0 );
             return $new_text;
+        },
+        'niceURL' => function($field){
+          $url = $field->value();
+          if (V::url($url)) {
+            $niceURL = str_replace('http://', '', $url);
+            $niceURL = str_replace('https://', '', $niceURL);
+            $niceURL = str_replace('www.', '', $niceURL);
+            $niceURL = trim($niceURL, '/');
+          } 
+          return $field;          
         }
     ],
     
@@ -33,6 +43,7 @@ Kirby::plugin('rwd/helpers', [
       'notes'   => kirby()->root('templates') . '/list.php',
       'links'   => kirby()->root('templates') . '/list.php',
       'interviews'   => kirby()->root('templates') . '/list.php',
+      'websites'   => kirby()->root('templates') . '/list.php',
       'tags'   => kirby()->root('templates') . '/list.php',
     ],
 ]);

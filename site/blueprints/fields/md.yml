@@ -1,0 +1,15 @@
+label: Texte
+type: markdown
+buttons:
+  - headlines
+  bold: **
+  italic: *
+  - divider
+  - link
+  - pagelink
+  - file
+  - invisibles
+  - divider
+  ul: -
+  - blockquote
+font: sans

@@ -136,11 +136,24 @@ article .action {
 .show-text-checkbox:checked ~ .details-text{
   display: block;
 }
+// websites grid display
+.websites.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  grid-gap: 2rem 4rem;
+  h2,
+  article { margin-bottom: 0;}
+  header{display: block;}
+  figure { margin: 0;}
+  .show-text-action{ display: none;}
+}
 
+.authors :not(:last-of-type)::after{content:", "}
 
 [data-template="notes"],
 [data-template="links"],
-[data-template="interviews"] {
+[data-template="interviews"],
+[data-template="websites"] {
   .list{ padding-left: 0;}
   h2 { display: none;}
 }

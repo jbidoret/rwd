@@ -1,0 +1,9 @@
+label: Texte
+type: markdown
+buttons:
+  italic: *
+  bold: **
+  - pagelink
+  - link
+  - invisibles
+font: sans

@@ -1,0 +1,45 @@
+Title: Kicks Condor
+
+----
+
+Link-url: https://www.kickscondor.com/
+
+----
+
+Introduction: LEECHING AND LINKING IN THE HYPERTEXT KINGDOM
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover: - chair-square.png
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-08-16
+
+----
+
+Themes: 
+
+----
+
+Lang: en

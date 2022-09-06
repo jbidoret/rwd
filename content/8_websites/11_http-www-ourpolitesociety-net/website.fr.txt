@@ -1,0 +1,45 @@
+Title: This is Our Polite Society
+
+----
+
+Link-url: http://www.ourpolitesociety.net/
+
+----
+
+Introduction: 
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover: 
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-08-16
+
+----
+
+Themes: 
+
+----
+
+Lang: en

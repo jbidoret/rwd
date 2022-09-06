@@ -1,0 +1,45 @@
+Title: Studium Generale | Take a Walk on the Wild Side | GRA + Rietveld Uncut
+
+----
+
+Link-url: http://takeawalkonthewildside.rietveldacademie.nl/
+
+----
+
+Introduction: 
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover: - ogp.jpg
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-08-16
+
+----
+
+Themes: 
+
+----
+
+Lang: en

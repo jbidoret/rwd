@@ -1,0 +1,45 @@
+Title: Grid
+
+----
+
+Link-url: https://grid.constraint.systems/
+
+----
+
+Introduction: An experimental text editor. Change grid size and text direction to create weird and expressive layouts.
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover: - grid.png
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-08-16
+
+----
+
+Themes: 
+
+----
+
+Lang: en

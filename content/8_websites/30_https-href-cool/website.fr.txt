@@ -1,0 +1,41 @@
+Title: href.cool
+
+----
+
+Link-url: https://href.cool/
+
+----
+
+Introduction: The final heartbeats of our beloved www.
+
+----
+
+Text: 
+
+----
+
+Author: Kicks Condor
+
+----
+
+Tags: 
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-08-19
+
+----
+
+Themes: 
+
+----
+
+Lang: en
+
+----
+
+Cover: avatar.e3e7f38e.png

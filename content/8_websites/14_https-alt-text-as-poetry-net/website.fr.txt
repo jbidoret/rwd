@@ -1,0 +1,45 @@
+Title: Alt Text as Poetry
+
+----
+
+Link-url: https://alt-text-as-poetry.net/
+
+----
+
+Introduction: Alt text is an essential part of web accessibility. It is often disregarded altogether or understood through the lens of compliance, as an unwelcome burden to be met with minimum effort. How can we instead approach alt text thoughtfully and creatively?
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover: - og-image-jellyfish.jpg
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-08-16
+
+----
+
+Themes: 
+
+----
+
+Lang: en

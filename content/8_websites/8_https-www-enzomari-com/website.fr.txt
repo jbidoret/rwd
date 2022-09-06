@@ -1,0 +1,49 @@
+Title: Enzo Mari
+
+----
+
+Link-url: https://www.enzomari.com/
+
+----
+
+Introduction: Un designer e accademico italiano.
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-08-16
+
+----
+
+Themes:
+
+- themes/brutal
+- themes/handcoded
+- themes/radical
+
+----
+
+Lang: en
+
+----
+
+Cover: 
+
+----
+
+Wip: false

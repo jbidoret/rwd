@@ -1,0 +1,45 @@
+Title: Anthony Kolber, Internet, Graphic Design, Programming
+
+----
+
+Link-url: http://www.kolber.info/
+
+----
+
+Introduction: 
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover: 
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-08-16
+
+----
+
+Themes: 
+
+----
+
+Lang: 

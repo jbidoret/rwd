@@ -14,7 +14,7 @@ function excerpt_paragraph($html, $max_char = 100, $trail='...', $link='' ){
       $link = " <a href='" . $link . "' class='readmore'>" . t("Read more") . "</a>";
     }
     return '<p>'.$p.$trail.'</p>';
-    return '<p>'.$p.$trail.$link.'</p>';
+    // return '<p>'.$p.$trail.$link.'</p>';
 }
 
 function short_str( $str, $len, $cut = false ){
@@ -36,18 +36,5 @@ class NotePage extends Page {
     return excerpt_paragraph($intro, 300, '…', $this->url());
   }
 
-  public function niceURL(){
-    
-    if ($this->link_url()->isNotEmpty()) {
-      $niceURL = str_replace('http://', '', $this->link_url());
-      $niceURL = str_replace('https://', '', $niceURL);
-      $niceURL = str_replace('www.', '', $niceURL);
-      $niceURL = trim($niceURL, '/');
-      return $niceURL;
-    } else{
-      return "";
-    }
-    
-  }
 
 }

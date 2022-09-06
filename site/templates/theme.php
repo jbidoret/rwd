@@ -10,7 +10,7 @@
       </section>
     <?php endif ?>
 
-    <?php $types = [ "notes" => $notes, "links" => $links, "interviews" => $interviews, "quotes" => $quotes ]; ?>
+    <?php $types = [ "notes" => $notes, "links" => $links, "interviews" => $interviews, "websites" => $websites, "quotes" => $quotes ]; ?>
 
     <?php foreach($types as $key => $type):?>
       <?php if($type->count()) :?>

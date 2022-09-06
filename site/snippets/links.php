@@ -9,7 +9,7 @@
   <ul class="all">    
     <?php $p = page('notes') ?><li><a href="<?=$p->url()?>"><?=$p->title()?></a></li>
     <?php $p = page('links') ?><li><a href="<?=$p->url()?>"><?=$p->title()?></a></li>
-    <?php $p = page('interviews') ?><li><a href="<?=$p->url()?>"><?=$p->title()?></a></li>
+    <?php $p = page('websites') ?><li><a href="<?=$p->url()?>"><?=$p->title()?></a></li>
     <?php $p = page('tweets') ?><li><a href="<?=$p->url()?>">Tweets</a></li>
     <?php $p = page('timeline') ?><li><a href="<?=$p->url()?>"><?=$p->title()?></a></li>
     <?php $p = page('about') ?><li><a href="<?=$p->url()?>"><?=$p->title()?></a></li>

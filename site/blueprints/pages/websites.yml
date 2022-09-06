@@ -1,0 +1,24 @@
+title: Websites
+
+# options:
+#   changeSlug: false
+#   changeTitle: false
+#   duplicate: false
+#   delete: false
+#   status: false
+
+sections:
+  data:
+    type: fields
+    fields:
+      introduction:
+        label: Introduction
+        type: markdown
+  authors:
+    headline: Websites
+    type: pages
+    templates: 
+      - website
+    status: all
+    sortBy: date desc
+  

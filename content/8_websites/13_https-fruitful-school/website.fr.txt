@@ -1,0 +1,48 @@
+Title: Fruitful School
+
+----
+
+Link-url: https://fruitful.school/
+
+----
+
+Introduction: fruitful.school is an independently-run learning initiative for making 'fruitful websites' founded in 2020 by Laurel Schwulst and John Provencher and is dedicated to exploring new ways of publishing together using the www. For our Fall 2020 workshop, participants will hang out and work together online to self-publish a piece to the www over the course of 6 weeks.
+
+----
+
+Text: 
+
+----
+
+Author: Laurel Schwulst
+
+----
+
+Tags: 
+
+----
+
+Cover:
+
+- >
+  giovanni_stanchi_scattered_flowers_and_fruit_on_a_ledge_1_medium.jpg
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-08-16
+
+----
+
+Themes: 
+
+----
+
+Lang: en

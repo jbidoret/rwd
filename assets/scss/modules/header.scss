@@ -42,14 +42,24 @@
 .w { 
   top: 1.3vw; 
   left: 2vw; 
-  transform: rotate(-45deg);
+  // transform: rotate(-45deg);
   span:first-child {
     position: absolute;
-    transform:  rotate(-45deg) translate(-100%, -5%)
+    // transform:  rotate(-45deg) translate(-100%, -5%);
+    white-space: nowrap;
+    transform: rotate(-90deg) translate(-100%, -.25em);
+    transform-origin: 0 0;
+    padding-right: .85em;
+  }
+  span:nth-child(2){
+    transform: rotate(-45deg);
+    position: absolute;
   }
   span:last-child {
     position: absolute;
-    transform:  rotate(45deg) translate(40%, 35%);
+    transform:  rotate(0deg) translateY(-.05em);
+    padding-left: .65em;
+    white-space: nowrap;
   }
 }
 .d { 

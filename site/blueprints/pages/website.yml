@@ -1,0 +1,56 @@
+title: Website
+
+columns:
+  - width: 2/3   
+    sections:
+      data:
+        type: fields   
+        fields:
+          link_url:
+            label: URL
+            type: url
+            translate: false
+          introduction:
+            label: Introduction
+            type: markdown
+            extends: fields/minimal
+          text:
+            label: Text
+            type: markdown
+            extends: fields/md
+          author:
+            label: Author
+            type: tags
+            options: query
+            query: page.siblings.pluck("author", ",", true)
+            translate: false
+          tags:
+            type: tags
+            label: Tags
+            options: query
+            query: page.siblings.pluck("tags", ",", true)  
+  - width: 1/3
+    sections:
+      fields:
+        type: fields
+        fields:
+          
+          is_important:
+            type: toggle
+            label: Important ?
+          date:
+            label: Date
+            translate: false
+            default: today
+          themes:
+            type: pages
+            template: theme
+            query: site.find("themes")
+            translate: false
+          lang:
+            type: text
+            label: Langue
+            translate: false
+      files: 
+        type: files
+        headline: Fichiers

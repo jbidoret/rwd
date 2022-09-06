@@ -22,6 +22,15 @@ columns:
         empty: No link yet
         sortBy: date desc
         limit: 3
+      websites:
+        headline: Websites
+        type: pages
+        parent: site.find("websites")
+        template: website
+        status: all
+        empty: No website yet
+        sortBy: date desc
+        limit: 3
       interviews:
         headline: Interviews
         type: pages

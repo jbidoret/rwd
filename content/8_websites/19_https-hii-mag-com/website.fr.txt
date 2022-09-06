@@ -1,0 +1,45 @@
+Title: Hii Magazine
+
+----
+
+Link-url: https://hii-mag.com/
+
+----
+
+Introduction: Hii Magazine is an online destination for sound culture and the listening-obsessed.
+
+----
+
+Text: Design + dev : (link: https://schoooool.com/ text: school)
+
+----
+
+Author: School
+
+----
+
+Tags: magazine, audio
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-08-17
+
+----
+
+Themes: 
+
+----
+
+Lang: en
+
+----
+
+Cover: - hiimag-seo.png
+
+----
+
+Wip: false

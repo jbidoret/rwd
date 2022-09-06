@@ -197,7 +197,7 @@ sup.footnote {
       @extend .bigbutton;
       padding: 1em 1.25em;
     }
-    img { max-width: 100%; display: block; margin: 0 0 .5em;}
+    img { display: block; margin: 0 0 .5em;}
     figcaption {
       font-size: var(--tinysize);
       margin: .5em 0 -.5em;

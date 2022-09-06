@@ -1,0 +1,48 @@
+Title: Constraint Systems
+
+----
+
+Link-url: https://constraint.systems/
+
+----
+
+Introduction: Alternative interfaces for editing and creating images and text.
+
+----
+
+Text: 
+
+----
+
+Author: Grant Custer
+
+----
+
+Tags: tools
+
+----
+
+Cover: - cs-share.png
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-08-17
+
+----
+
+Themes:
+
+- themes/tinkered
+- themes/weird
+
+----
+
+Lang: en

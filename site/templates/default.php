@@ -37,7 +37,7 @@
       <?php endif ?>
       <?php if($page->link_url()->isNotEmpty()) :?>
         <p class="link-url">
-          <a href="<?= $page->link_url() ?>"><?= $page->niceURL() ?></a>
+          <a href="<?= $page->link_url() ?>"><?= $page->link_url()->niceURL() ?></a>
         </p>
       <?php endif ?>
       <?php if($page->text()->isNotEmpty()): ?>

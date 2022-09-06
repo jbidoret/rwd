@@ -1,0 +1,45 @@
+Title: The Creative Independent
+
+----
+
+Link-url: https://thecreativeindependent.com/
+
+----
+
+Introduction: The Cre­ative In­de­pen­dent is a re­source of emo­tional and prac­ti­cal guid­ance for cre­ative peo­ple.
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover: - facebook-share-graphic.jpg
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-08-16
+
+----
+
+Themes: 
+
+----
+
+Lang: en

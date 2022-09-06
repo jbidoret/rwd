@@ -1,0 +1,45 @@
+Title: Symphony in Acid | Max Cooper, Ksawery Komputery
+
+----
+
+Link-url: https://symphonyinacid.net/
+
+----
+
+Introduction: Interactive website promoting a track Symphony in Acid. Music: Max Cooper, Animation/code: Ksawery Komputery.
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover: - ogimage.png
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-08-16
+
+----
+
+Themes: 
+
+----
+
+Lang: pl
