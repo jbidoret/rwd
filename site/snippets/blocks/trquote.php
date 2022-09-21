@@ -1,0 +1,3 @@
+<blockquote>
+  <?= $block->en() ?>
+</blockquote>

@@ -1,0 +1,19 @@
+name: Translated quote
+label: "{{ en }}"
+icon: bolt
+fields:
+  en:
+    type: markdown
+    extend: fields/md
+  fr:
+    type: markdown
+    extend: fields/md
+  default:
+    type: select
+    default: en
+    options:
+      - en
+      - fr
+  source:
+    type: markdown
+    extend: fields/md
