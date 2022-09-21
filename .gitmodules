@@ -14,3 +14,6 @@
 [submodule "site/plugins/kirby-sanitizer"]
 	path = site/plugins/kirby-sanitizer
 	url = https://github.com/avoskitchen/kirby-sanitizer.git
+[submodule "site/plugins/kirby3-feed"]
+	path = site/plugins/kirby3-feed
+	url = https://github.com/bnomei/kirby3-feed.git
