@@ -24,7 +24,8 @@ module.exports.pluginStyles = [
  * their order of concatenation.
  */
 module.exports.userScripts = [
-  'assets/js/main.js'
+  'assets/js/notes.js',
+  'assets/js/main.js',
 ];
 
 /* Name your LESS config file to load.

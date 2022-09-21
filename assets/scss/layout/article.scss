@@ -60,9 +60,16 @@
     margin-top: 1em;
   }
   h4 {margin-bottom: 0;}
+  h2 { font-size: 2.5em;}
+  h3 { font-size: 1.5em;}
   p + p,
   blockquote + p {
     text-indent: var(--indent);
+  }
+  mark {
+    border-radius: .5em;
+    background: var(--gradient);
+    padding: 0 .25em;
   }
   p.comment {
     text-indent: 0;
@@ -136,17 +143,39 @@ sup.footnote {
     &:hover {background: none}
   }
 }         /* Footnote reference within text */
-.footnotes-container {
+.footnotes {
   margin-top: 3em;
   font-size: var(--tinysize);
   padding-left: var(--indent);
-  max-width: calc(var(--text-max-width) - var(--indent));
-  &::before {
-    content: "";
-    display: block;
-    width: var(--indent);
-    border-bottom: 1px solid #000;
-    margin-bottom: 2em;
+  max-width: calc(var(--text-max-width));
+  hr { margin: 2em 0;}
+  ol, p { max-width: none;}
+  ol {
+    list-style: none;
+    padding: 0 0 0 3em;
+    counter-reset: my-awesome-counter;
+  }
+  li {
+    position: relative;
+    counter-increment: my-awesome-counter;
+    margin-bottom: 1em;
+  }
+  li::before {
+    content: counter(my-awesome-counter);
+    position: absolute;
+    left: -3em;
+    
+  }
+  li:target::before {
+    background: yellow;
+    width: 1.75rem;
+    height: 1.75rem;
+    left: -3.5em;
+    top: -.5em;
+    // transform: translate(1em, 1em);
+    padding: .5em 0 0 .5em;
+    border-radius: 50%;
+    display: inline-block;
   }
 }
 .footnotes-list {
@@ -157,6 +186,46 @@ sup.footnote {
 .footnotereverse a{
   background: none;
 } 
+
+
+:root {
+  --p-width: 650px; 
+  --sn-width: 250px;
+  --sn-margin: 50px;
+}
+
+/* notes */
+.sn-toggle{display:none; }
+.sn-toggle:checked + .sn-note{display:block}
+.sn-toggle-label,sup a.footnote-ref{padding:0 0 .25em .15em;font-size:.75em;top:-.5em;position:relative;text-decoration:none;border:none}
+.sn-note::before{display:block;content:attr(data-ref);position:absolute;margin-left:calc(var(--sn-margin) * -1);width:var(--sn-margin);text-align:right;padding-right:.75em;}
+sup[id^=fn]{vertical-align:baseline}
+sup a.footnote-ref{color:#ff6347;font-weight:700}
+.sn-note{top:.25em;font-size:.85rem;float:right;clear:right;width:var(--sn-width);margin-right:calc(var(--sn-width) * -1);margin-bottom:1rem;padding-left:var(--sn-margin);position:relative; font-style: normal;}
+// .sn-note em, .sn-note i { font-style: italic;}
+.sn-note :first-child{margin-top:0}
+.sn-note img {display: block;}
+.sn-note p {margin: 0;}
+.sn-note .caption{
+    display: block;
+    margin-top: .25em;
+}
+.sn-note .caption::before { content:  "↑ ";}
+
+@media (max-width:1200px) {
+    .sn-note{display:none}
+    .sn-toggle:checked + .sn-note{display:block; width:100%;float:none;clear:both;margin:1em 0;top:0}
+    label[for^="sn-"]{color:#ff6347;cursor:pointer;font-weight:700}
+}
+
+/* default footnotes (no js) */
+.footnotes{max-width:var(--p-width);margin-top:2em;padding-top:1em}
+.footnotes ol{font-size:.85em;padding-left:1em}
+.footnotes :target{background:#ff0}
+.footnotes hr{background:none;border:none;margin:0;width:4em}
+.footnotes::before{content:'—'}
+
+
 
 #comments {
   margin-top: 2rem;
@@ -198,6 +267,11 @@ sup.footnote {
       padding: 1em 1.25em;
     }
     img { display: block; margin: 0 0 .5em;}
+
+    video {
+      max-width: 100%;
+      margin: 0 0 .5em;
+    }
     figcaption {
       font-size: var(--tinysize);
       margin: .5em 0 -.5em;
@@ -206,6 +280,6 @@ sup.footnote {
       padding-left: var(--indent);
       display: flex;
       justify-content: space-between;
-      :first-child {padding-right: 1em;}
+      > :first-child {padding-right: 1em;}
     }
 }

@@ -53,15 +53,27 @@ const article = document.querySelector('#main');
 
 
 if(article){
+
+
+  initializeFootnotes();
+  
   article.onclick = (event) => {
     console.log("ici");
     const link = event.target;
     if(link.classList.contains('media-link') ){
       event.preventDefault();
 
+      if(link.classList.contains('opened')) {
+        var fig = document.querySelector('#figure-'+link.dataset.id);
+        fig.parentElement.removeChild(fig);
+        link.classList.remove("opened");
+        return;
+      }
+
       // create figure
       const figure = document.createElement('figure');
       figure.className = "media-container";
+      figure.id = 'figure-'+link.dataset.id;
 
       if(link.dataset.type == "image"){
         const image = document.createElement('img');
@@ -80,6 +92,24 @@ if(article){
         var alt = link.dataset.alt;
         if (alt){
           image.setAttribute('alt', alt);
+        }
+      }        
+
+      if(link.dataset.type == "video"){
+        const video = document.createElement('video');
+        video.classname = 'media';
+        figure.appendChild(video);
+        // load video
+        const src = link.getAttribute('href');
+        video.src = src;
+        video.setAttribute('controls', 'true');
+        var parent = link.parentNode;
+        parent.parentNode.insertBefore(figure, parent.nextElementSibling);
+        link.classList.add('opened');
+        // alt
+        var alt = link.dataset.alt;
+        if (alt){
+          video.setAttribute('alt', alt);
         }
       }        
 

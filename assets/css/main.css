@@ -59,6 +59,9 @@ hr {
   .button:hover, .action:hover, .expander button:hover {
     border-color: #000; }
 
+sup {
+  line-height: 1; }
+
 .bigbutton, .media-container .close, .commentions-form input[type=submit] {
   border: 1px solid #999;
   background: transparent;
@@ -113,7 +116,8 @@ hr {
   --background-color: #f7f7f7;
   --text-color: #1a1a1a;
   --mark-background: LightGoldenRodYellow;
-  --accentcolor: deepPink; }
+  --accentcolor: deepPink;
+  --gradient: linear-gradient(90deg, rgba(119,6,67,1) 0%, rgba(255,20,147,1) 17%, rgba(105,212,0,1) 100%); }
 
 @media (min-width: 1300px) {
   :root {
@@ -549,9 +553,17 @@ a[href="#contribute"] {
     margin-top: 1em; }
   .article-text h4 {
     margin-bottom: 0; }
+  .article-text h2 {
+    font-size: 2.5em; }
+  .article-text h3 {
+    font-size: 1.5em; }
   .article-text p + p,
   .article-text blockquote + p {
     text-indent: var(--indent); }
+  .article-text mark {
+    border-radius: .5em;
+    background: var(--gradient);
+    padding: 0 .25em; }
   .article-text p.comment {
     text-indent: 0; }
     .article-text p.comment .author {
@@ -614,17 +626,36 @@ sup.footnote {
       background: none; }
 
 /* Footnote reference within text */
-.footnotes-container {
+.footnotes {
   margin-top: 3em;
   font-size: var(--tinysize);
   padding-left: var(--indent);
-  max-width: calc(var(--text-max-width) - var(--indent)); }
-  .footnotes-container::before {
-    content: "";
-    display: block;
-    width: var(--indent);
-    border-bottom: 1px solid #000;
-    margin-bottom: 2em; }
+  max-width: calc(var(--text-max-width)); }
+  .footnotes hr {
+    margin: 2em 0; }
+  .footnotes ol, .footnotes p {
+    max-width: none; }
+  .footnotes ol {
+    list-style: none;
+    padding: 0 0 0 3em;
+    counter-reset: my-awesome-counter; }
+  .footnotes li {
+    position: relative;
+    counter-increment: my-awesome-counter;
+    margin-bottom: 1em; }
+  .footnotes li::before {
+    content: counter(my-awesome-counter);
+    position: absolute;
+    left: -3em; }
+  .footnotes li:target::before {
+    background: yellow;
+    width: 1.75rem;
+    height: 1.75rem;
+    left: -3.5em;
+    top: -.5em;
+    padding: .5em 0 0 .5em;
+    border-radius: 50%;
+    display: inline-block; }
 
 .footnotes-list {
   padding: 0;
@@ -633,6 +664,107 @@ sup.footnote {
 /* Footnote entry */
 .footnotereverse a {
   background: none; }
+
+:root {
+  --p-width: 650px;
+  --sn-width: 250px;
+  --sn-margin: 50px; }
+
+/* notes */
+.sn-toggle {
+  display: none; }
+
+.sn-toggle:checked + .sn-note {
+  display: block; }
+
+.sn-toggle-label, sup a.footnote-ref {
+  padding: 0 0 .25em .15em;
+  font-size: .75em;
+  top: -.5em;
+  position: relative;
+  text-decoration: none;
+  border: none; }
+
+.sn-note::before {
+  display: block;
+  content: attr(data-ref);
+  position: absolute;
+  margin-left: calc(var(--sn-margin) * -1);
+  width: var(--sn-margin);
+  text-align: right;
+  padding-right: .75em; }
+
+sup[id^=fn] {
+  vertical-align: baseline; }
+
+sup a.footnote-ref {
+  color: #ff6347;
+  font-weight: 700; }
+
+.sn-note {
+  top: .25em;
+  font-size: .85rem;
+  float: right;
+  clear: right;
+  width: var(--sn-width);
+  margin-right: calc(var(--sn-width) * -1);
+  margin-bottom: 1rem;
+  padding-left: var(--sn-margin);
+  position: relative;
+  font-style: normal; }
+
+.sn-note :first-child {
+  margin-top: 0; }
+
+.sn-note img {
+  display: block; }
+
+.sn-note p {
+  margin: 0; }
+
+.sn-note .caption {
+  display: block;
+  margin-top: .25em; }
+
+.sn-note .caption::before {
+  content: "↑ "; }
+
+@media (max-width: 1200px) {
+  .sn-note {
+    display: none; }
+  .sn-toggle:checked + .sn-note {
+    display: block;
+    width: 100%;
+    float: none;
+    clear: both;
+    margin: 1em 0;
+    top: 0; }
+  label[for^="sn-"] {
+    color: #ff6347;
+    cursor: pointer;
+    font-weight: 700; } }
+
+/* default footnotes (no js) */
+.footnotes {
+  max-width: var(--p-width);
+  margin-top: 2em;
+  padding-top: 1em; }
+
+.footnotes ol {
+  font-size: .85em;
+  padding-left: 1em; }
+
+.footnotes :target {
+  background: #ff0; }
+
+.footnotes hr {
+  background: none;
+  border: none;
+  margin: 0;
+  width: 4em; }
+
+.footnotes::before {
+  content: '—'; }
 
 #comments {
   margin-top: 2rem; }
@@ -687,6 +819,9 @@ sup.footnote {
   .media-container img {
     display: block;
     margin: 0 0 .5em; }
+  .media-container video {
+    max-width: 100%;
+    margin: 0 0 .5em; }
   .media-container figcaption {
     font-size: var(--tinysize);
     margin: .5em 0 -.5em;
@@ -701,7 +836,7 @@ sup.footnote {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between; }
-    .media-container figcaption :first-child {
+    .media-container figcaption > :first-child {
       padding-right: 1em; }
 
 [data-template="timeline"] #outro {
@@ -884,8 +1019,7 @@ nav .themes {
     border-bottom: .1em solid #000;
     line-height: .9;
     display: inline-block;
-    background: -webkit-linear-gradient(left, #770643 0%, deeppink 17%, #69d400 100%);
-    background: linear-gradient(90deg, #770643 0%, deeppink 17%, #69d400 100%);
+    background: var(--gradient);
     background: var(--text-color);
     background-clip: text;
     -webkit-background-clip: text;
@@ -893,8 +1027,7 @@ nav .themes {
     -moz-text-fill-color: transparent;
     -webkit-text-fill-color: transparent; }
   nav .themes a:hover {
-    background: -webkit-linear-gradient(left, #770643 0%, deeppink 17%, #69d400 100%);
-    background: linear-gradient(90deg, #770643 0%, deeppink 17%, #69d400 100%);
+    background: var(--gradient);
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
