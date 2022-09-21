@@ -6,7 +6,11 @@ Introduction: À la fin des années 70 émergent parallèlement ces deux briques
 
 ----
 
-Text: — brouillon
+Text:
+
+Un [article passionnant et éclairant](https://ploum.net/lhistoire-du-logiciel-entre-collaboration-et-confiscation-des-libertes/) sur la construction de la notion de propriété intellectuelle dans le champ du logiciel, traversant les enjeux du libre et des révolutions qu’à connu le champ de l’informatique.
+
+— brouillon à peine entamé
 
 ----
 
@@ -26,9 +30,7 @@ Date: 2021-03-03
 
 ----
 
-Themes:
-
-- themes/open
+Themes: - themes/open
 
 ----
 

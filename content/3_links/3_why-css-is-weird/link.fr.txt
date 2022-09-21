@@ -10,18 +10,7 @@ Introduction: Qu’on l'aime ou qu’on le déteste, le langage CSS est étrange
 
 ----
 
-Text:
-
-Alors que le web devient plus puissant et complexe, il est important de se demander : comment en est-on arrivé là, et dans quelle direction va-t-on ?
-
-Liens:
-- Le premier site web : http://info.cern.ch/hypertext/WWW/The...​
-- La mission du W3C (World Wide Web Consortium) : https://www.w3.org/Consortium/mission​
-- Un émulateur du premier navigateur WorldWideWeb : https://worldwideweb.cern.ch/​
-- Un émulateur du premier navigateur Line-Mode : http://line-mode.cern.ch/​
-- Dao of Web Design: https://alistapart.com/article/dao/​  
-
-Traduction française : http://www.pompage.net/traduction/dao​
+Text: 
 
 ----
 
@@ -33,13 +22,15 @@ Tags: CSS
 
 ----
 
-Cover:
-
-- capture-decran-2021-02-15-a-15.28.25.png
+Cover: - capture-decran-2021-02-15-a-15.28.25.png
 
 ----
 
 Wip: false
+
+----
+
+Is-important: false
 
 ----
 

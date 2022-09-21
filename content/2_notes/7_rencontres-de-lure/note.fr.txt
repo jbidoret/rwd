@@ -1,0 +1,342 @@
+Title: Rencontres de Lure
+
+----
+
+Introduction: Article tiré de la conférence _Radical webdesign_ proposée lors des 70<sup>e</sup> Rencontres internationales de Lure en août 2022. Cette conférence, d’un abord généraliste, avait pour ambition de parcourir les fondamentaux des notions explorées dans ce projet de recherche.
+
+----
+
+Text:
+
+Dans cette proposition, je vais régulièrement traiter de manière indistinguée les enjeux du webdesign et ceux de la publication en ligne. On abordera à la fois des questions de lisibilité et de visibilité, deux questions qui sont au cœur des pratiques de design comme de publication. On évoquera également un certain antagonisme entre accessibilité et expressivité, deux enjeux qui ont sur le web une dimension particulière.
+
+Avertissement : le regard que je porte sur le web est empreint d’une grande naïveté. La confiance que j’ai envers l’universalisme fondateur du web, l’opensource et le libre, le partage de la connaissance, le « libéralisme » philosophique qui a conduit à son développement est d’une nature qui confine à la croyance. C’est une naïveté tout à fait volontaire et assumée.  Je _choisis_ parmi les fondements philosophiques, moraux ou politiques de ces technologies d’en garder ce qui me semble être le meilleur, le plus enthousiasmant, le plus émancipateur. 
+
+C’est à travers ce regard naïf que ce texte se propose de parcourir une brève histoire du webdesign, d’évoquer son présent et d’en envisager les perspectives en se tenant à l’écart des cris d’orfraie de celles et ceux qui le penseraient définitivement cassé.
+
+Voici un extrait d’un texte de (link: http://luckysoap.com text: J. R. Carpenter), autrice et poète canadienne dont j’ai fini par m’approprier pleinement la position, en le proposant comme épigraphe à mon cours d’introduction au webdesign. 
+
+>  In today’s highly commercialized web of multinational corporations, proprietary applications, read-only devices, search algorithms, Content Management Systems, WYSIWYG editors, and digital publishers, it becomes an increasingly rad cal act to hand-code and self-publish experimental web art and writing projects.[^carpenter] — J. R. Carpenter, (link: http://luckysoap.com/statements/handmadeweb.html text: A handmade web).
+
+[^carpenter]: Dans le web hautement commercialisé d’aujourd’hui, fait de multinationales, d’applications propriétaires, de dispositifs en lecture seule, d’algorithmes de recherche, de systèmes de gestion de contenu, d’éditeurs WYSIWYG ou d’éditeurs numériques, coder à la main et auto-publier des projets expérimentaux d’art et d’écriture sur le web devient un acte de plus en plus radical — (link: http://luckysoap.com/statements/handmadeweb.html text: J. R. Carpenter).
+
+
+## Histoires de web/design
+Rapide retour dans le temps pour contextualiser ce qu’on entend par _webdesign_ qui s’attardera un peu sur l’histoire du Web lui-même, considérant que certains enjeux posés dès les premiers temps du web sont fondamentaux pour en comprendre les paradoxes actuels.
+
+### World wide web ?
+
+En 1989, Tim Berners Lee formule une “[proposition de système de gestion de l’information](https://www.w3.org/History/1989/proposal.html)” pour le Cern, à Genève, recevant de son superviseur une prometteuse appréciation : « vague, mais excitant »(media: vague.jpg). Bientôt appuyé par l’enthousiasme de Robert Cailliau, ils développent les bases de ce qui deviendra le World Wide Web (un protocole, HTTP ; un langage de structuration de documents, HTML ; un moyen d’adressage des documents, l’URL ; et le premier _navigateur_ web). Ce faisant, ils établissent les principes fondamentaux du web, en décrivant notamment ainsi le HTML :
+
+> When designing the HTML document type, consideration was given to a certain simplicity in order to allow many browsers and hopefully editors to be developed on many platforms.[^simplicity] 
+
+[^simplicity]: Lors de la conception des principes des documents HTML, il a été tenu compte d’une certaine simplicité afin de permettre le développement de nombreux navigateurs et, espérons-le, d’éditeurs sur de nombreuses plates-formes. — (link: http://info.cern.ch/hypertext/WWW/MarkUp/HTMLConstraints.html text: WWW, design constraints)
+
+> It is required that HTML be a common language between all platforms. This implies no device-specific markup, or  anything which requires control over fonts or colors, for example.[^agnostic] — (link: http://info.cern.ch/hypertext/WWW/MarkUp/HTMLConstraints.html text: WWW, design constraints)
+[^agnostic]: Il est nécessaire que le HTML soit un langage commun à toutes les plates-formes. Cela implique qu’il n’y ait pas de balisage spécifique à un appareil, ni rien qui nécessite un contrôle des polices ou des couleurs, par exemple. — (link: http://info.cern.ch/hypertext/WWW/MarkUp/HTMLConstraints.html text: WWW, design constraints)
+
+Dans la vidéo [Why is CSS so weird ?](https://www.youtube.com/watch?v=aHUtMbJw8iA), Pourquoi CSS est si bizarre ?, Miriam Suzanne, développeuse Web et alors conférencière pour Mozilla, relève ces éléments fondateurs du web, et signale combien la question du design pour le web est intrinsèquement problématique. Le web est en effet conçu pour pouvoir se passer de design — ou plus précisément, pour laisser une large partie des décisions formelles qui président à son affichage à l’utilisateur final ou au dispositif technique (smartphone, ordinateur, impression, clavier braille) qui l’affiche.
+
+Dans les toutes premières propositions d’un langage de mise en forme pour les pages web, les préférences de l’utilisateur sont prises en compte. Dans la proposition d’_Håkon Wium Lie_, un ensemble de curseurs aurait permis à chaque utilisateur de négocier avec l’auteur de la page l’affichage des fontes, couleurs, marges,… (media: user-author.png)
+
+Le Web est conçu dès son origine pour être un système d’échanges d’information universel, agnostique des appareils ou dispositifs qui vont permettre de l’afficher, et fondamentalement accessible. Son dépôt dans le domaine public en 1993, tout comme les grands principes qui ont présidé à sa conception (décentralisation, non-discrimination, universalité, standards) ont très tôt des contraintes majeures pour les designers qui l’ont investi.
+
+### Folklore de la zone mondiale *aka* the early web.
+
+Les premières années du web furent assez douloureuses pour ces designers. Tenter de dépasser les limites des langages et des techniques d’alors était un exercice périlleux, et la qualité graphique atteignable restait très approximative.
+
+(media:  9f5d680442de24c0036ecf5448baa5c05a9b7d4a.png)
+
+Ces années furent cependant l’occasion de l’émergence d’une culture visuelle singulière, qui irrigue encore, et peut-être à nouveau, nos imaginaires. Geocities –en France [Mygale](http://mygale.org) ou Altern– furent des hébergeurs gratuits qui ont permis à des millions d’internautes de construire leurs “pages personnelles”. Si la lisibilité n’était pas toujours au rendez-vous, l’expressivité était possible.
+
+Fermé en 2009, après son rachat par Yahoo, Geocities reste un moment fondamental dans l’éclosion d’un web vernaculaire, aux spécificités graphiques affirmées. D’une manière similaire, mais spectaculairement plus vaste que ce qu’avait permis l’arrivée de la reprographie dans les années 70 et 80 pour la culture des fanzines, le web devenait un média dans lequel chacun·e pouvait publier librement, tant au niveau du contenu des messages que dans leurs formes.
+
+Cette période est abondamment explorée par Olia Lialina, qui a produit et produit encore une des recherches les plus passionnantes et éclairées sur le devenir du web, principalement au regard de son évolution depuis les pratiques amateures qu’elle explore dans le projet [One Terabyte of Kilobyte Age](https://blog.geocities.institute/), dans un article fondateur de 2005 (link: http://art.teleportacia.org/observation/vernacular/ text: A Vernacular Web) ou encore dans le livre _(link: https://digitalfolklore.org/ text: Digital Folklore)_, co-écrit avec Dragan Espenschied. 
+
+Créé par Cameron Askin, le site _[Cameron’s World](https://www.cameronsworld.net/)_, dans une mise en forme tout en hommage aux gimmicks du web amateur de l’époque, est une plongée merveilleuse dans les pépites de Geocities. 
+
+### Flash !
+
+À la fin des années 90 a émergé la technologie Flash, développée par Macromedia, puis par Adobe à partir de 2005. Flash fut un ensemble de technologies orientées vers le web (à la fois un outil d’édition et un _plugin_ pour les navigateurs), qui a permis à des développeurs, et surtout à des designers non versés dans les choses du code, de dépasser très largement les limites que posaient les complexités et impossibilités techniques du webdesign à cette époque.  
+ 
+Flash a permis d’intégrer aux pages web des animations, des transitions, de l’interactivité ou du son, avec une aisance inaccessible jusqu’alors. Ce fut le terrain de jeu de nombreux graphistes et développeurs web, et l’espace fécond dans lequel furent inventées des formes interactives audacieuses. Hélas (? #oupas), en 2010, Steve Jobs, CEO d’Apple, deux ans après avoir lancé l’iPhone et inauguré l’ère mobile du web, publiait [*Thoughts on Flash*](https://en.wikipedia.org/wiki/Thoughts_on_Flash), une lettre ouverte dans laquelle il annonçait en substance la mort de Flash du fait de l’absence de support sur iPhone.
+
+Si Flash fut une technologie qui a permis d’explorer des formes radicalement nouvelles du webdesign, il souffrait de nombreux défauts, notamment sa technologie propriétaire, son accessibilité déplorable et son inadaptation au web mobile.
+
+Parmi les designers, [certains](http://www.revue-backoffice.com/numeros/04-suivre-le-mouvement/porri-lost-in-translation-flash) regrettent cette période et la disparition de cet outil. On peut leur rappeler –au delà des éléments mentionnés précédemment– le souvent nécessaire bouton “skip intro”, l’impossibilité d’effectuer un simple copier/coller, l’absence de “deeplinking” (capacité d’accéder à une page / section spécifique d’un site).
+
+###  Vers la standardisation
+
+Le web des années 2000 fut le temps d’une évolution majeure de ses usages. 
+
+En 2003, Dale Dougherty et Tim O’Reilly, tous deux co-fondateurs de la société d’édition O’Reilly Media  font émerger le terme Web 2.0, et le magasine Time fera de _You_, vous, nous, la personnalité de l’année en 2006 (media: you.jpg).  En 2010, le sociologue Patrice Flichy allait faire paraître au Seuil, [_Le Sacre de l’amateur, Sociologie des passions ordinaires à l’ère numérique_](https://www.seuil.com/ouvrage/le-sacre-de-l-amateur-patrice-flichy/9782021031447). En 2013 à Lure, la session [Avis aux amateurs !](http://delure.org/les-rencontres/rencontres-precedentes/rencontres-2013) proposait une conférence d’[Alain Carou](https://delure.org/les-rencontres/rencontres-precedentes/rencontres-2013#alain-carou) : Le web des amateurs, quelle histoire ?
+
+Le _web 2.0_ consacrait l’un des espoirs clés de la fondation du web : sa démocratisation. 
+
+S’engouffrant à la suite des pionniers de l’hébergement web personnel (Geocities, Tripod, Mygale, évoqués plus tôt), des services web (tels que Blogger, LiveJournal ou Tumblr), et des outils de gestion de contenus (Wordpress, ou en France Dotclear et SPIP) fournirent aux auteurs de contenus à la fois des systèmes d’écriture et des _templates_, en se concentrant sur la production de contenus et d’interactions sociales (commentaires).
+
+Tumblr ou MySpace furent des cas particuliers, ouvrant aux auteurs des blogs un accès au code source HTML et au style CSS des pages, permettant encore à une certaine expressivité (tant dans la forme que dans le fond) d’avoir lieu. 
+
+Partout ailleurs, semblaient régner les _templates_, gabarits de pages préformatés qui permettaient aux auteurs d’atteindre une qualité graphique minimum (lisibilité, utilisabilité). Si cela a eu un intérêt majeur dans l’accessibilité et la lisibilité du contenu, dans la prévisibilité et la simplicité des interactions, cela a également produit une terrible stérilisation visuelle, neutralisant toute velléité d’expressivité ou d’audace formelle.
+
+En 2012, Étienne Mineur posait la question [Peut-on être graphiste au pays des Templates ?](http://www.my-os.net/blog/index.php?2007/08/08/564-peut-on-etre-graphiste-au-pays-des-templates) signalant les craintes de nombreux graphistes face à la perte de contrôle que ces _templates_ faisaient surgir, et à l’appauvrissement visuel qu’ils semblaient induire.
+
+> « Tous les sites web se ressemblent ! il n’y a plus aucune créativité dans le web, aucune invention. » 
+
+Parallèlement à Flash, depuis le début des années 2000, un mouvement de fond structurait  le champ du webdesign, fédéré notamment outre-atlantique autour du blog [A List Apart](https://alistapart.com). Jeffrey Zeldman et ses comparses soutenaient l’évolution des Standards du web, et tâchaient d’amener le W3C (consortium fondé par Berners-Lee, qui préside aux destinées des technologies du web) à faire évoluer les langages du web, et notamment CSS, le langage dédié à la mise en forme des pages. Ils pressaient également les navigateurs (Netscape et Internet Explorer, puis Firefox, Google Chrome et Safari) a adopter ces standards et à abandonner les interprétations toutes personnelles qu’ils en faisaient jusqu’alors.
+
+Une génération de designers, sans doute moins “graphistes auteurs” qu’“architectes de l’information” exploraient des pratiques de design qui tentaient de prendre en compte l’ensemble des enjeux du médium, plutôt qu’essayer de s’en affranchir comme on pouvait le faire avec flash.
+
+>  It is the nature of the web to be flexible, and it should be our role as designers and developers to embrace this flexibility, and produce pages which, by being flexible, are accessible to all.[^DAO1] — John Allsopp, (link: http://alistapart.com/article/dao/ text: A Dao of Web Design,) 2000 
+
+[^DAO1]: La flexibilité fait partie intégrante de la nature du Web et c’est notre rôle à nous, designers et développeurs, d’épouser cette souplesse, et de créer des pages qui, fortes de cette adaptabilité, deviendront accessibles à tous. — John Allsopp, (link: http://alistapart.com/article/dao/ text: A Dao of Web Design,) 2000
+
+Dans le même article, une petite pique à destination des designers *print* :
+
+>  The control which designers know in the print medium, and often desire in the web medium, is simply a function of the limitation of the printed page.[^DAO2]
+
+[^DAO2]: Le contrôle que connaissent les designers au sein du média imprimé et qu’ils désirent souvent retrouver au sein du web est simplement le produit d’une limitation de la page imprimée. — John Allsopp, (link: http://alistapart.com/article/dao/ text: A Dao of Web Design,) 2000
+
+Ces démarches ont progressivement permis l’arrivée de nouvelles possibilités, issues du développement du langage CSS. On peut relever les règles @font-face, qui permettaient d’utiliser simplement des caractères typographiques choisis, ouvrant notamment la voie à l’usage des fontes variables sur le web,  le support des balises médias audio et vidéo, la standardisation de javascript (permettant de faciliter le développement d’interactions complexes), des possibilités plus importantes de prise en compte des problématiques d’accessibilité, et les techniques de _Responsive Web design_ (ou design adaptatif, qui permet l’adaptation fluide des sites à tous types d’écrans), (link: http://alistapart.com/article/responsive-web-design/ text: illustrée par Kevin Cornell) dans l’article fondateur d’Ethan Marcotte.
+
+
+
+## Le présent
+
+### L’expérience et l’utilisateur
+
+Attardons-nous un moment sur la question de la complexité et sur les enjeux de ce qu’on nomme design d’expérience utilisateur, ou *UX Design*.
+
+À nouveau, on s’appuyera ici sur le travail d’Olia Lialina, notamment sur deux textes fondamentaux _[L’utilisateur Turing-complet](http://reader.lgru.net/texts/lutilisateur-turing-complet/)_, écrit en 2013, et _[Rich User Experience, UX and Desktopization of War](http://contemporary-home-computing.org/RUE/)_ (Expérience utilisateur riche, UX et bureaucratisation de la guerre) écrit en 2014.
+
+Don Norman, gourou du design d’expérience au sein de l’agence de consulting Nielsen & Norman Group écrit en 1990 _Why Interfaces Don’t Work_ et y professe la nécessité d’une  invisibilisation des interfaces et de l’informatique. 
+
+> On vine, when commenting on another user’s video, you are not presented with an empty input form, but are overwriting the suggestion “say something nice.” 
+
+> On Tumblr, a “close this window” button becomes “Oh, fine.” — Olia Lialina, _[Rich User Experience, UX and Desktopization of War](http://contemporary-home-computing.org/RUE/)_, 2014 
+
+Safari fait disparaître l’URL ; Android ne propose pas d’_undo_ et on n’a que difficilement accès au disque dur, aucune compréhension de sa structure ni de savoir où diable a bien pu être enregistré un fichier. La sur-simplification souhaitée par Apple, Google et les firmes qui ont pris en charge l’évolution de nos rapports au numérique et au web – et avec elles, les « designers d’expérience » – produit un phénomène de décapacitation, de désempouvoirement.
+
+> Experience design prevents from thinking and valuing computers as computers, and interfaces as interfaces.[^UxDesign]  — [Olia Lialina](http://contemporary-home-computing.org/RUE/#fn-kay)
+
+[^UxDesign]: Le design d’expérience empêche de penser et de valoriser les ordinateurs en tant qu’ordinateurs, et les interfaces en tant qu’interfaces.
+
+En 2012, l’hypothèse de Don Norman devient réalité dans un [clip promotionnel pour Apple](https://www.youtube.com/watch?v=Im32w9_Okws) :
+
+> iPad is the perfect expression of that idea, it’s just this magical pane of glass that can become anything you want it to be. It’s a more personal experience with technology than people have ever had. — [Official Apple (New) iPad Trailer 2012](https://www.youtube.com/watch?v=Im32w9_Okws)
+
+> ““User illusion” was a main principle of interface designers […] since the first days of the profession. They were fully aware about creating illusions, of paper, of folders, of windows. UX creates an illusion of unmediated natural space.[^Kay] — Alan Kay: “User Interface: A Personal View”, in The Art of Human-Computer Interface Design, 1990, Breda Laurel, S. Joy Mountford, [Olia Lialina](http://contemporary-home-computing.org/RUE/#fn-kay)
+
+[^Kay]: “L’illusion de l’utilisateur” était un principe fondamental des designers d’interface […]  depuis les premiers jours de la profession. Ils étaient pleinement conscients de créer des illusions, de papier, de dossiers, de fenêtres. Le _UX design_ crée une illusion d’espace naturel non médiatisé.
+
+Il n’y a pas d’interaction naturelle, pas plus que d’ordinateur invisible. Il y a juste des interfaces et des ordinateurs cachés. Cette même hypothèse s’applique au “cloud” : il n’y a pas de cloud, il y a juste l’ordinateur de quelqu’un d’autre.
+
+Le mouvement à l’œuvre depuis ce web 2.0, celui qui a vu l’apogée de Facebook, Google, Android, iOS est sensé avoir produit plus de confort et d’intuitivité pour l’utilisateur. Sous le prétexte d’une technique trop complexe pour l’utilisateur lambda et de la nécessité de fluidifier son usage d’internet, à travers une illusion produite par «magie», il aura surtout produit davantage d’aliénation et de toxicité. 
+
+Il n’est évidemment pas dans mon intention de dire que le design d’interfaces est une abomination. Des interfaces bien pensées sont utiles, indispensables. Mais les designers doivent prendre en compte combien ils et elles peuvent par des approches trop réductrices et simplificatrices diminuer la puissance des outils, informations et services mis à disposition et par là-même. (C’est évidemment aussi le cas des ingénieurs et développeurs. Cf. Benjamin Bayart : [l’ordinateur est fatal](https://www.youtube.com/watch?v=EOWeewlc2CE).)
+
+<mark>☞</mark> Importance de la friction dans les interactions entre humains et machines, comme entre humains et humains quand les échanges ont lieu via les machines.
+
+Ne parlons même pas des cas où à dessein, le designer choisit de tromper ou manipuler l’utilisateur (#darkpatterns) ou de ceux dans lesquels le design est au service de l’addictivité des outils, services et médias que nous consultons.
+
+
+### Le web 3 n’existe pas 
+Digression à peine gratuite : pas plus que le web 2.0, Le web3 n’existe pas, ou plutôt, ce n’est pas du web. De la même manière que lorsque Tim O’Reilly a forgé le terme web 2.0, le terme web3 employé notamment par Gavin Wood, fondateur de la chaine de blocks et du service Ethereum, tente de mettre un vernis de décentralisation sur des pratiques profondément inscrites dans une logique spéculative, où la rareté artificielle contredit toute la logique de partage initialement ancrée dans le web.
+
+_Read / write / own_ est un raccourci parfois utilisé pour qualifier ce que seraient ces trois âges du web. _Let’s share what we know /  Let’s share what we can /  Let’s share whatever_ (j’emprunte le bon mot à (link: http://gregorycadars.com/ text: Greg Cadars)) pourrait être une version alternative. J’ajoute : « si ça peut faire des sous » (media: lets-share-3-b.png)
+
+Plutôt que sur le web3, ou au delà, on préférera se pencher sur le (link: https://web0.small-web.org/ text: web0) ou relire le _(link: http://www.uzine.net/article60.html text: Manifeste du Web indépendant)_, publié par le minirézo sur uzine.net en 1997. 
+
+Ces quinze dernières années, le web en tant que plateforme ouverte a subi de nombreux assauts et des dégâts importants. Les géants de la technologie se sont approprié l’immense majorité de nos échanges et de nos publications en ligne, en les emprisonnant dans des formes standardisées, dont il n’existe que peu de moyens de s’échapper. (media: zuck.jpg)
+ 
+Un capitalisme de surveillance s’est imposé, notamment via le web. Les médias sociaux ont remplacé les logiques publicitaires massives et génériques du premier web commercial par une surveillance constante de nos faits et gestes afin de mieux nous cibler, et nous imposer des contenus « engageants » – fût-ce au prix de dégâts majeurs sur nos vies démocratiques.  
+
+Les messages publiés sur les plateformes et services en ligne peuvent sembler lisibles, visibles, mais cette lisibilité est algorithmicisée au profit des plateformes mêmes, graphiquement contrainte et désespérément décevante quand on connaît les possibilités qu’offre le web aujourd’hui.
+
+## Les perspectives
+
+### Nostalgie d’une époque qui n’existe pas
+
+Jay Hoffman, qui écrit brillamment et régulièrement sur thehistoryoftheweb.com intitule son dernier billet _(link: https://thehistoryoftheweb.com/postscript/this-is-what-youre-nostalgic-for/ text: C’est ce dont tu es nostalgique)_, en signalant un mot inventé par John Koenig sur son tumblblog : _Anemoia_, la nostalgie d’une époque qui n’existe pas. 
+
+Il s’y fait l’écho de la nostalgie ressentie par de jeunes gens, lui, peut-être même moi dans une certaine mesure, d’un âge d’or d’un web plus simple (pas forcément idéal : nous avions les popups, les gifs animés et les musiques midi dans des frames cachées…)
+
+De nombreux acteur⋅ices influentes du développement du web aujourd’hui sont arrivés à cette place en ayant digéré et en s’étant approprié les principes fondateurs du web, sans même les avoir connus et expérimentés. 
+
+Une culture spécifique s’est développée autour des enjeux d’inclusivité et d’accessibilité du web, appuyés sur les principes d’universalité imaginés par Berners-Lee, sur les combats autour de la _lingua franca_ des standards, ou sur le rêve d’un espace ouvert, ou personne ne sait que vous êtes un chien.
+
+Miriam Suzanne, déjà évoquée, a récemment dit dans un tweet :
+
+> Large companies find HTML & CSS frustrating “at scale” because the web is a fundamentally anti-capitalist mashup art experiment, designed to give consumers all the power. — [Miriam Suzanne](https://twitter.com/TerribleMia/status/1198706002419310592) + More accurately a Library Science driven experiment, I suppose…[^Mia]
+
+[^Mia]: Les grandes entreprises trouvent HTML & CSS frustrant dans son industrialisation parce que le web est fondamentalement une expérience artistique hybride et anticapitaliste, conçue pour donner tout le pouvoir aux consommateurs.  Ou plus exactement, une expérience menée par la science documentaliste, je suppose…
+
+Dans la (link: https://worldwideweb.cern.ch/ text: toute première version du navigateur) développé par Tim Berners-Lee, il était imaginé que l’écran d’accueil du navigateur soit la propre _homepage_ de l’utilisateur. Une dimension importante, et souvent oubliée des principes initiaux du WWW est l’hypothèse d’un read/write web ; un web “accessible en écriture” autant qu’en lecture. WWW, le premier navigateur est autant un outil de lecture de pages web que d’écriture de pages web. (media: links.mp4)
+
+Si cette fonctionnalité fut très rapidement abandonné du fait de la complexité de son développement, ce qu’elle sous-entendait était une approche radicalement différente de ce que nous proposent aujourd’hui les navigateurs ; une approche dans laquelle le lecteur est immédiatement invité à être auteur. (Rappelons que Google Chrome détient plus de 60% des parts de marché ; et Safari, 25% du fait d’iOS . Dans ces navigateurs, la page par défaut est un champ de recherche, le plus souvent via Google ; recherche se confondant bien souvent avec la notion d’URL).
+
+Dans (link: https://www.oreilly.com/openbook/wemedia/book/ch02.pdf text: _We the media_), un texte paru en 2004, le journaliste Dan Gillmor nous raconte son émerveillement face à l’expérience d’un bouton « modifier cette page ». (media: readwriteweb.jpg)
+
+Affirmons ici la distinction entre les notions d’*usage* et celle de *pratique*. Le regretté Philippe Aigrain, co-fondateur de la (link: https://www.laquadrature.net/ text: Quadrature du net), association œuvrant pour la défense des libertés dans les espaces numériques nous disait :
+
+> « L’utilisateur est tout autant sinon plus souvent utilisé par l’objet qu’il ne l’utilise lui-même » — Philippe  Aigrain, Cause commune : l’information entre bien commun et propriété, Paris, Fayard, 2005, [disponible en ligne sous licence Creative commons](http://grit-transversales.org/img/pdf/Causecommune-CC-By-NC-ND.pdf).
+
+À l’inverse, la pratique suppose un geste d’appropriation de la part de l’individu, qui en fait un acteur singulier. Quand l’usage use et consomme, la pratique agit. L’usage est de l’ordre du _like_ sur facebook, la pratique du billet sur un blog. 
+
+En tant qu’artistes, designers, *publieurs*, ou simple utilisateurs, l’objectif de la réflexion que je nous propose est de nous inviter à préférer la pratique à l’usage, en nous réappropriant ces espaces que sont le web et les internets. Sans hypothèse d’exhaustivité, je vais donc vous présenter quelques pistes que des designers, mais aussi des amateurs, des développeurs, ou plus généralement des pratiquants du web explorent, afin de se ré-approprier cet espace. 
+
+### Surf club
+> Le terme "club de surf" est souvent utilisé pour décrire des blogs collectifs d’artistes où le sujet dominant est la culture et l’esthétique de l’internet et où les limites sont floues entre les rôles d’artiste, de conservateur et d’archiviste. — [Rhizome](https://sites.rhizome.org/surfclubs/#INTRODUCTION)
+
+🏄 (media: clubinternet.jpg)
+
+#### [**indie web**](https://indieweb.org/)
+Sous le terme assez générique d’IndieWeb (web indépendant), on trouve une communauté de personnes qui construisent des logiciels pour permettre à des sites web personnels, hébergés de manière indépendante, de maintenir leurs données sociales sur leurs propres domaines web plutôt que sur de grands services de réseaux sociaux centralisés. Développé notamment lors d’IndieWebCamps, on trouve une suite d’outils, dont les Webmentions et les Microformats, conçus pour décentraliser la communication sociale et la distribution de contenu. 
+    
+> The IndieWeb is a people-focused alternative to the “corporate web”: a community of independent & personal websites connected by simple standards, based on the principles of: owning your domain & using it as your primary identity, publishing on your own site (optionally syndicating elsewhere), and owning your data.[^indieweb]
+
+[^indieweb]: L’IndieWeb est une alternative au "web corporate" centrée sur les personnes : une communauté de sites web indépendants et personnels connectés par des standards simples : posséder son domaine et l’utiliser comme identité principale, publier sur son propre site (avec possibilité de syndiquer ailleurs), et posséder ses données.
+    
+En deux mots : un web social, mais sans les silos. Mis à part quelques exemples (et notamment deux ou trois que je vais évoquer), les formes graphiques développées par les tenants de l’IndieWeb peuvent parfois paraître assez raides et ennuyeuses.  En outre, la mise en œuvre des outils développés par la communauté est encore aujourd’hui assez complexe. Mais les humains affiliés à cette approche du web et des technologies sont souvent de bon conseil, et ouverts au dialogue, et les outils progressent.
+
+[Kicks Condor](https://www.kickscondor.com/) est un grand partisan de l’indie web, et est notamment le créateur de href.cool, un répertoire de sites indépendants tous plus cools les uns que les autres. Plutôt que _doomscroller_ Twitter ou Facebook, allez jeter un œil.
+    
+Pas spécifiquement affilié à l’indieWeb, itch.io est une communauté structurée autour du jeu indépendant. Parmi la surabondance de productions hébergées sur la pateforme, on peut citer le cas de Nathalie Lawhead aka [@alienmelon](https://alienmelon.itch.io/), créatrice d’une incroyable application, l’[Electric Zine Maker](https://alienmelon.itch.io/electric-zine-maker), application parfaitement réjouissante de création de fanzines #postdigitalpunk. 
+   
+Proche de l’indieWeb, et des esthétiques volontiers rétro représentées par @alienmelon ou Kicks Condor, le service Neocities a comme projet de « rendre le web _fun_ à nouveau ». C’est un espace de publication gratuit de sites web en HTML est né après le constat que le rachat et l’abandon par Yahoo! de Geocities en 2009 avait fait perdre au web un de ses plus riches espaces d’expressivité.
+        
+> Neocities is bringing back the fun, creativity and independence that made the web great.[^neo]
+        
+[^neo]: Neocities fait renaître le plaisir, la créativité et l’indépendance qui ont fait la grandeur du web.
+    
+#### **make it boring**
+
+J’ai signalé que les formes graphiques des membres de l’indieWeb pouvaient parfois être assez raides et ennuyeuses. Certains l’assument pleinement et nous disent « Pourquoi pas » ?
+
+C’est le cas de Jeremy Wagner qui dans (link: https://jlwagner.net/blog/make-it-boring/ text: un article) au titre un brin provoquant, tache d’exprimer pourquoi il est plus essentiel pour lui que le web soit ennuyeux qu’_obstrusive_ (envahissant). Il y expose les raisons selon lesquelles le caractère ennuyeux d’un site, d’une “application interactive”, serait une de ses plus grandes qualités. Il écrit du point de vue d’un défenseur d’un web performant, rapide et accessible, pour qui l’un des plus grands défauts du web serait sa surcharge technologique et des choix de design trop intrusifs, faits aux dépens de son utilisabilité (sa facilité d’utilisation, ou _usability_ en anglais – ± lisibilité, appliquée au champ des interactions). Il signale combien les choses ennuyeuses sont prévisibles, attendues, anticipables et compréhensibles, et comment, en cela, elles simplifient l’usage d’un site web tout en augmentant son accessibilité. 
+
+En 2013, le site gov.uk,  le site du gouvernement britannique, gagne le _Design of the Year award_ décerné par le Design museum de Londres – et c’est l’accessibilité de son design qui est relevée, tant elle simplifie au quotidien la vie de millions de britanniques. Gov.uk est parfaitement ennuyeux ; mais on ne lui demande aucunement d’être excitant. 
+    
+#### **motherfucking website** 
+Dans un genre peut-être encore plus provocateur et un vocabulaire particulièrement fleuri, _(link: http://motherfuckingwebsite.com/ text: This is a motherfucking website)_ se propose de nous démontrer l’immensité des qualités des sites web les plus bruts : accessibles, performants, rapides, lisibles… Il fut rapidement augmenté de quelques (link: http://bettermotherfuckingwebsite.com/ text: versions) (link: https://thebestmotherfucking.website/ text: (link: https://thebestmotherfucking.website/ text: alternatives)), à peine moins raides. 
+
+On peut relire alors le texte d’Étienne Cliquet, paru en 2002 sur le site du collectif de net artistes français téléphérique : (link: http://web.archive.org/web/20110216053131/http://www.teleferique.org/stations/Cliquet/Default/ text: Esthétique par défaut,) qui rapproche notamment l’esthétique par défaut de certains programmes ou du web brut du Ready-made duchampien et anticipe les remarques d’Olia Lialina : «  [avec l’esthétique par défaut,] nous tournons le dos au [design d’]interfaces et faisons face aux programmes. »
+
+Ces approches très radicales ont été rassemblées, notamment par le développeur Bradley Taunt, qui nous dit que :
+    
+> The internet has become a _bloated mess_. Massive JavaScript libraries. Countless client-side queries. Overly complex frontend frameworks. But we can make a difference - no matter how small it may seem.[^taunt] —  Bradley Taunt, (link: https://1mb.club/ text: 1MB Club)
+> 
+[^taunt]: L’internet est devenu un bazar boursouflé. Des bibliothèques JavaScript massives. D’innombrables requêtes côté client. Des frameworks démesurément complexes. Mais nous pouvons faire la différence, même si elle semble minime. —  Bradley Taunt, (link: https://1mb.club/ text: 1MB Club) 
+    
+Il a commencé avec le [1MB Club](https://1mb.club/), et d’autres l’ont rejoint, basés sur cette même hypothèse : [10 KB Club](https://10kbclub.com/), [512KB Club](https://512kb.club/), [250kb Club](https://250kb.club/), [XHTML Club](https://xhtml.club/)… de nombreux sites crées en expérimentant avec la contrainte d’un poids de page minimum.
+    
+#### **Small web**     
+[Web 0](https://web0.small-web.org/), [Small web](https://ar.al/2020/08/07/what-is-the-small-web/), [Slow web](https://www.slowweb.io/fr/) ou _low tech web_ ; certains projets s’appuient sur un autre enjeu majeur de notre temps : la sobriété numérique. Ainsi le (link: https://solar.lowtechmagazine.com/ text: Low tech magazine) dont le site est hébergé sur un serveur alimenté par un panneau solaire (il peut donc parfois être hors ligne). Son design s’appuie sur l’hypothèse de demander le minimum de ressources, à la fois au serveur, mais aussi en termes de bande passante et de « modernité » de l’appareil qui visite le site. On sait en effet que le bilan écologique de nos activités numériques individuelles est essentiellement dû au coût de production de nos ordinateurs ou smartphones. Maintenir un web visible pour les anciens appareils, les vieux navigateurs, etc. est donc essentiel.
+    
+Le (link: https://emreed.net/LowTech_Directory.html text: Low tech webring directory) réunit des sites basés sur ce postulat écologique, mais qui en font aussi une une identité esthétique.
+    
+#### **Brutalist webdesign**
+
+[Brutalistwebsites](https://brutalistwebsites.com/) propose une définition formulée ainsi : « Par sa rugosité et l’indifférence aux formes faciles ou confortables, le Brutalisme peut être considéré comme une réaction de la jeune génération à la légèreté, à l’optimisme et à la frivolité du webdesign actuel ».
+    
+Sous ce terme, le designer Pascal Deville, rassemble sans hiérarchie un ensemble de sites qui —au delà des effets de mode dont il faut bien dire qu’ils sont très présents dans cette sélection— a comme intérêt de permettre à notre regard sur le web de sortir des sentiers battus. 
+    
+S’il est impossible d’opérer une sélection parmi les quelques 3500 sites recensés, relevons presqu’au hasard : (link: http://takeawalkonthewildside.rietveldacademie.nl/ text: Take a walk on the wild side), un site de la Riettweld Academie, dédié à un programme de recherche intitulé *Fabuler des imaginaires alternatifs dans l’art et la vie* ; Le site d’(link:http://antoine.luuse.fun  text: Antoine Gelgon) qui en quelques lignes de code nous donne accès à la modification de sa feuille de style. Le livre-site _[Graphic design in the post-digital age](https://www.postdigitalgraphicdesign.com/)_ coordonné à la HEAD à Genève par Demian Conrad et designé par Johnson/Kingston. 
+
+Dans une moindre mesure et de manière bien plus policée et moins brutale, on peut visiter [hoverstat.es](https://www.hoverstat.es/), auto-proclamé « *The home of alternative design, code and content on the world wide web* ».
+
+
+#### **Protocoles**
+Le web est basé sur un protocole, HTTP (protocole de transfert hyper texte), basé sur un autre protocole, plus ancien et plus profond, qui sert de méthode de transmission des informations à tous les internets : TCP/IP. Sans développer, ces enjeux sont assez techniques, signalons que certains voient dans l’élaboration de nouveaux protocoles une manière de faire un autre web. On peut citer:
+
+[Gemini](https://gemini.circumlunar.space/), qui permet de créer des pages hypertextuelles, mais sans style et sur une logique de balisage bien moins étendue que HTML. Il s’inscrit très clairement dans une logique de _small/slow web_ en réduisant strictement son utilité à écrire, publier, partager et lire des textes.
+
+> Gemini is a new internet protocol which:    
+— Is heavier than gopher    
+— Is lighter than the web    
+— Will not replace either    
+— Strives for maximum power to weight ratio    
+— Takes user privacy very seriously[^gemini]     
+
+[^gemini]: Gemini est un nouveau protocole Internet qui :    
+    — est plus lourd que gopher    
+    — est plus léger que le Web    
+    — Ne remplacera ni l’un ni l’autre    
+    — vise un rapport poids/puissance maximal    
+    — prend la confidentialité des utilisateurs très au sérieux
+
+[Spring ’83](https://www.robinsloan.com/lab/specifying-spring-83/), dans un tout autre style est un protocole qui permet à des utilisateurs de suivre des personnes qui les intéressent, d’une manière simple, expressive et prévisible ; que ces personnes partagent une pensée aléatoire chaque jour, un article de blog chaque semaine ou un projet artistique tous les deux ans, de manière indépendante des types de médias, afin de pouvoir suivre des écrivains, des musiciens, des programmeurs, des théoriciens, des activistes. Chaque utilisateur publie un mini « board » qui est inclus dans une page. On peut suivre des utilisateurs en incluant leur board dans notre propre page d’accueil.
+    
+Un dernier mot pour mentionner brièvement [Solid](https://solidproject.org/), une tentative de Tim Berners-Lee de changer radicalement le mode de fonctionnement actuel des applications Web, et aboutir pour les utilisateurs à une véritable propriété de leurs données et à une confidentialité améliorée. On peut également citer [Urbit](https://github.com/urbit/urbit) ou [dat.ecosystem](https://dat-ecosystem.org/). 
+
+
+#### **HTML energy** 
+
+[HTML energy](http://html.energy/)  est un podcast mené par Laurel Schwulst, une artiste et enseignante new-yorkaise, dans le contexte de ses cours, et dans lequel elle interroge des artistes et des designers qui écrivent des pages web en « pur HTML ». Elle s’intéresse notamment au du potentiel poétique du web. Très rapidement, je vais évoquer quelques projets, d’elle ou de ses camarades avant de conclure cette session de surf.
+
+[Alt text as poetry](https://alt-text-as-poetry.net/) : Le texte alternatif (un attribut associé au code html d’intégration d’une image) est un élément essentiel de l’accessibilité du Web. Il est souvent ignoré ou compris à travers le prisme de la conformité aux standards, comme une charge indésirable à laquelle il faut répondre avec un minimum d’effort. Le projet se propose au contraire d’aborder le texte alternatif de manière réfléchie et créative. Que peut-on dire d’une image ? Comment transformer une image en mots ? 
+
+[Sundaysites.cafe](https://sundaysites.cafe/about.html) est un rendez-vous en ligne qui a lieu le dimanche, de manière plus ou moins régulière, et propose aux participants (une douzaine, généralement, de langue anglaise majoritairement) de se rencontrer et de passer un moment à créer chacun un site web autour d’une thématique. 
+
+Terminons en citant et en traduisant un article que Laurel Schwulst a écrit pour la revue (link: https://thecreativeindependent.com/ text: The Creative independant) :
+
+> My website is a shifting house next to a river of knowledge.
+> What could yours be?[^shifiting]
+[^shifiting]: Mon site web est une maison mobile près d’une rivière de connaissances. Que pourrait être le vôtre ?
+
+Son postulat est qu’on peut ramener le web à son architecture originale simplement en ayant un site web. Elle pense en particulier que les artistes et les designers peuvent jouer un rôle déterminant de ce point de vue..
+
+> Artists excel at creating worlds. They do this first for themselves and then, when they share their work, for others. Of course, world-building means creating everything—not only making things nside the world but also the surrounding world itself—the language, style, rules, and architecture.[^worlds]
+[^worlds]: Les artistes excellent dans la création de mondes. Ils le font d’abord pour eux-mêmes et ensuite, lorsqu’ils partagent leur travail, pour les autres. Bien entendu, la création d’un monde implique de tout créer, non seulement les objets à l’intérieur du monde, mais aussi le monde environnant lui-même - sa langue, son style, ses règles et son architecture.    
+C’est pourquoi les sites Web sont si importants. Ils permettent à leurs auteurs de créer non seulement des œuvres (les "objets") mais aussi le monde (les pièces, la disposition des pièces, l’architecture). Idéalement, les deux se répondent mutuellement dans une boucle vertueuse.
+                
+Filons la métaphore et à la suite de Laurel Schwulst, évoquons quelques hypothèses de ce que pourrait être votre, notre, mon prochain site web.
+
+**Une chambre ?** Une chambre est un espace clos, intime, dans lequel on peut à sa guise bouger quelques meubles, et changer les posters accrochés au mur. Sur le web, il est même facile d’ouvrir des portes vers d’autres chambres, = faire des liens.
+
+**Une maison ?** Une maison contient souvent plusieurs pièces et abrite généralement plusieurs habitants. Il y a une entrée pour accueillir les invités — à moins qu’on n’entre directement dans la cuisine, peut-être un salon où écouter des disques ; parfois même une cave, un grenier.
+
+**Une plante ?** On ne peut pas presser une plante ; elle pousse à son rythme, tant qu’on lui donne un bon sol, qu’on l’arrose (mais pas trop) et qu’on lui offre la bonne lumière. Dans un site web, on peut planter une graine d’idée, et la laisser progressivement pousser.
+
+**Un jardin ?** Les jardins ont leur propre réaction à chaque saison. En hiver, il ne se passe pas grand-chose, et c’est très bien. On peut au mieux passer les mois les moins actifs à écrire quelques notes. Et au printemps, laisser déborder l’énergie accumulée. Au delà des saisons, un site peut être sensible à l’heure qu’il est. S’endormir la nuit pour laisser place à une méditation apaisée (ou à une fête endiablée) — et se réveiller au matin.
+
+**Une flaque d’eau ?** Les flaques d’eau sont impermanentes, elles apparaissent après un orage, et parfois s’évaporent au soleil. Ça n’est peut-être pas très simple à fabriquer, mais j’aimerais bien voir un site web s’évaporer lentement.
+Tout ne doit pas fatalement durer longtemps, même la plus belle flaque d’eau avec son incroyable surface réfléchissante. Il y aura d’autres orages. Et là où il y a un trou, une flaque d’eau réapparaîtra. 
+
+Enfin, pour terminer avec ces métaphores approximatives, **un caillou jeté à l’eau ?** Parfois, on ne veut pas d’un site Web qu’il faudrait entretenir. On a autre chose à faire. Pourquoi ne pas considérer ce site comme un beau caillou à la forme singulière qu’on aura passé des heures à trouver, pour ensuite le jeter à l’eau jusqu’à ce qu’il touche le fond de l’océan ? On ne saura jamais quand il touchera le fond, et ça n’est pas très important. Heureusement, il y a beaucoup de cailloux et on peut recommencer. On peut jeter autant de sites qu’on veut dans l’océan du web. Quand une idée nous vient, on peut chercher un caillou et le lancer.
+                
+## En conclusion
+
+Dans le champ du webdesign, s’opposent parfois les tenants de la lisibilité et ceux de l’expressivité. C’est une question centrale du développement des formes graphiques et interactives du médium au fil du temps. Dès 2001, elle émergeait dans les colonnes d’_A List Apart_ :
+
+> There are those who relish the anarchy and the variety of the web, and those who see it as a ubiquitous front-end to an array of databases – in a nutshell, those who see the web as a way of conveying experience and those who see it as a vehicle for information.[^informationvsexperience] — Emmanuel King Turner, [_Information vs. Experience_](https://alistapart.com/article/infoexperience/)
+[^informationvsexperience]: Il y a ceux qui apprécient l’anarchie et la variété du web, et ceux qui le considèrent comme une interface ubiquitaire vers un ensemble de bases de données - en un mot, ceux qui voient le web comme un moyen de transmettre une expérience et ceux qui le voient comme un véhicule d’information. — Emmanuel King Turner, [_Information vs. Experience_](https://alistapart.com/article/infoexperience/)
+
+> The near future will deliver a web where the structuralist model, the presentationalist model, and all combinations of the two are possible.[^informationvsexperience2]
+[^informationvsexperience2]: L’avenir proche nous réserve un web où le modèle structuraliste, le modèle présentationaliste, et toutes les combinaisons des deux sont possibles.
+
+C’était en 2001. Aujourd’hui, si la somme des enjeux techniques parait parfois complexe à appréhender, s’il peut sembler que les grandes plateformes ont étouffé le web, les possibilités de publier en ligne de manière indépendante restent immenses. Entre ennui et vitalité, outil pragmatique et expérience sensible, accessibilité de l’information ou invitation à la sérendipité, on ne peut qu’espérer que les designers et plus largement les utilisateurs du web continuent à s’approprier cet immense espace de partage.
+
+----
+
+Author: Julien Bidoret
+
+----
+
+Author-url: 
+
+----
+
+Wip: false
+
+----
+
+Date: 2022-09-06
+
+----
+
+Themes: - themes/radical
+
+----
+
+Tags: 
