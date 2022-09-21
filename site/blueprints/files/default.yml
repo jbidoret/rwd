@@ -22,6 +22,7 @@ columns:
       media_type:
         type: select
         required: true
+        default: image
         options:
           image: Image
           video: Vidéo

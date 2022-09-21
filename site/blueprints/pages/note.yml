@@ -12,6 +12,7 @@ columns:
           text:
             label: Text
             type: markdown
+            extends: fields/md
           author:
             label: Auteur
             type: text

@@ -13,6 +13,5 @@
     <?php $p = page('tweets') ?><li><a href="<?=$p->url()?>">Tweets</a></li>
     <?php $p = page('timeline') ?><li><a href="<?=$p->url()?>"><?=$p->title()?></a></li>
     <?php $p = page('about') ?><li><a href="<?=$p->url()?>"><?=$p->title()?></a></li>
-    <li><a href="/makeitboing">Make it boing</a></li>
   </ul>
 </div>

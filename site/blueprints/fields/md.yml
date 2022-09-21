@@ -12,4 +12,5 @@ buttons:
   - divider
   ul: -
   - blockquote
+  - highlight # textmarker (not supported by Kirby’s default markdown parser.)
 font: sans
