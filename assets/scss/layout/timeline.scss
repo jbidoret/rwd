@@ -53,6 +53,9 @@
   // p:nth-child(4){
   //   grid-column-end: span 2 ;
   // }
+  @media (max-width:700px) {
+    display: none;
+  }
   
 }
 
@@ -120,5 +123,28 @@
   .details-text {
     padding: 0;
     font-size: var(--tinysize);
+  }
+  @media (max-width:700px) {
+    grid-template-columns: 1fr;
+    article { 
+      grid-column: 1;
+      grid-column-start: 1 !important;
+      grid-column-end: 1 !important;
+    }
+    .tech header::before,
+    .soft header::before,
+    .site header::before,
+    .design header::before,
+    .webdesign header::before,
+    .art header::before,
+    .context header::before{  float: right; font-size: .85em; text-transform: uppercase; letter-spacing: .05em; padding: .25em 0 0 1em; color: rgba(0,0,0,.6); }
+
+    .tech header::before{ content:"Techno."; }
+    .soft header::before{ content:"Soft."; }
+    .site header::before,
+    .design header::before,
+    .webdesign header::before{ content:"Design"; }
+    .art header::before{ content:"Art"; }
+    .context header::before{ content:"Contexte"; }
   }
 }

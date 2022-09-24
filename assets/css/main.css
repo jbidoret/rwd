@@ -878,6 +878,9 @@ sup a.footnote-ref {
   top: calc(var(--bigsize) / 2 + var(--tinysize) / 2); }
   .timeline-header p {
     position: relative; }
+  @media (max-width: 700px) {
+    .timeline-header {
+      display: none; } }
 
 .timeline-year-content {
   display: grid;
@@ -927,6 +930,38 @@ sup a.footnote-ref {
   .timeline-year-content .details-text {
     padding: 0;
     font-size: var(--tinysize); }
+  @media (max-width: 700px) {
+    .timeline-year-content {
+      grid-template-columns: 1fr; }
+      .timeline-year-content article {
+        grid-column: 1;
+        grid-column-start: 1 !important;
+        grid-column-end: 1 !important; }
+      .timeline-year-content .tech header::before,
+      .timeline-year-content .soft header::before,
+      .timeline-year-content .site header::before,
+      .timeline-year-content .design header::before,
+      .timeline-year-content .webdesign header::before,
+      .timeline-year-content .art header::before,
+      .timeline-year-content .context header::before {
+        float: right;
+        font-size: .85em;
+        text-transform: uppercase;
+        letter-spacing: .05em;
+        padding: .25em 0 0 1em;
+        color: rgba(0, 0, 0, 0.6); }
+      .timeline-year-content .tech header::before {
+        content: "Techno."; }
+      .timeline-year-content .soft header::before {
+        content: "Soft."; }
+      .timeline-year-content .site header::before,
+      .timeline-year-content .design header::before,
+      .timeline-year-content .webdesign header::before {
+        content: "Design"; }
+      .timeline-year-content .art header::before {
+        content: "Art"; }
+      .timeline-year-content .context header::before {
+        content: "Contexte"; } }
 
 main, #nav, #footer {
   margin: var(--margintop) var(--marginright) var(--marginbottom) var(--marginleft); }
