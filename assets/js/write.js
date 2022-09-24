@@ -5,7 +5,7 @@
       var h = window.innerHeight;
       // margins
       const m = 50;
-      const ms = [150, 150, 50, 50];
+      let ms = [150, 150, 50, 50];
       
       // random function helper
       function r(min, max) {
@@ -92,8 +92,8 @@
             context.bezierCurveTo(d2[0], d2[1], d121[0], d121[1], d3[0], d3[1]);
             context.stroke();
             break;
-        
-          default:
+            
+          case "r" :
             const r1 = [letter_x,  letter_h];
             const r2 = [r(letter_x, letter_x + letter_w / 3), letter_y];
             const r3 = [r(letter_x + letter_w, (letter_x + letter_w) * 1.2), r(letter_h/4, letter_h/4*3)];
@@ -113,6 +113,7 @@
         h = window.innerHeight;
         canvas.setAttribute("width",w);
         canvas.setAttribute("height",h);
+        ms = [(w > 500 ? 150 : 50), 150, 50, 50];
         blocks();
       }
       rwd();
