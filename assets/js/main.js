@@ -106,11 +106,7 @@ if(article){
         var parent = link.parentNode;
         parent.parentNode.insertBefore(figure, parent.nextElementSibling);
         link.classList.add('opened');
-        // alt
-        var alt = link.dataset.alt;
-        if (alt){
-          video.setAttribute('alt', alt);
-        }
+       
       }        
 
       // caption

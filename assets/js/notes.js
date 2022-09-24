@@ -40,7 +40,7 @@ var processFootNotesToSideNotes = function processFootNotesToSideNotes(opts) {
         var caption = document.createElement('span');
         caption.className = "caption";
         caption.textContent = alt;
-        image.after(caption)
+        image.after(caption);
       }
     }
 
