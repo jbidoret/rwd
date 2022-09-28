@@ -64,8 +64,7 @@
     <?php endif ?>
 
     <footer id="outro">
-      <p>Travail au long cours en cours.</p>
-      <p>Largement basée sur une expérience personnelle –et donc pour le moment soumise à de nombreux biais–, cette chronologie s’inspire largement des travaux du <a href="https://www.webdesignmuseum.org/web-design-history/">Webdesign Museum</a> et de l’ouvrage <a href="https://thehistoryofweb.design/">Web Design. The Evolution of the Digital World 1990 – Today</a> de Rob Ford et Julius Wiedemann. Son établissement fait évidemment un abondant usage de <a href="https://en.wikipedia.org/">Wikipédia</a> et de la <a href="http://web.archive.org/">WayBackMachine</a> d’Archive.org. </p>
+      <?= $page->outro()->kt() ?>
     </footer>
 
   </main>
