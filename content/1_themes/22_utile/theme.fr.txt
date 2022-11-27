@@ -1,0 +1,9 @@
+Title: Utile
+
+----
+
+Introduction: Le web est un outil. Ses langages permettent de construire, développer et partager de nouvelles approches dans les champs de la création, de l’édition, de l’échange ou du traitement d’informations, de textes et d’images.
+
+----
+
+Wip: true

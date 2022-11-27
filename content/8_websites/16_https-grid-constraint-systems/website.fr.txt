@@ -22,14 +22,6 @@ Tags:
 
 ----
 
-Cover: - grid.png
-
-----
-
-Wip: false
-
-----
-
 Is-important: false
 
 ----
@@ -38,8 +30,16 @@ Date: 2022-08-16
 
 ----
 
-Themes: 
+Themes: - themes/utile
 
 ----
 
 Lang: en
+
+----
+
+Cover: - grid.png
+
+----
+
+Wip: false

@@ -22,14 +22,6 @@ Tags:
 
 ----
 
-Cover: - opengraph_v1.1.1.jpg
-
-----
-
-Wip: false
-
-----
-
 Is-important: false
 
 ----
@@ -38,8 +30,16 @@ Date: 2022-08-17
 
 ----
 
-Themes: 
+Themes: - themes/utile
 
 ----
 
 Lang: en
+
+----
+
+Cover: - opengraph_v1.1.1.jpg
+
+----
+
+Wip: false

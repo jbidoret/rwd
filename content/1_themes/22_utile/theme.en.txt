@@ -1,0 +1,9 @@
+Title: Useful
+
+----
+
+Introduction: The web is a tool. Its languages allow us to build, develop and share new approaches in the fields of creation, editing, exchange or processing of information, texts and images.
+
+----
+
+Wip: false

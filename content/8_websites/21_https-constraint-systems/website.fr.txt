@@ -22,14 +22,6 @@ Tags: tools
 
 ----
 
-Cover: - cs-share.png
-
-----
-
-Wip: false
-
-----
-
 Is-important: false
 
 ----
@@ -42,7 +34,16 @@ Themes:
 
 - themes/tinkered
 - themes/weird
+- themes/utile
 
 ----
 
 Lang: en
+
+----
+
+Cover: - cs-share.png
+
+----
+
+Wip: false
