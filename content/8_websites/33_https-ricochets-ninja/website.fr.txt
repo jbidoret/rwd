@@ -1,0 +1,41 @@
+Title: { ȭ }
+
+----
+
+Link-url: https://ricochets.ninja/
+
+----
+
+Introduction: 
+
+----
+
+Text: Le merveilleux site fait-main de @slowpress qui expérimente la publication web artisanale, pense à ses outils, explore ses esthétiques et se réjouit de sa lenteur.
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-10-23
+
+----
+
+Themes: 
+
+----
+
+Lang: 
+
+----
+
+Cover: 

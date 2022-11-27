@@ -1,0 +1,41 @@
+Title: David Liebermann
+
+----
+
+Link-url: https://davidliebermann.de/
+
+----
+
+Introduction: Multi disciplinary Graphic Design, focused on Digital Technology and Contemporary Internet
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-10-24
+
+----
+
+Themes: 
+
+----
+
+Lang: de
+
+----
+
+Cover: preview.jpg

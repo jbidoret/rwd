@@ -2,7 +2,7 @@
   email: onlineb2bconsulting@gmail.com
   language: en
   name: Leonardo Banks
-  status: pending
+  status: unapproved
   text: |
     Would you like to send targeted messages to website owners, just like this one?
     
@@ -19,7 +19,7 @@
   email: noreply@getmorebusinessleadsnow.com
   language: en
   name: Ultimate
-  status: pending
+  status: unapproved
   text: |
     Hi, would you like more business leads at a lower cost? Currently http://GetMoreBusinessLeadsNow.com is offering our popular unlimited lead generation software package - at a reduced price for a limited time.
     
@@ -44,7 +44,7 @@
   email: noreply@getmorebusinessleadsnow.com
   language: en
   name: Ultimate
-  status: pending
+  status: unapproved
   text: |
     Hi, would you like more business leads at a lower cost? Currently http://GetMoreBusinessLeadsNow.com is offering our popular unlimited lead generation software package - at a reduced price for a limited time.
     
@@ -69,7 +69,7 @@
   email: ernest@makemysitemobile.com
   language: en
   name: Ernest Roche
-  status: pending
+  status: unapproved
   text: |
     Convert radicalweb.design to an app with one click!
     
