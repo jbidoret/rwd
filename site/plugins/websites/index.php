@@ -21,7 +21,7 @@ Kirby::plugin('ag/websites', [
     ),
     'hooks' => [
       'page.create:after' => function ($page) {
-        if ($page->intendedTemplate() == "website" ){
+        if ($page->intendedTemplate() == "website" || $page->intendedTemplate() == "link" ){
           $url = $page->title();
           if(V::url($url)){
             $embed = new Embed();
@@ -32,9 +32,6 @@ Kirby::plugin('ag/websites', [
             $cover = "";
 
             if($imageurl){
-              // file_put_contents($img, file_get_contents($image));
-              // F::write($page->root() .'/'. $image, $image);
-
               $file = file_get_contents($imageurl); 
               $path = parse_url($imageurl, PHP_URL_PATH);
               $filename = basename($path);              
@@ -56,18 +53,7 @@ Kirby::plugin('ag/websites', [
       },
       'page.update:after' => function ($newPage, $oldPage) {
         if ($newPage->intendedTemplate() == "website" ){
-          // $url = $newPage->link_url();
-          // if(V::url($url)){
-          //   $embed = new Embed();
-          //   $info = $embed->get( $url );
-          //   $title = $info->title ?? Str::slug($url);
-          //   $newPage->update([
-          //     'link_url' => $url,
-          //     'introduction' => $info->title
-          //   ]);
-          //   // $newPage->changeTitle($title);
-          //   $newPage->changeStatus('listed');
-          // }
+         
         }
       }
       

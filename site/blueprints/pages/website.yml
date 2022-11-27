@@ -28,13 +28,21 @@ columns:
             type: tags
             label: Tags
             options: query
-            query: page.siblings.pluck("tags", ",", true)  
+            query: site.index.pluck("tags", ",", true)
+            
+            
   - width: 1/3
     sections:
       fields:
         type: fields
-        fields:
-          
+        fields:          
+          cover:
+            type: files
+            multiple: false
+            help: 800 x 450 / 1200 x 675
+          wip:
+            type: toggle
+            label: En construction
           is_important:
             type: toggle
             label: Important ?

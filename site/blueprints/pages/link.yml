@@ -7,23 +7,27 @@ columns:
         type: fields   
         fields:
           link_url:
-            required: true
             label: URL
             type: url
             translate: false
           introduction:
             label: Introduction
             type: markdown
+            extends: fields/minimal
           text:
             label: Text
             type: markdown
+            extends: fields/md
           author:
             label: Author
-            type: text
+            type: tags
+            options: query
+            query: page.siblings.pluck("author", ",", true)
             translate: false
           tags:
             type: tags
             label: Tags
+            options: query
             query: site.index.pluck("tags", ",", true)      
       commentions:
         type: commentions
