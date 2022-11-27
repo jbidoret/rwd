@@ -6,4 +6,12 @@ Introduction: Une chronologie d’évènements relatifs au webdesign, à son év
 
 ----
 
+Outro:
+
+Travail au long cours en cours.
+
+Largement basée sur une expérience personnelle –et donc pour le moment soumise à de nombreux biais–, cette chronologie s’inspire largement des travaux du [Webdesign Museum](https://www.webdesignmuseum.org/web-design-history/) et de l’ouvrage [Web Design. The Evolution of the Digital World 1990 – Today](https://thehistoryofweb.design/) de Rob Ford et Julius Wiedemann. Son établissement fait évidemment un abondant usage de [Wikipédia](https://en.wikipedia.org/) et de la [WayBackMachine](http://web.archive.org/) d’Archive.org. En aucun cas ce projet ne prétend lutter avec l’immense _timeline_ produite par Jay Hoffman sur [The History of the Web](https://thehistoryoftheweb.com/timeline/).
+
+----
+
 Wip: true

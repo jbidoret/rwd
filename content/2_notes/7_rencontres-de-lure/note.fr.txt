@@ -8,15 +8,13 @@ Introduction: Article tiré de la conférence _Radical webdesign_ proposée lors
 
 Text:
 
-Dans cette proposition, je vais régulièrement traiter de manière indistinguée les enjeux du webdesign et ceux de la publication en ligne. On abordera à la fois des questions de lisibilité et de visibilité, deux questions qui sont au cœur des pratiques de design comme de publication. On évoquera également un certain antagonisme entre accessibilité et expressivité, deux enjeux qui ont sur le web une dimension particulière.
+Dans cette proposition seront traitées de manière indistinguée les enjeux du webdesign et ceux de la publication en ligne. On abordera à la fois des questions de lisibilité et de visibilité, deux questions qui sont au cœur des pratiques de design comme de publication. On évoquera également un certain antagonisme entre accessibilité et expressivité, deux enjeux qui ont sur le web une dimension particulière.
 
-Avertissement : le regard que je porte sur le web est empreint d’une grande naïveté. La confiance que j’ai envers l’universalisme fondateur du web, l’opensource et le libre, le partage de la connaissance, le « libéralisme » philosophique qui a conduit à son développement est d’une nature qui confine à la croyance. C’est une naïveté tout à fait volontaire et assumée.  Je _choisis_ parmi les fondements philosophiques, moraux ou politiques de ces technologies d’en garder ce qui me semble être le meilleur, le plus enthousiasmant, le plus émancipateur. 
+Avertissement : le regard ici porté sur le web est empreint d’une grande naïveté. La confiance affichée envers l’universalisme fondateur du web, l’opensource et le libre, le partage de la connaissance, le « libéralisme » philosophique qui a conduit à son développement est d’une nature qui confine à la croyance. C’est une naïveté tout à fait volontaire et assumée : elle _choisit_ parmi les fondements philosophiques, moraux ou politiques de ces technologies d’en garder ce qui semble être le meilleur, le plus enthousiasmant, le plus émancipateur. 
 
-C’est à travers ce regard naïf que ce texte se propose de parcourir une brève histoire du webdesign, d’évoquer son présent et d’en envisager les perspectives en se tenant à l’écart des cris d’orfraie de celles et ceux qui le penseraient définitivement cassé.
+C’est à travers ce regard que ce texte se propose de parcourir une brève histoire du webdesign, d’évoquer son présent et d’en envisager quelques perspectives, en se tenant à l’écart des cris d’orfraie de celles et ceux qui le penseraient définitivement cassé.
 
-Voici un extrait d’un texte de (link: http://luckysoap.com text: J. R. Carpenter), autrice et poète canadienne dont j’ai fini par m’approprier pleinement la position, en le proposant comme épigraphe à mon cours d’introduction au webdesign. 
-
->  In today’s highly commercialized web of multinational corporations, proprietary applications, read-only devices, search algorithms, Content Management Systems, WYSIWYG editors, and digital publishers, it becomes an increasingly rad cal act to hand-code and self-publish experimental web art and writing projects.[^carpenter] — J. R. Carpenter, (link: http://luckysoap.com/statements/handmadeweb.html text: A handmade web).
+>  In today’s highly commercialized web of multinational corporations, proprietary applications, read-only devices, search algorithms, Content Management Systems, WYSIWYG editors, and digital publishers, it becomes an increasingly radical act to hand-code and self-publish experimental web art and writing projects.[^carpenter] — J. R. Carpenter, (link: http://luckysoap.com/statements/handmadeweb.html text: A handmade web).
 
 [^carpenter]: Dans le web hautement commercialisé d’aujourd’hui, fait de multinationales, d’applications propriétaires, de dispositifs en lecture seule, d’algorithmes de recherche, de systèmes de gestion de contenu, d’éditeurs WYSIWYG ou d’éditeurs numériques, coder à la main et auto-publier des projets expérimentaux d’art et d’écriture sur le web devient un acte de plus en plus radical — (link: http://luckysoap.com/statements/handmadeweb.html text: J. R. Carpenter).
 
@@ -143,7 +141,7 @@ Ne parlons même pas des cas où à dessein, le designer choisit de tromper ou m
 ### Le web 3 n’existe pas 
 Digression à peine gratuite : pas plus que le web 2.0, Le web3 n’existe pas, ou plutôt, ce n’est pas du web. De la même manière que lorsque Tim O’Reilly a forgé le terme web 2.0, le terme web3 employé notamment par Gavin Wood, fondateur de la chaine de blocks et du service Ethereum, tente de mettre un vernis de décentralisation sur des pratiques profondément inscrites dans une logique spéculative, où la rareté artificielle contredit toute la logique de partage initialement ancrée dans le web.
 
-_Read / write / own_ est un raccourci parfois utilisé pour qualifier ce que seraient ces trois âges du web. _Let’s share what we know /  Let’s share what we can /  Let’s share whatever_ (j’emprunte le bon mot à (link: http://gregorycadars.com/ text: Greg Cadars)) pourrait être une version alternative. J’ajoute : « si ça peut faire des sous » (media: lets-share-3-b.png)
+_Read / write / own_ est un raccourci parfois utilisé pour qualifier ce que seraient ces trois âges du web. _Let’s share what we know /  Let’s share what we can /  Let’s share whatever_ (bon mot emprunté à (link: http://gregorycadars.com/ text: Greg Cadars)) pourrait être une version alternative. On peut y ajouter : « si ça peut faire des sous » (media: lets-share-3-b.png)
 
 Plutôt que sur le web3, ou au delà, on préférera se pencher sur le (link: https://web0.small-web.org/ text: web0) ou relire le _(link: http://www.uzine.net/article60.html text: Manifeste du Web indépendant)_, publié par le minirézo sur uzine.net en 1997. 
 
@@ -183,7 +181,7 @@ Affirmons ici la distinction entre les notions d’*usage* et celle de *pratique
 
 À l’inverse, la pratique suppose un geste d’appropriation de la part de l’individu, qui en fait un acteur singulier. Quand l’usage use et consomme, la pratique agit. L’usage est de l’ordre du _like_ sur facebook, la pratique du billet sur un blog. 
 
-En tant qu’artistes, designers, *publieurs*, ou simple utilisateurs, l’objectif de la réflexion que je nous propose est de nous inviter à préférer la pratique à l’usage, en nous réappropriant ces espaces que sont le web et les internets. Sans hypothèse d’exhaustivité, je vais donc vous présenter quelques pistes que des designers, mais aussi des amateurs, des développeurs, ou plus généralement des pratiquants du web explorent, afin de se ré-approprier cet espace. 
+En tant qu’artistes, designers, *publieurs*, ou simple utilisateurs, l’objectif de la réflexion proposée ici est de nous inviter à préférer la pratique à l’usage, en nous réappropriant ces espaces que sont le web et les internets. Sans hypothèse d’exhaustivité, voici quelques pistes que des designers, mais aussi des amateurs, des développeurs, ou plus généralement des pratiquants du web explorent, afin de se ré-approprier cet espace. 
 
 ### Surf club
 > Le terme "club de surf" est souvent utilisé pour décrire des blogs collectifs d’artistes où le sujet dominant est la culture et l’esthétique de l’internet et où les limites sont floues entre les rôles d’artiste, de conservateur et d’archiviste. — [Rhizome](https://sites.rhizome.org/surfclubs/#INTRODUCTION)
@@ -203,7 +201,7 @@ En deux mots : un web social, mais sans les silos. Mis à part quelques exemples
     
 Pas spécifiquement affilié à l’indieWeb, itch.io est une communauté structurée autour du jeu indépendant. Parmi la surabondance de productions hébergées sur la pateforme, on peut citer le cas de Nathalie Lawhead aka [@alienmelon](https://alienmelon.itch.io/), créatrice d’une incroyable application, l’[Electric Zine Maker](https://alienmelon.itch.io/electric-zine-maker), application parfaitement réjouissante de création de fanzines #postdigitalpunk. 
    
-Proche de l’indieWeb, et des esthétiques volontiers rétro représentées par @alienmelon ou Kicks Condor, le service Neocities a comme projet de « rendre le web _fun_ à nouveau ». C’est un espace de publication gratuit de sites web en HTML est né après le constat que le rachat et l’abandon par Yahoo! de Geocities en 2009 avait fait perdre au web un de ses plus riches espaces d’expressivité.
+Proche de l’indieWeb, et des esthétiques volontiers rétro représentées par @alienmelon ou Kicks Condor, le service (link: https://neocities.org/ text: Neocities) a comme projet de « rendre le web _fun_ à nouveau ». C’est un service gratuit de publication de sites web, né après le constat que le rachat et l’abandon par Yahoo! de Geocities en 2009 avait fait perdre au web un de ses plus riches espaces d’expressivité.
         
 > Neocities is bringing back the fun, creativity and independence that made the web great.[^neo]
         
@@ -211,7 +209,7 @@ Proche de l’indieWeb, et des esthétiques volontiers rétro représentées par
     
 #### **make it boring**
 
-J’ai signalé que les formes graphiques des membres de l’indieWeb pouvaient parfois être assez raides et ennuyeuses. Certains l’assument pleinement et nous disent « Pourquoi pas » ?
+Si les formes graphiques des membres de l’indieWeb peuvent parfois être assez raides et ennuyeuses, certains l’assument pleinement et nous disent « Pourquoi pas » ?
 
 C’est le cas de Jeremy Wagner qui dans (link: https://jlwagner.net/blog/make-it-boring/ text: un article) au titre un brin provoquant, tache d’exprimer pourquoi il est plus essentiel pour lui que le web soit ennuyeux qu’_obstrusive_ (envahissant). Il y expose les raisons selon lesquelles le caractère ennuyeux d’un site, d’une “application interactive”, serait une de ses plus grandes qualités. Il écrit du point de vue d’un défenseur d’un web performant, rapide et accessible, pour qui l’un des plus grands défauts du web serait sa surcharge technologique et des choix de design trop intrusifs, faits aux dépens de son utilisabilité (sa facilité d’utilisation, ou _usability_ en anglais – ± lisibilité, appliquée au champ des interactions). Il signale combien les choses ennuyeuses sont prévisibles, attendues, anticipables et compréhensibles, et comment, en cela, elles simplifient l’usage d’un site web tout en augmentant son accessibilité. 
 
@@ -272,7 +270,7 @@ Un dernier mot pour mentionner brièvement [Solid](https://solidproject.org/), u
 
 #### **HTML energy** 
 
-[HTML energy](http://html.energy/)  est un podcast mené par Laurel Schwulst, une artiste et enseignante new-yorkaise, dans le contexte de ses cours, et dans lequel elle interroge des artistes et des designers qui écrivent des pages web en « pur HTML ». Elle s’intéresse notamment au du potentiel poétique du web. Très rapidement, je vais évoquer quelques projets, d’elle ou de ses camarades avant de conclure cette session de surf.
+[HTML energy](http://html.energy/)  est un podcast mené par Laurel Schwulst, une artiste et enseignante new-yorkaise, dans le contexte de ses cours, et dans lequel elle interroge des artistes et des designers qui écrivent des pages web en « pur HTML ». Elle s’intéresse notamment au du potentiel poétique du web. Très rapidement, évoquons quelques projets, d’elle ou de ses camarades avant de conclure cette session de surf.
 
 [Alt text as poetry](https://alt-text-as-poetry.net/) : Le texte alternatif (un attribut associé au code html d’intégration d’une image) est un élément essentiel de l’accessibilité du Web. Il est souvent ignoré ou compris à travers le prisme de la conformité aux standards, comme une charge indésirable à laquelle il faut répondre avec un minimum d’effort. Le projet se propose au contraire d’aborder le texte alternatif de manière réfléchie et créative. Que peut-on dire d’une image ? Comment transformer une image en mots ? 
 
@@ -300,8 +298,7 @@ Filons la métaphore et à la suite de Laurel Schwulst, évoquons quelques hypot
 
 **Un jardin ?** Les jardins ont leur propre réaction à chaque saison. En hiver, il ne se passe pas grand-chose, et c’est très bien. On peut au mieux passer les mois les moins actifs à écrire quelques notes. Et au printemps, laisser déborder l’énergie accumulée. Au delà des saisons, un site peut être sensible à l’heure qu’il est. S’endormir la nuit pour laisser place à une méditation apaisée (ou à une fête endiablée) — et se réveiller au matin.
 
-**Une flaque d’eau ?** Les flaques d’eau sont impermanentes, elles apparaissent après un orage, et parfois s’évaporent au soleil. Ça n’est peut-être pas très simple à fabriquer, mais j’aimerais bien voir un site web s’évaporer lentement.
-Tout ne doit pas fatalement durer longtemps, même la plus belle flaque d’eau avec son incroyable surface réfléchissante. Il y aura d’autres orages. Et là où il y a un trou, une flaque d’eau réapparaîtra. 
+**Une flaque d’eau ?** Les flaques d’eau sont éphémères, elles apparaissent après un orage et s’évaporent au soleil. On pourrait imaginer un site web s’évaporer lentement. Tout ne doit pas fatalement durer longtemps, même la plus belle flaque d’eau avec son incroyable surface réfléchissante. Il y aura d’autres orages. Et là où il y a un trou, une flaque d’eau réapparaîtra. 
 
 Enfin, pour terminer avec ces métaphores approximatives, **un caillou jeté à l’eau ?** Parfois, on ne veut pas d’un site Web qu’il faudrait entretenir. On a autre chose à faire. Pourquoi ne pas considérer ce site comme un beau caillou à la forme singulière qu’on aura passé des heures à trouver, pour ensuite le jeter à l’eau jusqu’à ce qu’il touche le fond de l’océan ? On ne saura jamais quand il touchera le fond, et ça n’est pas très important. Heureusement, il y a beaucoup de cailloux et on peut recommencer. On peut jeter autant de sites qu’on veut dans l’océan du web. Quand une idée nous vient, on peut chercher un caillou et le lancer.
                 

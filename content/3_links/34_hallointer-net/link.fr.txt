@@ -1,0 +1,48 @@
+Title: Hallointer.net
+
+----
+
+Link-url: https://hallointer.net/
+
+----
+
+Introduction: Hallointer.net est une « plateforme pour l'internet contemporain » maintenue par David Liebermann, dont la collection se concentre sur des approches novatrices, bizarres ou inattendues du design ou du code pour le web.
+
+----
+
+Text: 
+
+----
+
+Author: David Liebermann
+
+----
+
+Tags: 
+
+----
+
+Cover: - capture-decran-2022-10-24-a-11.21.17.png
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-09-23
+
+----
+
+Themes:
+
+- themes/weird
+- themes/subversive
+
+----
+
+Lang: EN

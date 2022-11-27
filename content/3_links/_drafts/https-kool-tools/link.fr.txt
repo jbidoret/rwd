@@ -1,0 +1,45 @@
+Title: https://kool.tools/
+
+----
+
+Link-url: https://kool.tools/
+
+----
+
+Introduction: 
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover: 
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-10-25
+
+----
+
+Themes: 
+
+----
+
+Lang: 

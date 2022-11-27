@@ -18,17 +18,19 @@ Author:
 
 ----
 
-Tags: independant
+Tags: 
 
 ----
 
-Cover:
-
-- capture-decran-2021-02-19-a-22.25.27.png
+Cover: - capture-decran-2021-02-19-a-22.25.27.png
 
 ----
 
 Wip: false
+
+----
+
+Is-important: false
 
 ----
 

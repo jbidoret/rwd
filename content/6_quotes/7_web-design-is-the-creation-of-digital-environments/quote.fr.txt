@@ -1,0 +1,29 @@
+Title: Web design is the creation of digital environments
+
+----
+
+Text: Web design is the creation of digital environments that facilitate and encourage human activity; reflect or adapt to individual voices and content; and change gracefully over time while always retaining their identity.
+
+----
+
+Author: Jeffrey Zeldman
+
+----
+
+Quote-url: https://alistapart.com/article/understandingwebdesign/
+
+----
+
+Tags: 
+
+----
+
+Date: 2022-10-30
+
+----
+
+Themes:
+
+- themes/progressive
+- themes/resilient
+- themes/accessible
