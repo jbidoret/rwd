@@ -1,0 +1,45 @@
+Title: Sam Fairbairn
+
+----
+
+Link-url: https://www.saaa.am/
+
+----
+
+Introduction: Portfolio of Sam Fairbairn, UK front-end developper based in Shanghai.
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover: - share.png
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-11-27
+
+----
+
+Themes: 
+
+----
+
+Lang: en

@@ -1,0 +1,45 @@
+Title: Iterations
+
+----
+
+Link-url: https://iterations.online/
+
+----
+
+Introduction: How do recent technological developments empower makers to generate new creative avenues?
+
+----
+
+Text: 
+
+----
+
+Author: Vera van de Seyp
+
+----
+
+Tags: 
+
+----
+
+Cover: - iterations-landscape.png
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-12-08
+
+----
+
+Themes: 
+
+----
+
+Lang: 

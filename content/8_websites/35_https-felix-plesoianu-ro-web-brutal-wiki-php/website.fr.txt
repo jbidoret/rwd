@@ -1,0 +1,45 @@
+Title: About
+
+----
+
+Link-url: https://felix.plesoianu.ro/web/brutal/wiki.php
+
+----
+
+Introduction: BrutalWiki, un moteur de wiki basé sur les principes de « design brutaliste », par Felix Pleşoianu, auteur de (link: https://felix.plesoianu.ro/web/index.html text: Web matters).
+
+----
+
+Text: 
+
+----
+
+Author: 
+
+----
+
+Tags: 
+
+----
+
+Cover: - capture-decran-2022-11-27-a-16.43.57.png
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-11-27
+
+----
+
+Themes: - themes/brutal
+
+----
+
+Lang: 

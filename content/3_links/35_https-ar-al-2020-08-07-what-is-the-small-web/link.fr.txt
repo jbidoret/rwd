@@ -1,0 +1,45 @@
+Title: What is the Small Web?
+
+----
+
+Link-url: https://ar.al/2020/08/07/what-is-the-small-web/
+
+----
+
+Introduction: Un article et une vidéo d’Aral Balkan, fondateur d’une fondation dédiée à la « (link: https://small-tech.org/ text: small tech) ». Y sont décrits les principes d’un « small web » décentralisé et personnel, par opposition  au « Big Web ».
+
+----
+
+Text: 
+
+----
+
+Author: Aral Balkan
+
+----
+
+Tags: 
+
+----
+
+Cover: - small-web-topology.jpg
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-11-27
+
+----
+
+Themes: - themes/independant
+
+----
+
+Lang: en

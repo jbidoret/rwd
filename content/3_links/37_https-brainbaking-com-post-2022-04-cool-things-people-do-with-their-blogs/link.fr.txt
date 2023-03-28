@@ -1,0 +1,49 @@
+Title: Cool Things People Do With Their Blogs
+
+----
+
+Link-url: https://brainbaking.com/post/2022/04/cool-things-people-do-with-their-blogs/
+
+----
+
+Introduction: « Small and independent blogs are always full of surprises. The more blogs I stumble upon, the more genuinely surprised I am by the things people do with their blogs. » Une liste de trucs cools sur des blogs et pages perso, dressée par Wouter Groeneveld.
+
+----
+
+Text: 
+
+----
+
+Author: Wouter Groeneveld
+
+----
+
+Tags: blogs
+
+----
+
+Cover: - bblogo.png
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-11-27
+
+----
+
+Themes:
+
+- themes/exciting
+- themes/sensible
+- themes/independant
+
+----
+
+Lang: en

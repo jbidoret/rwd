@@ -1,0 +1,47 @@
+Title: Small is beautiful
+
+----
+
+Introduction: Un (link: https://mastodon.ar.al/@aral/106680277900274823 text: toot) du récement populaire Aral Balkan me fait me rendre compte de l’écart qui existe entre différents partisans du « small web » et des velléités d’appropriation que ce terme fait naître.
+
+----
+
+Text:
+
+À l’origine de la controverse, une prise de bec entre les partisans de l’Indie Web et Aral Balkan, dont quelques traces partielles et partiales sont (link: https://indieweb.org/small_web text: mises en lumière sur le site indieweb.org).
+
+En cours de lecture : 
+- (link: https://felix.plesoianu.ro/web/in-the-small.html text: Notes on the small web) —  Felix Pleşoianu
+- (link: https://www.jayeless.net/wiki/small-web.html text: Small Web) — Jessica Smith
+- (link: https://benhoyt.com/writings/the-small-web-is-beautiful/ text: The small web is beautiful) — Ben Hoyt
+- (link: https://ajroach42.com/the-small-things-manifesto/ text: The small things Manifesto) — Andrew Roach
+
+En cours de traduction :
+- (link: (link: https://mypads.framapad.org/mypads/?/mypads/group/traductions-rmts87ua/pad/view/the-small-things-manifesto-traduction-noti870p text: https://ajroach42.com/the-small-things-manifesto/) text: The small things Manifesto) — avec ErickM, Goofy
+
+----
+
+Author: 
+
+----
+
+Author-url: 
+
+----
+
+Wip: false
+
+----
+
+Date: 2022-11-27
+
+----
+
+Themes:
+
+- themes/sober
+- themes/future-proof
+
+----
+
+Tags: 

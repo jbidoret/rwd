@@ -270,7 +270,7 @@ Un dernier mot pour mentionner brièvement [Solid](https://solidproject.org/), u
 
 #### **HTML energy** 
 
-[HTML energy](http://html.energy/)  est un podcast mené par Laurel Schwulst, une artiste et enseignante new-yorkaise, dans le contexte de ses cours, et dans lequel elle interroge des artistes et des designers qui écrivent des pages web en « pur HTML ». Elle s’intéresse notamment au du potentiel poétique du web. Très rapidement, évoquons quelques projets, d’elle ou de ses camarades avant de conclure cette session de surf.
+[HTML energy](http://html.energy/)  est un podcast mené par Laurel Schwulst, une artiste et enseignante new-yorkaise, dans le contexte de ses cours, et dans lequel elle interroge des artistes et des designers qui écrivent des pages web en « pur HTML ». Elle s’intéresse notamment au potentiel poétique du web. Très rapidement, évoquons quelques projets, d’elle ou de ses camarades avant de conclure cette session de surf.
 
 [Alt text as poetry](https://alt-text-as-poetry.net/) : Le texte alternatif (un attribut associé au code html d’intégration d’une image) est un élément essentiel de l’accessibilité du Web. Il est souvent ignoré ou compris à travers le prisme de la conformité aux standards, comme une charge indésirable à laquelle il faut répondre avec un minimum d’effort. Le projet se propose au contraire d’aborder le texte alternatif de manière réfléchie et créative. Que peut-on dire d’une image ? Comment transformer une image en mots ? 
 

@@ -1,0 +1,33 @@
+Title: Yersterweb
+
+----
+
+Introduction: Pour son esthétique, son insouciance, son éthique, ou son énergie primale, beaucoup se réclament d’un web d’hier. D’autres lisent dans cette tendance un futur désirable pour celui de demain.
+
+----
+
+Text: Va-t-on voir le retour des webrings et des pages perso ? Les blogs n’ont jamais disparu, RSS supporte l’univers des podcasts et les newsletters sont foisonnantes. Voir (link: https://yesterweb.org/webring/ text: Yersterweb).
+
+----
+
+Author: 
+
+----
+
+Author-url: 
+
+----
+
+Wip: false
+
+----
+
+Date: 2023-02-13
+
+----
+
+Themes: 
+
+----
+
+Tags: 

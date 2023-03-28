@@ -1,0 +1,45 @@
+Title: gridless.design
+
+----
+
+Link-url: https://gridless.design/
+
+----
+
+Introduction: *Get rid of the grid!* Une approche d’un design sans grille, perçues par l’auteur comme un héritage inutile, un mythe fondateur mais encombrant du design imprimé.
+
+----
+
+Text: Voir également (link: https://bradfrost.com/blog/post/layout-grid-in-design-systems/ text: Layout & Grid in Design Systems).
+
+----
+
+Author: Donnie D’Amato
+
+----
+
+Tags: grille
+
+----
+
+Cover: - og-image.jpg
+
+----
+
+Wip: false
+
+----
+
+Is-important: false
+
+----
+
+Date: 2022-11-27
+
+----
+
+Themes: 
+
+----
+
+Lang: en
